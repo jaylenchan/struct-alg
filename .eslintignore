@@ -1,0 +1,8 @@
+node_modules
+dist
+pnpm-lock.yaml
+coverage
+.vscode
+.github
+.prettierignore
+.prettierrc.js

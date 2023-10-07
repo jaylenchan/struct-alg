@@ -1,0 +1,37 @@
+{
+  "name": "tsalg",
+  "version": "0.1.0",
+  "module": "index.ts",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "simple-git-hooks",
+    "lint": "eslint . --ext .ts,.json",
+    "lint:fix": "pnpm run lint --fix"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "npx commitlint --edit"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^6.7.4",
+    "bun-types": "latest",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.4",
+    "simple-git-hooks": "^2.8.1",
+    "typescript": "^5.2.2"
+  }
+}
