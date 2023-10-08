@@ -19,16 +19,9 @@ module.exports = {
     },
   },
   parserOptions: {
-    parser: {
-      ts: '@typescript-eslint/parser',
-      '<template>': 'espree',
-    },
-    project: './tsconfig.json',
+    project: ['./tsconfig.json'],
     sourceType: 'module',
     ecmaVersion: 'latest',
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
   rules: {
     'no-console': 'error',

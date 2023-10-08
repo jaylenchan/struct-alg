@@ -1,31 +1,38 @@
-import { JArray as Array } from 'tsalg/structures'
-
 import type { IStack } from './type'
 
 export class ArrayStack<T> implements IStack<T> {
   private _array: Array<T>
-  constructor(capacity?: number) {
-    this._array = new Array(capacity)
+  private _capacity: number
+
+  constructor(capacity: number) {
+    this._array = []
+    this._capacity = capacity
   }
 
   public getSize(): number {
-    return this._array.getSize()
+    return this._array.length
   }
 
   public isEmpty(): boolean {
-    return this._array.isEmpty()
+    return this._array.length === 0
   }
 
   public push(e: T): void {
-    this._array.addLast(e)
+    if (this._array.length === this._capacity) {
+      throw new Error('stack is full!')
+    }
+    this._array.push(e)
   }
 
   public pop(): T {
-    return this._array.removeLast()
+    if (!this._array.length) {
+      throw new Error('stack is empty!')
+    }
+    return this._array.pop()!
   }
 
   public peek(): T {
-    return this._array.getLast()
+    return this._array[this._array.length - 1]
   }
 }
 
