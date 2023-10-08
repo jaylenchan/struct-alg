@@ -1,6 +1,6 @@
 import type { GNode } from 'tsalg/structures'
 
-function depthFirstSearch(node: GNode): number[] {
+export function depthFirstSearch(node: GNode): number[] {
   const ans: number[] = []
   if (node == null) return ans
 
@@ -31,5 +31,3 @@ function depthFirstSearch(node: GNode): number[] {
 
   return ans
 }
-
-export default depthFirstSearch

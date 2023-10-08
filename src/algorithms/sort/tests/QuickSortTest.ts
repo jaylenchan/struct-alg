@@ -1,10 +1,10 @@
 import { ArrayValidator } from 'tsalg/shared'
 
-import QuickSortV4 from '../versions/v4-impl'
+import { QuickSort } from '../../quickSort'
 
-export default class QuickSortV4Test extends ArrayValidator {
+export default class QuickSortTest extends ArrayValidator {
   public test(arr: number[]): void {
-    QuickSortV4.sort(arr)
+    QuickSort.sort(arr)
   }
 
   public comparator(arr: number[]): void {

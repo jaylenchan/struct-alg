@@ -1,6 +1,6 @@
 import type { GNode } from 'tsalg/structures'
 
-function breadthFirstSearch(node: GNode): number[] {
+export function breadthFirstSearch(node: GNode): number[] {
   const ans: number[] = []
 
   if (node == null) return ans
@@ -27,5 +27,3 @@ function breadthFirstSearch(node: GNode): number[] {
 
   return ans
 }
-
-export default breadthFirstSearch

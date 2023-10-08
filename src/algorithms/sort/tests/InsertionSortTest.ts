@@ -1,12 +1,10 @@
 import { ArrayValidator } from 'tsalg/shared'
 
-import QuickSortV2 from '../versions/v2-impl'
+import InsertionSort from '../insertion-sort'
 
-
-export default class QuickSortV2Test extends ArrayValidator {
-
+export default class InsertionSortTest extends ArrayValidator {
   public test(arr: number[]): void {
-    QuickSortV2.sort(arr)
+    InsertionSort.sort(arr)
   }
 
   public comparator(arr: number[]): void {
@@ -28,5 +26,4 @@ export default class QuickSortV2Test extends ArrayValidator {
 
     // 当样本量足够大且比对依然正确的时候，可以判定方法A已经实现正确
   }
-
 }

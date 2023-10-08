@@ -6,7 +6,7 @@ function makeHelpStr(s: string): string {
   return helpstr
 }
 
-function manacher(s: string): number {
+export function manacher(s: string): number {
   if (s == null || s.length == 0) return 0
 
   const helpStr: string = makeHelpStr(s)
@@ -55,5 +55,3 @@ function manacher(s: string): number {
 
   return max - 1
 }
-
-export default manacher
