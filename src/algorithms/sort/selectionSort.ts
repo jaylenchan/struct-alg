@@ -1,19 +1,13 @@
-export class SelectionSort {
-  public static sort(arr: number[]): void {
-    for (let i = 0; i < arr.length; i++) {
-      let min = i
-      for (let j = i + 1; j < arr.length; j++) {
-        if (arr[j] < arr[min]) {
-          min = j
-        }
-      }
-      SelectionSort._swap(arr, i, min)
-    }
-  }
+import { swap } from 'tsalg/shared'
 
-  private static _swap(arr: number[], i: number, j: number): void {
-    const temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
+export function selectionSort(arr: number[]): void {
+  for (let i = 0; i < arr.length; i++) {
+    let min = i
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[j] < arr[min]) {
+        min = j
+      }
+    }
+    swap(arr, i, min)
   }
 }
