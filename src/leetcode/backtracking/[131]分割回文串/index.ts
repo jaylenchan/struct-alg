@@ -17,13 +17,7 @@ function partition(s: string): string[][] {
   return ans
 }
 
-function backtracking(
-  s: string,
-  dp: boolean[][],
-  start: number,
-  path: string[],
-  ans: string[][]
-): void {
+function backtracking(s: string, dp: boolean[][], start: number, path: string[], ans: string[][]): void {
   if (start == s.length) {
     ans.push([...path])
     return
@@ -40,9 +34,7 @@ function backtracking(
 
 function checkStr(s: string): boolean[][] {
   // dp[i][j]表示从 s[i:j]是不是回文串
-  const dp: boolean[][] = new Array(s.length)
-    .fill(false)
-    .map(() => new Array(s.length).fill(false))
+  const dp: boolean[][] = new Array(s.length).fill(false).map(() => new Array(s.length).fill(false))
 
   // dp[i][j] = dp[i+1][j-1] && s[i] == s[j];
   //从i+1 推i，从j-1推j，因此要从下往上，从左往右遍历

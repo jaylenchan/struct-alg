@@ -24,13 +24,7 @@ function maximalSquare(matrix: string[][]): number {
 }
 
 // 返回从(row,col)出发到(row1,col1)能够形成的最大正方形的边
-function maxSideLen(
-  matrix: string[][],
-  row: number,
-  col: number,
-  row1: number,
-  col1: number
-): number {
+function maxSideLen(matrix: string[][], row: number, col: number, row1: number, col1: number): number {
   if (!inArea(matrix, row, col) || !inArea(matrix, row1, col1)) return 0
 
   // 因为已经知道了上一次处理的以(row1,col1)为右下角围成的区域确定是正方形，我们只需要判断扩大的区域即可，

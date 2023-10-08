@@ -16,9 +16,7 @@ function gameOfLife(board: number[][]): void {
 
   const rows = board.length
   const cols = board[0].length
-  const help: boolean[][] = new Array(rows)
-    .fill(false)
-    .map(() => new Array(cols).fill(false))
+  const help: boolean[][] = new Array(rows).fill(false).map(() => new Array(cols).fill(false))
 
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < cols; j++) {

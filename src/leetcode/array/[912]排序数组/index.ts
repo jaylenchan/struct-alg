@@ -19,11 +19,7 @@ function sort(nums: number[], left: number, right: number): void {
   sort(nums, er + 1, right)
 }
 
-function partition(
-  nums: number[],
-  left: number,
-  right: number
-): [number, number] {
+function partition(nums: number[], left: number, right: number): [number, number] {
   if (left > right) return [-1, -1]
   if (left == right) return [left, right]
 

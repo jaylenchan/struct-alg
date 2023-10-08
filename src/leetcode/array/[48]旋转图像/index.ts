@@ -19,13 +19,7 @@ function rotate(matrix: number[][]): void {
   }
 }
 
-function _rotate(
-  matrix: number[][],
-  top: number,
-  left: number,
-  down: number,
-  right: number
-): void {
+function _rotate(matrix: number[][], top: number, left: number, down: number, right: number): void {
   const groupCount = right - left
 
   for (let i = 0; i < groupCount; i++) {

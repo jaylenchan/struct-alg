@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-
 function spiralOrder(matrix: number[][]): number[] {
   const result: number[] = []
   let firstRow = 0
