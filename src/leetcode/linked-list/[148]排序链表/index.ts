@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=148 lang=typescript
  *
@@ -22,7 +31,8 @@ function sortList(head: ListNode | null): ListNode | null {
 
   const help: number[] = []
 
-  let cur = head
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let cur: any = head
   while (cur != null) {
     help.push(cur.val)
     cur = cur.next

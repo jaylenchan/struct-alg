@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=142 lang=typescript
  *
@@ -24,12 +33,12 @@ function detectCycle(head: ListNode | null): ListNode | null {
 
   while (fast != null && fast.next != null) {
     fast = fast.next.next
-    slow = slow.next
+    slow = slow!.next
     if (slow == fast) {
       fast = head
       while (slow != fast) {
-        slow = slow.next
-        fast = fast.next
+        slow = slow!.next
+        fast = fast!.next
       }
       return slow // 返回环的入口
     }

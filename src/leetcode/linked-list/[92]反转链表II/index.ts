@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=92 lang=typescript
  *
@@ -59,11 +68,7 @@ export { reverseBetween }
 //   }
 // }
 
-function reverseBetween(
-  head: ListNode | null,
-  left: number,
-  right: number
-): ListNode | null {
+function reverseBetween(head: ListNode | null, left: number, right: number): ListNode | null {
   const dummyHead = new ListNode(-1)
   dummyHead.next = head
 

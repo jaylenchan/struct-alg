@@ -1,3 +1,9 @@
+interface NestedInteger {
+  isInteger(): boolean
+  getInteger(): number
+  getList(): NestedInteger[]
+}
+
 /*
  * @lc app=leetcode.cn id=341 lang=typescript
  *
@@ -45,7 +51,6 @@ export { NestedIterator }
  */
 
 class NestedIterator {
-
   private _queue: number[]
 
   constructor(nestedList: NestedInteger[]) {
@@ -75,7 +80,6 @@ class NestedIterator {
     }
     return level
   }
-
 }
 
 /**

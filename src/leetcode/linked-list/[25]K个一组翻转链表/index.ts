@@ -1,9 +1,18 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=25 lang=typescript
  *
  * [25] K 个一组翻转链表
  */
-import type ListNode from 'tsalg/structures/LinkedList/impl'
+
 // @lc code=start
 /**
  * Definition for singly-linked list.
@@ -50,7 +59,7 @@ function reverseK(node: ListNode, k: number): [ListNode, ListNode, ListNode | nu
   }
 
   // eslint-disable-next-line prefer-const
-  let [head, tail, oldNext] = reverseK(node.next, --k)
+  let [head, tail, oldNext] = reverseK(node.next!, --k)
   tail.next = node
   node.next = null
   tail = node

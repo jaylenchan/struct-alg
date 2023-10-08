@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "simple-git-hooks",
-    "lint": "eslint . --ext .ts,.json",
-    "lint:fix": "pnpm run lint --fix"
+    "lintfix": "eslint ./src --ext .ts --fix",
+    "docs": "typedoc"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
@@ -15,8 +15,7 @@
   },
   "lint-staged": {
     "*.ts": [
-      "prettier -u write",
-      "eslint --fix"
+      "eslint ./src --ext .ts --fix"
     ]
   },
   "devDependencies": {
@@ -34,5 +33,8 @@
     "prettier": "^2.8.4",
     "simple-git-hooks": "^2.8.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "typedoc": "^0.25.2"
   }
 }

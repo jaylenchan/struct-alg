@@ -6,7 +6,7 @@ export class PriorityQueue<E> implements IQueue<E> {
   private _maxHeap: MaxHeap<E>
 
   constructor() {
-    this._maxHeap = new MaxHeap<E>()
+    this._maxHeap = new MaxHeap<E>(100)
   }
 
   public getSize(): number {

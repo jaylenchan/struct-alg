@@ -3,3 +3,4 @@ node_modules/
 /**/.DS_Store
 stderr.log
 stdout.log
+docs

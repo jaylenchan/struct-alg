@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=234 lang=typescript
  *
@@ -20,7 +29,8 @@
 function isPalindrome(head: ListNode | null): boolean {
   if (head == null) return false
   const stack = []
-  let cur = head
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let cur: any = head
 
   while (cur != null) {
     stack.push(cur)
@@ -29,7 +39,7 @@ function isPalindrome(head: ListNode | null): boolean {
 
   while (head != null) {
     const node = stack.pop()
-    if (node.val != head.val) {
+    if (node!.val != head.val) {
       return false
     }
     head = head.next

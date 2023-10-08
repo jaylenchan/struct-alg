@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=206 lang=typescript
  *
@@ -5,6 +14,7 @@
  */
 
 // @lc code=start
+
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -37,7 +47,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 
   _reverseList(head)
 
-  return newHead
+  return newHead!
 }
 
 // @lc code=end

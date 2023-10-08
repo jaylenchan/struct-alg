@@ -1,3 +1,5 @@
+import TreeNode from 'tsalg/leetcode/tree/TreeNode'
+
 /*
  * @lc app=leetcode.cn id=297 lang=typescript
  *

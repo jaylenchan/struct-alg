@@ -26,5 +26,13 @@
         "./src/*"
       ]
     }
+  },
+  "typedocOptions": {
+    "entryPoints": [
+      "src/algorithms/index.ts",
+      "src/structures/index.ts",
+      "src/shared/index.ts",
+      "src/leetcode"
+    ]
   }
 }

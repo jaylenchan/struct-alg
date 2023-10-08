@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=82 lang=typescript
  *
@@ -25,7 +34,8 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
   dummyHead.next = head
 
   let prev = dummyHead
-  let cur = head
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let cur: any = head
   let duplicate = Infinity
 
   // eslint-disable-next-line no-constant-condition

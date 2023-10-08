@@ -1,3 +1,5 @@
+import type TreeNode from 'tsalg/leetcode/tree/TreeNode'
+
 /*
  * @lc app=leetcode.cn id=173 lang=typescript
  *
@@ -20,7 +22,6 @@ export { BSTIterator }
  */
 
 class BSTIterator {
-
   private _queue: number[]
 
   constructor(root: TreeNode | null) {
@@ -46,7 +47,6 @@ class BSTIterator {
     this._queue.push(root.val)
     this.traverse(root.right)
   }
-
 }
 
 /**

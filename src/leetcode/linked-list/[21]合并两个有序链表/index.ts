@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=21 lang=typescript
  *
@@ -17,10 +26,7 @@
  * }
  */
 
-function mergeTwoLists(
-  list1: ListNode | null,
-  list2: ListNode | null
-): ListNode | null {
+function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
   const dummyNode = new ListNode(-1, null)
   let tail = dummyNode
 

@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=24 lang=typescript
  *
@@ -18,10 +27,7 @@ export { swapPairs }
  */
 
 // 反转链表的两个节点，并且返回新区间的头部和尾部，以及旧尾部节点的下一个节点（需要这个是因为他是下一次反转的起始点）
-function reverseList(
-  node: ListNode,
-  num: number
-): [ListNode, ListNode, ListNode | null] {
+function reverseList(node: ListNode, num: number): [ListNode, ListNode, ListNode | null] {
   if (num == 1 || node.next == null) {
     return [node, node, node.next]
   }

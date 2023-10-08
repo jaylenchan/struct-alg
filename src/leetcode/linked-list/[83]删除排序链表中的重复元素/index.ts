@@ -1,3 +1,12 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=83 lang=typescript
  *
@@ -21,7 +30,8 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
   let cur = head
   while (cur != null && cur.next != null) {
     if (cur.val == cur.next.val) {
-      let delNode = cur.next
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      let delNode: any = cur.next
       cur.next = delNode.next
       delNode = null
     } else {

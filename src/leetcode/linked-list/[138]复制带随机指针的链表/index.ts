@@ -1,3 +1,14 @@
+class Node {
+  public val: number
+  public next: Node | null
+  public random: Node | null
+  constructor(val?: number, next?: Node, random?: Node) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+    this.random = random === undefined ? null : random
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=138 lang=typescript
  *
@@ -34,7 +45,7 @@ function copyRandomList(head: Node | null): Node | null {
     tail.next = copyNode
     tail = copyNode
 
-    oldRandomMap.set(cur, cur.random)
+    oldRandomMap.set(cur, cur.random!)
     oldNewMap.set(cur, copyNode)
     newOldMap.set(copyNode, cur)
     cur = cur.next
@@ -53,7 +64,7 @@ function copyRandomList(head: Node | null): Node | null {
     const old = newOldMap.get(cur)!
     const oldRandom = oldRandomMap.get(old)
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    const newRandom = oldNewMap.get(oldRandom)!
+    const newRandom = oldNewMap.get(oldRandom!)!
 
     cur.random = newRandom
 

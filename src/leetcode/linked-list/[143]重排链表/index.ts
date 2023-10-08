@@ -1,11 +1,18 @@
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
+
 /*
  * @lc app=leetcode.cn id=143 lang=typescript
  *
  * [143] 重排链表
  */
-import type ListNode from 'tsalg/structures/LinkedList/impl'
 
-export { reorderList }
 // @lc code=start
 /**
  * Definition for singly-linked list.
@@ -29,7 +36,7 @@ function getMidNode(head: ListNode | null): ListNode | null {
 
   while (fast && fast.next && fast.next.next) {
     fast = fast.next.next
-    slow = slow.next
+    slow = slow!.next
   }
 
   return slow
@@ -45,7 +52,7 @@ function reverseList(node: ListNode): [ListNode, ListNode | null] {
   let [head, tail] = reverseList(node.next)
 
   node.next = null
-  tail.next = node
+  tail!.next = node
   tail = node
 
   return [head, tail]
@@ -57,13 +64,13 @@ function reorderList(head: ListNode | null): void {
 
   // #1. 找到链表中点mid，取出链表中点的下一个节点midNext。
   const midNode = getMidNode(head)
-  const midNodeNext = midNode.next
+  const midNodeNext = midNode!.next
 
   // #2. 将链表从中点mid处断开，形成两条短链表
-  midNode.next = null
+  midNode!.next = null
 
   // #3. 对新链表midNext进行反转，获得反转后的新头节点
-  const [head1] = reverseList(midNodeNext)
+  const [head1] = reverseList(midNodeNext!)
 
   // #4. 从两段链表的头部开始，依次将新链表的每个节点插入第一条链表的节点之间
   // 1->2 4->3
@@ -77,12 +84,12 @@ function reorderList(head: ListNode | null): void {
     h.next = h1
     h1.next = oldNext
 
-    h = oldNext
-    h1 = oldNext1
+    h = oldNext!
+    h1 = oldNext1!
   }
 }
 // @lc code=end
-
+export default reorderList
 /**
  * #思路#
  * 1. 找到链表中点mid，取出链表中点的下一个节点midNext。

@@ -1,4 +1,3 @@
-export * from './array'
 export * from './binary-search-tree'
 export * from './graph'
 export * from './heap'

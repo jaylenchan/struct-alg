@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode.cn id=23 lang=typescript
- *
- * [23] 合并K个升序链表
- */
-
-// @lc code=start
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -17,14 +10,14 @@
  * }
  */
 
-// class ListNode {
-//   val: number;
-//   next: ListNode | null;
-//   constructor(val?: number, next?: ListNode | null) {
-//     this.val = val === undefined ? 0 : val;
-//     this.next = next === undefined ? null : next;
-//   }
-// }
+class ListNode {
+  public val: number
+  public next: ListNode | null
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val
+    this.next = next === undefined ? null : next
+  }
+}
 
 // function createList(arr: number[]): ListNode {
 //   const head = new ListNode(arr[0]);
@@ -48,8 +41,14 @@
 //   return ans;
 // }
 
-class MinListHeap {
+/*
+ * @lc app=leetcode.cn id=23 lang=typescript
+ *
+ * [23] 合并K个升序链表
+ */
 
+// @lc code=start
+class MinListHeap {
   private _data: ListNode[]
   private _size: number
 
@@ -99,8 +98,7 @@ class MinListHeap {
       const _right = this._right(index)
 
       if (_right < this._size) {
-        minIndex =
-          this._data[minIndex].val < this._data[_right].val ? minIndex : _right
+        minIndex = this._data[minIndex].val < this._data[_right].val ? minIndex : _right
       }
 
       if (this._data[minIndex].val > this._data[index].val) {
@@ -128,7 +126,6 @@ class MinListHeap {
   private _swap(i: number, j: number): void {
     ;[this._data[i], this._data[j]] = [this._data[j], this._data[i]]
   }
-
 }
 
 function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
