@@ -1,5 +1,4 @@
-export default class MergeSort {
-
+export class MergeSort {
   public static sort(arr: number[]): void {
     MergeSort._sort(arr, 0, arr.length - 1)
   }
@@ -14,12 +13,7 @@ export default class MergeSort {
     MergeSort._merge(arr, left, mid, right)
   }
 
-  private static _merge(
-    arr: number[],
-    left: number,
-    mid: number,
-    right: number
-  ): void {
+  private static _merge(arr: number[], left: number, mid: number, right: number): void {
     let i = left
     let j = mid + 1
     let k = 0
@@ -55,5 +49,4 @@ export default class MergeSort {
       arr[left + i] = help[i]
     }
   }
-
 }

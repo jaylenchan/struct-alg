@@ -1,4 +1,4 @@
-import { LinkedList } from '../linked-list'
+import { LinkedList } from 'tsalg/structures'
 
 import type { IStack } from './type'
 

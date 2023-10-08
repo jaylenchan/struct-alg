@@ -1,5 +1,4 @@
-export default class QuickSort {
-
+export class QuickSort {
   public static sort(nums: number[]): void {
     return this._sort(nums, 0, nums.length - 1)
   }
@@ -13,11 +12,7 @@ export default class QuickSort {
     this._sort(nums, er + 1, right)
   }
 
-  private static _partition(
-    nums: number[],
-    left: number,
-    right: number
-  ): [number, number] {
+  private static _partition(nums: number[], left: number, right: number): [number, number] {
     if (left > right) return [-1, -1]
     if (left == right) return [left, right]
 
@@ -50,5 +45,4 @@ export default class QuickSort {
   private static _swap(nums: number[], i: number, j: number): void {
     ;[nums[i], nums[j]] = [nums[j], nums[i]]
   }
-
 }

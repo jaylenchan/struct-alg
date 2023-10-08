@@ -1,8 +1,8 @@
-import type IComparable from './type'
+import type { IComparable } from './type'
 
 export type Comparator<T> = (a: T, b: T) => number
 
-class Comparable<T> implements IComparable<T> {
+export class Comparable<T> implements IComparable<T> {
   private _compare: Comparator<T>
 
   constructor(comparator?: Comparator<T>) {
@@ -39,5 +39,3 @@ class Comparable<T> implements IComparable<T> {
     }
   }
 }
-
-export default Comparable

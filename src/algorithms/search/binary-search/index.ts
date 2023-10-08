@@ -1,4 +1,4 @@
-class BinarySearch {
+export class BinarySearch {
   public static searchR(data: number[], target: number): number {
     if (data.length == 0) return -1
     return BinarySearch._searchR(data, 0, data.length - 1, target)
@@ -37,5 +37,3 @@ class BinarySearch {
     return -1
   }
 }
-
-export default BinarySearch

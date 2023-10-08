@@ -1,13 +1,13 @@
-import DArray from 'tsalg/Array';
+import { JArray} from 'tsalg/structures';
 
 import type { IHeap } from './type';
 
 export class MaxHeap<E> implements IHeap<E> {
-  private _data: DArray<E>;
+  private _data: JArray<E>;
 
   // 堆的构造函数接收用户传递的容量，不传递的话由动态数组自身默认的容量决定
   constructor(capacity?: number) {
-    this._data = new DArray(capacity);
+    this._data = new JArray(capacity);
   }
 
   public size(): number {
@@ -52,7 +52,7 @@ export class MaxHeap<E> implements IHeap<E> {
   }
 
   public heapify(arr: E[]): void {
-    const _data = new DArray<E>(arr.length);
+    const _data = new JArray<E>(arr.length);
     for (let i = 0; i < arr.length; i++) {
       _data.add(i, arr[i]);
     }

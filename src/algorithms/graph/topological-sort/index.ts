@@ -4,7 +4,7 @@ import type { Graph, GNode } from 'tsalg/structures'
  * 拓扑排序
  * @param graph  一张有向无环图（必须是！）
  */
-function topologicalSort(graph: Graph): GNode[] {
+export function topologicalSort(graph: Graph): GNode[] {
   /**
    * inMap表用来存放某一个节点跟该节点的入度之间的映射
    */
@@ -45,5 +45,3 @@ function topologicalSort(graph: Graph): GNode[] {
 
   return ans
 }
-
-export default topologicalSort

@@ -1,39 +1,39 @@
-import { JArray as Array } from 'tsalg/structures/array';
+import { JArray as Array } from 'tsalg/structures'
 
-import type { IQueue } from './type';
+import type { IQueue } from './type'
 
 export class ArrayQueue<E> implements IQueue<E> {
-  private _array: Array<E>;
+  private _array: Array<E>
 
   constructor(capacity?: number) {
-    this._array = new Array<E>(capacity);
+    this._array = new Array<E>(capacity)
   }
 
   public getSize(): number {
-    return this._array.getSize();
+    return this._array.getSize()
   }
 
   public isFull(): boolean {
-    return this.getSize() == this.getCapacity();
+    return this.getSize() == this.getCapacity()
   }
 
   public isEmpty(): boolean {
-    return this._array.isEmpty();
+    return this._array.isEmpty()
   }
 
   public enqueue(e: E): void {
-    this._array.addLast(e);
+    this._array.addLast(e)
   }
 
   public dequeue(): E {
-    return this._array.removeFirst();
+    return this._array.removeFirst()
   }
 
   public getFront(): E {
-    return this._array.getFirst();
+    return this._array.getFirst()
   }
 
   public getCapacity(): number {
-    return this._array.getCapacity();
+    return this._array.getCapacity()
   }
 }

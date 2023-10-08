@@ -1,5 +1,4 @@
-export default class SelectionSort {
-
+export class SelectionSort {
   public static sort(arr: number[]): void {
     for (let i = 0; i < arr.length; i++) {
       let min = i
@@ -17,5 +16,4 @@ export default class SelectionSort {
     arr[i] = arr[j]
     arr[j] = temp
   }
-
 }

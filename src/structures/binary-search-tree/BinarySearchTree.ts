@@ -11,7 +11,6 @@ export class BinarySearchTree<T> extends Comparable<T> implements IBinarySearchT
 
   constructor(comparator?: Comparator<T>) {
     super(comparator)
-
     this._nodeCount = 0
     this.root = TreeNode.None
   }

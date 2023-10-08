@@ -1,4 +1,4 @@
-import { BinarySearchTree } from '../binary-search-tree'
+import { BinarySearchTree } from 'tsalg/structures'
 
 import type { ISet } from './type'
 
