@@ -9,23 +9,17 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        // -----------项目使用（必须安装）---------------
+        "MS-CEINTL.vscode-language-pack-zh-hans", // 中文汉化
+        "oven.bun-vscode", // VSCode Bun扩展
         "dbaeumer.vscode-eslint", // 代码风格校验
         "esbenp.prettier-vscode", // 代码格式化
         "EditorConfig.EditorConfig", // 代码格式化
         "Gruntfuggly.todo-tree", // todo list工具
-        "tamasfe.even-better-toml", // toml语法支持工具
-        "mikestead.dotenv", // 环境变量语法高亮
-        "PeggyJS.peggy-language", // peggy语法高亮
         "christian-kohler.path-intellisense", // 文件路径智能提示
         "christian-kohler.npm-intellisense", // npmbao路径提示
-        "sibiraj-s.vscode-scss-formatter", // scss格式化
-        "mrmlnc.vscode-scss", // scss路径提示
         "redhat.vscode-yaml", // yaml语法支持
-        "Vue.volar", // vue相关语法检查，导入
         "naumovs.color-highlight", // 颜色高亮展示
         "jeff-hykin.better-dockerfile-syntax", // dockerfile语法检查
-        "tldraw-org.tldraw-vscode", // 绘图工具，项目中所有.tldr都是项目中的一些架构图，流程图
         "formulahendry.code-runner", // 右键运行代码
         "kakumei.ts-debug", // ts调试
         "usernamehw.errorlens", // 行内代码错误提示
