@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "module": "index.ts",
   "type": "module",
+  "author": {
+    "name": "jaylenchan",
+    "email": "jaylen.work@hotmail.com"
+  },
   "license": "MIT",
   "scripts": {
     "prepare": "simple-git-hooks",
