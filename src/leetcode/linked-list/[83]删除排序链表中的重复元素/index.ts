@@ -43,4 +43,4 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
 }
 // @lc code=end
 
-export default deleteDuplicates
+export { deleteDuplicates }

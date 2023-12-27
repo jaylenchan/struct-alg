@@ -29,4 +29,4 @@ function fizzBuzz(n: number): string[] {
 }
 // @lc code=end
 
-export default fizzBuzz
+export { fizzBuzz }

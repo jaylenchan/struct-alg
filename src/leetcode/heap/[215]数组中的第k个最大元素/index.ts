@@ -6,7 +6,6 @@
 
 // @lc code=start
 class AMinHeap {
-
   private _size: number
   private _data: number[]
 
@@ -78,7 +77,6 @@ class AMinHeap {
   private _swap(i: number, j: number): void {
     ;[this._data[i], this._data[j]] = [this._data[j], this._data[i]]
   }
-
 }
 
 function findKthLargest(nums: number[], k: number): number {
@@ -104,11 +102,4 @@ function findKthLargest(nums: number[], k: number): number {
 
 // @lc code=end
 
-export default findKthLargest
-
-/**
- * 思路：题目要求数组中第K个最大元素，那么我们可以建立一个小根堆。然后利用这个小根堆，先存k个数
- * 我们发现，拥有k个节点的小根堆的根一定是这k个数中最小的，于是我们遍历数组剩下的数，然后发现如
- * 果说当前被遍历到的数比根大，说明根不再参与k个大元素的比拼，从堆里删除，我们将新的数字加入堆，
- * 继续进行新的K大比较，最后我们遍历完成数组之后，直接返回小根堆的堆顶就是题目要的第k个最大元素
- */
+export { findKthLargest }

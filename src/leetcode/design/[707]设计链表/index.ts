@@ -6,7 +6,6 @@
 
 // @lc code=start
 class LNode {
-
   public val: number
   public next: LNode | null
   public prev: LNode | null
@@ -16,10 +15,8 @@ class LNode {
     this.next = null
     this.prev = null
   }
-
 }
 class MyLinkedList {
-
   private _dummyHead: LNode
   private _dummyTail: LNode
 
@@ -117,7 +114,6 @@ class MyLinkedList {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     cur!.next = null
   }
-
 }
 
 /**
@@ -131,4 +127,4 @@ class MyLinkedList {
  */
 // @lc code=end
 
-export default MyLinkedList
+export { MyLinkedList }

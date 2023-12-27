@@ -5,12 +5,7 @@
  */
 
 // @lc code=start
-function fourSumCount(
-  nums1: number[],
-  nums2: number[],
-  nums3: number[],
-  nums4: number[]
-): number {
+function fourSumCount(nums1: number[], nums2: number[], nums3: number[], nums4: number[]): number {
   const map = new Map<number, number>()
 
   for (let i = 0; i < nums1.length; i++) {
@@ -40,13 +35,4 @@ function fourSumCount(
 }
 // @lc code=end
 
-/**
- * #思路#
- * 本题指定给了四个整数数组，我们可以这么做：
- * 1. 枚举前两个数组的所有数字之和，放入map当中
- * 2. 枚举后两个数组的所有数字之和，如果后两个数组的数字之和当中是能够跟前两个数组的数字之和可以构成0的，则
- *    这两个数字之和一定是互为相反数。因此我们只需要在枚举过程中拿两个数组的数字之和的相反数，在map中寻找的到的话，
- *    直接取出相反数的次数，然后ans累加次数即可，比如一次就可以累加一次得到0，两次就是两次能够累加得到0.
- */
-
-export default fourSumCount
+export { fourSumCount }

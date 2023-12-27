@@ -12,7 +12,6 @@ class ListNode {
  *
  * [92] 反转链表 II
  */
-export { reverseBetween }
 // @lc code=start
 /**
  * Definition for singly-linked list.
@@ -113,3 +112,5 @@ function reverseBetween(head: ListNode | null, left: number, right: number): Lis
   return head
 }
 // @lc code=end
+
+export { reverseBetween }

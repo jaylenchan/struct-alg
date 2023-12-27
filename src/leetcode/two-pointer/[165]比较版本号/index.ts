@@ -28,4 +28,4 @@ function parseVersion(version: string): number[] {
 }
 // @lc code=end
 
-export default compareVersion
+export { compareVersion }

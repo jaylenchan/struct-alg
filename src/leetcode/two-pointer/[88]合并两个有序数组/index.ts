@@ -30,4 +30,4 @@ function swap(nums: number[], i: number, j: number): void {
 }
 // @lc code=end
 
-export default merge
+export { merge }

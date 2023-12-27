@@ -30,4 +30,4 @@ function _mysqrt(x: number, left: number, right: number): number {
 }
 // @lc code=end
 
-export default mySqrt
+export { mySqrt }

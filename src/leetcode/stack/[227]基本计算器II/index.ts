@@ -3,7 +3,6 @@
  *
  * [227] 基本计算器 II
  */
-export { calculate }
 // @lc code=start
 function calculate(s: string): number {
   s = removeSpace(s)
@@ -104,3 +103,5 @@ function removeSpace(s: string): string {
   return s.replace(/\s/g, '')
 }
 // @lc code=end
+
+export { calculate }

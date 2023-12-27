@@ -42,4 +42,4 @@ function hasCycle(head: ListNode | null): boolean {
 }
 // @lc code=end
 
-export default hasCycle
+export { hasCycle }

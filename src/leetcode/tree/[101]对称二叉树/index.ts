@@ -5,8 +5,6 @@
  */
 import type TreeNode from '../TreeNode'
 
-
-export default isSymmetric
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -34,10 +32,8 @@ function traverse(t1: TreeNode | null, t2: TreeNode | null): boolean {
   if (t1 == null || t2 == null) return false
   if (t1.val != t2.val) return false
 
-  return (
-    t1.val == t2.val &&
-    traverse(t1.left, t2.right) &&
-    traverse(t1.right, t2.left)
-  )
+  return t1.val == t2.val && traverse(t1.left, t2.right) && traverse(t1.right, t2.left)
 }
 // @lc code=end
+
+export { isSymmetric }

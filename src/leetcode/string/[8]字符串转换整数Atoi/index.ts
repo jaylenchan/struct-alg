@@ -3,7 +3,6 @@
  *
  * [8] 字符串转换整数 (atoi)
  */
-export { myAtoi }
 // @lc code=start
 function myAtoi(s: string): number {
   // 题目要求1：读入字符串并丢弃无用的前导空格
@@ -44,7 +43,4 @@ function isNumber(char: string): boolean {
 }
 // @lc code=end
 
-/**
- * #思路#
- * 本题按照题目要求书写逻辑即可，是一道很简单，没啥意义的业务题
- */
+export { myAtoi }

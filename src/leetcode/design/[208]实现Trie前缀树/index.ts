@@ -3,20 +3,14 @@
  *
  * [208] 实现 Trie (前缀树)
  */
-export { Trie }
 // @lc code=start
 function ASCIndex(letter: string): number {
-  if (
-    letter.charCodeAt(0) - 'a'.charCodeAt(0) < 0 ||
-    letter.charCodeAt(0) - 'a'.charCodeAt(0) > 25
-  )
-    return 0
+  if (letter.charCodeAt(0) - 'a'.charCodeAt(0) < 0 || letter.charCodeAt(0) - 'a'.charCodeAt(0) > 25) return 0
 
   return letter.charCodeAt(0) - 'a'.charCodeAt(0)
 }
 
 class TrieNode {
-
   public pass: number
   public end: number
   public nexts: TrieNode[]
@@ -26,10 +20,8 @@ class TrieNode {
     this.end = 0
     this.nexts = new Array(26).fill(null)
   }
-
 }
 class Trie {
-
   private _root: TrieNode
   constructor() {
     this._root = new TrieNode()
@@ -81,7 +73,6 @@ class Trie {
 
     return node.pass > 0
   }
-
 }
 
 /**
@@ -92,3 +83,5 @@ class Trie {
  * var param_3 = obj.startsWith(prefix)
  */
 // @lc code=end
+
+export { Trie }

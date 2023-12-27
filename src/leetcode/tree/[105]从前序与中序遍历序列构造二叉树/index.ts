@@ -6,8 +6,6 @@
 
 import TreeNode from '../TreeNode'
 
-
-export default buildTree
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -24,11 +22,7 @@ export default buildTree
  */
 
 function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
-  if (
-    preorder.length == 0 ||
-    inorder.length == 0 ||
-    preorder.length != inorder.length
-  ) {
+  if (preorder.length == 0 || inorder.length == 0 || preorder.length != inorder.length) {
     return null
   }
 
@@ -43,15 +37,7 @@ function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
     inorderMap.set(inorder[i], i)
   }
 
-  return _buildTree(
-    preorder,
-    preLeft,
-    preRight,
-    inorder,
-    inLeft,
-    inRight,
-    inorderMap
-  )
+  return _buildTree(preorder, preLeft, preRight, inorder, inLeft, inRight, inorderMap)
 }
 
 function _buildTree(
@@ -117,3 +103,5 @@ function _buildTree(
   return root
 }
 // @lc code=end
+
+export { buildTree }

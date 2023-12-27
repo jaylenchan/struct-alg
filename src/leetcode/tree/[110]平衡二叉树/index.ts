@@ -6,8 +6,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default isBalanced
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -41,3 +39,5 @@ function height(root: TreeNode | null): number {
   return 1 + Math.max(height(root.left), height(root.right))
 }
 // @lc code=end
+
+export { isBalanced }

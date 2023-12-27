@@ -7,9 +7,6 @@
 // @lc code=start
 import type TreeNode from '../TreeNode'
 
-
-export default preorderTraversal
-
 function preorderTraversal(root: TreeNode | null): number[] {
   const result: number[] = []
 
@@ -26,3 +23,5 @@ function _preorderTraversal(root: TreeNode | null, result: number[]): void {
   _preorderTraversal(root.right, result)
 }
 // @lc code=end
+
+export { preorderTraversal }

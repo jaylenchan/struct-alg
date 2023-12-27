@@ -6,8 +6,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default widthOfBinaryTree
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -56,3 +54,5 @@ function widthOfBinaryTree(root: TreeNode | null): bigint {
   return maxLen
 }
 // @lc code=end
+
+export { widthOfBinaryTree }

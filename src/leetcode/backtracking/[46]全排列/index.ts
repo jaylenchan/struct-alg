@@ -13,11 +13,7 @@ function permute(nums: number[]): number[][] {
   return result
 }
 
-function backtracking(
-  nums: number[],
-  path: number[],
-  result: number[][]
-): void {
+function backtracking(nums: number[], path: number[], result: number[][]): void {
   if (path.length == nums.length) {
     result.push([...path])
   } else {
@@ -32,4 +28,4 @@ function backtracking(
 }
 // @lc code=end
 
-export default permute
+export { permute }

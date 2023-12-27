@@ -6,7 +6,6 @@
 
 // @lc code=start
 class NumMatrix {
-
   private _prefixSum: number[][] = []
 
   constructor(matrix: number[][]) {
@@ -14,12 +13,7 @@ class NumMatrix {
     this._prefixSum = this.createPrefixSum(matrix)
   }
 
-  public sumRegion(
-    row1: number,
-    col1: number,
-    row2: number,
-    col2: number
-  ): number {
+  public sumRegion(row1: number, col1: number, row2: number, col2: number): number {
     if (row1 == 0 && col1 == 0) {
       // 如果row1 = 0 && col1 = 0说明从(0,0)出发,直接使用定义求row2,col2即可
       return this._prefixSum[row2][col2]
@@ -40,9 +34,7 @@ class NumMatrix {
     const rows = matrix.length
     const cols = matrix[0].length
 
-    const _prefixSum = new Array(rows)
-      .fill(0)
-      .map(() => new Array(cols).fill(0))
+    const _prefixSum = new Array(rows).fill(0).map(() => new Array(cols).fill(0))
 
     for (let row = 0; row < rows; row++) {
       if (row == 0) {
@@ -63,16 +55,12 @@ class NumMatrix {
     for (let row = 1; row < rows; row++) {
       for (let col = 1; col < cols; col++) {
         _prefixSum[row][col] =
-          _prefixSum[row][col - 1] +
-          _prefixSum[row - 1][col] -
-          _prefixSum[row - 1][col - 1] +
-          matrix[row][col]
+          _prefixSum[row][col - 1] + _prefixSum[row - 1][col] - _prefixSum[row - 1][col - 1] + matrix[row][col]
       }
     }
 
     return _prefixSum
   }
-
 }
 
 /**
@@ -82,4 +70,4 @@ class NumMatrix {
  */
 // @lc code=end
 
-export default NumMatrix
+export { NumMatrix }

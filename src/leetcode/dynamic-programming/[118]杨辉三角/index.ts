@@ -34,4 +34,4 @@ function generate(numRows: number): number[][] {
 
 // @lc code=end
 
-export default generate
+export { generate }

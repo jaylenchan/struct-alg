@@ -61,16 +61,7 @@ function exist(board: string[][], word: string): boolean {
       const newCol = col + position[1]
 
       if (inArea(board, newRow, newCol) && inWord(word, index + 1)) {
-        search(
-          board,
-          word,
-          newRow,
-          newCol,
-          index + 1,
-          curWord,
-          searchSet,
-          positions
-        )
+        search(board, word, newRow, newCol, index + 1, curWord, searchSet, positions)
       }
     }
 
@@ -94,4 +85,4 @@ function inArea(board: string[][], row: number, col: number): boolean {
 }
 // @lc code=end
 
-export default exist
+export { exist }

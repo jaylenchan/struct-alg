@@ -49,4 +49,4 @@ function isPalindrome(head: ListNode | null): boolean {
 }
 // @lc code=end
 
-export default isPalindrome
+export { isPalindrome }

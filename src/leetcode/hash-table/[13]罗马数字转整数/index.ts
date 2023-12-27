@@ -47,5 +47,6 @@ function romanToInt(s: string): number {
   return res
 }
 
-romanToInt('LVIII')
 // @lc code=end
+
+export { romanToInt }

@@ -6,8 +6,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default zigzagLevelOrder
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -60,3 +58,5 @@ function zigzagLevelOrder(root: TreeNode | null): number[][] {
   return reuslt
 }
 // @lc code=end
+
+export { zigzagLevelOrder }

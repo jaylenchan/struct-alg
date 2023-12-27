@@ -13,13 +13,7 @@ function searchRange(nums: number[], target: number): number[] {
   return result
 }
 
-function _searchStart(
-  nums: number[],
-  left: number,
-  right: number,
-  target: number,
-  result: number[]
-): number {
+function _searchStart(nums: number[], left: number, right: number, target: number, result: number[]): number {
   if (left > right) return result[0]
 
   const mid = left + Math.floor((right - left) >> 1)
@@ -38,13 +32,7 @@ function _searchStart(
   return result[0]
 }
 
-function _searchEnd(
-  nums: number[],
-  left: number,
-  right: number,
-  target: number,
-  result: number[]
-): number {
+function _searchEnd(nums: number[], left: number, right: number, target: number, result: number[]): number {
   if (left > right) return result[1]
 
   const mid = left + Math.floor((right - left) >> 1)
@@ -64,4 +52,4 @@ function _searchEnd(
 }
 // @lc code=end
 
-export default searchRange
+export { searchRange }

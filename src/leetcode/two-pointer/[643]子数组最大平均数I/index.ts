@@ -31,4 +31,4 @@ function avg(nums: number[], l: number, r: number, k: number): number {
 }
 // @lc code=end
 
-export default findMaxAverage
+export { findMaxAverage }

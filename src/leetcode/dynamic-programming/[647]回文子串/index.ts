@@ -9,9 +9,7 @@ function countSubstrings(s: string): number {
   //dp[i][j] 表示区间s[i][j]是否为回文串
 
   const size = s.length
-  const dp: boolean[][] = new Array(size)
-    .fill(false)
-    .map(() => new Array(size).fill(false))
+  const dp: boolean[][] = new Array(size).fill(false).map(() => new Array(size).fill(false))
   let result = 0
 
   for (let i = size - 1; i >= 0; i--) {
@@ -33,16 +31,6 @@ function countSubstrings(s: string): number {
   return result
 }
 
-/**
- * 思路：
- * dp[i][j] 表示区间s[i][j]是否为回文串
- * 如果s[i] == s[j]就说明前后端点字符相等，有可能是回文串
- *  - 如果i所在位置和j所在位置一样，说明一定是回文，因为只有1个字符
- *  - 如果i所在位置和j所在位置相差1，说明一定是回文，因为有2个字符
- *  - 如果i所在位置和j所在位置至少相差2，即大于1，那就得看dp[i-1][j-1]了
- *
- * 在dp[i][j] == true 的时候增加计数器
- */
 // @lc code=end
 
-export default countSubstrings
+export { countSubstrings }

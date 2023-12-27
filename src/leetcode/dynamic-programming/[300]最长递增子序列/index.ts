@@ -28,4 +28,4 @@ function lengthOfLIS(nums: number[]): number {
 }
 // @lc code=end
 
-export default lengthOfLIS
+export { lengthOfLIS }

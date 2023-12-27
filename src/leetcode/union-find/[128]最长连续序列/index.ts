@@ -3,7 +3,6 @@
  *
  * [128] 最长连续序列
  */
-export default longestConsecutive
 // @lc code=start
 class Node<V> {
   public value: V
@@ -137,3 +136,5 @@ function longestConsecutive(nums: number[]): number {
   return uf.getMaxConnectSize()
 }
 // @lc code=end
+
+export { longestConsecutive }

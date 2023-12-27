@@ -22,4 +22,4 @@ function coinChange(coins: number[], amount: number): number {
 }
 // @lc code=end
 
-export default coinChange
+export { coinChange }

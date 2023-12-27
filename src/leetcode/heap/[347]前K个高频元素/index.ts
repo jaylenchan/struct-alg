@@ -7,7 +7,6 @@
 
 // @lc code=start
 class KMinHeap {
-
   private _data: number[]
   private _size: number
 
@@ -42,10 +41,7 @@ class KMinHeap {
   }
 
   private _swim(index: number): void {
-    while (
-      this.map.get(this._data[index])! <
-      this.map.get(this._data[this._parent(index)])!
-    ) {
+    while (this.map.get(this._data[index])! < this.map.get(this._data[this._parent(index)])!) {
       this._swap(index, this._parent(index))
       index = this._parent(index)
     }
@@ -57,17 +53,10 @@ class KMinHeap {
       const _right = this._right(index)
 
       if (_right < this._size) {
-        minIndex =
-          this.map.get(this._data[minIndex])! <
-          this.map.get(this._data[_right])!
-            ? minIndex
-            : _right
+        minIndex = this.map.get(this._data[minIndex])! < this.map.get(this._data[_right])! ? minIndex : _right
       }
 
-      if (
-        this.map.get(this._data[index])! < this.map.get(this._data[minIndex])!
-      )
-        break
+      if (this.map.get(this._data[index])! < this.map.get(this._data[minIndex])!) break
 
       this._swap(index, minIndex)
       index = minIndex
@@ -91,7 +80,6 @@ class KMinHeap {
   private _swap(i: number, j: number): void {
     ;[this._data[i], this._data[j]] = [this._data[j], this._data[i]]
   }
-
 }
 
 function topKFrequent(nums: number[], k: number): number[] {
@@ -133,14 +121,4 @@ function topKFrequent(nums: number[], k: number): number[] {
 }
 // @lc code=end
 
-export default topKFrequent
-
-/**
- * 思路：
- * 1. 使用map建立数字跟次数之间映射
- * 2. 遍历map建立小根堆：
- *    - 当不够k个数时，我们往堆里插入节点（因为我们要找前k个最高频的数，我们就先放k个假装现在最高频的是这k个）
- *    - 当count次数比小根堆的根大的时候，删除小根堆的根，然后将新num插入堆
- * 3. 不断循环整个操作，直到map遍历完成，由于我们每次都会把最低频的数从小根堆去除，总共就map size个数，从头遍历一遍后，剩下的k个数就是次数最频繁的数
- * 4. 从小根堆中收集结果，返回结果
- */
+export { topKFrequent }

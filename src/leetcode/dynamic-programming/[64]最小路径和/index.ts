@@ -10,9 +10,7 @@ function minPathSum(grid: number[][]): number {
 
   const row = grid.length
   const col = grid[0].length
-  const dp: number[][] = new Array(row)
-    .fill(0)
-    .map(() => new Array(col).fill(0))
+  const dp: number[][] = new Array(row).fill(0).map(() => new Array(col).fill(0))
 
   dp[0][0] = grid[0][0]
 
@@ -34,4 +32,4 @@ function minPathSum(grid: number[][]): number {
 }
 // @lc code=end
 
-export default minPathSum
+export { minPathSum }

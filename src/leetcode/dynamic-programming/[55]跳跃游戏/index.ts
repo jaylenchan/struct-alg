@@ -27,4 +27,4 @@ function canJump(nums: number[]): boolean {
 }
 // @lc code=end
 
-export default canJump
+export { canJump }

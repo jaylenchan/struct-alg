@@ -16,10 +16,7 @@ function twoSumCloset(nums: number[], begin: number, target: number): number {
     const numR = nums[R]
     const sumLR = numL + numR
 
-    closest =
-      Math.abs(target - closest) - Math.abs(target - sumLR) > 0
-        ? sumLR
-        : closest
+    closest = Math.abs(target - closest) - Math.abs(target - sumLR) > 0 ? sumLR : closest
 
     if (sumLR == target) {
       L++
@@ -43,21 +40,11 @@ function threeSumClosest(nums: number[], target: number): number {
     const closestTwoSum = twoSumCloset(nums, i + 1, aim)
 
     closest =
-      Math.abs(target - closest) -
-        Math.abs(target - (nums[i] + closestTwoSum)) >
-      0
-        ? nums[i] + closestTwoSum
-        : closest
+      Math.abs(target - closest) - Math.abs(target - (nums[i] + closestTwoSum)) > 0 ? nums[i] + closestTwoSum : closest
   }
 
   return closest
 }
 // @lc code=end
 
-/**
- * #思路#
- * 1. 做法类似三数之和，只不过不同得是，本题说了只有一个解，所以我们只需要判断找到的解跟target之间的距离就好
- * 2. 找跟target之间距离最小的那一个就是我们要的每个子过程的答案
- */
-
-export default threeSumClosest
+export { threeSumClosest }

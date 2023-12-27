@@ -6,7 +6,6 @@
 
 // @lc code=start
 class MinHeap {
-
   public size: number
   private _data: number[]
 
@@ -58,10 +57,7 @@ class MinHeap {
       let min = this._left(index)
 
       if (this._right(index) < this.size) {
-        min =
-          this._data[min] > this._data[this._right(index)]
-            ? this._right(index)
-            : min
+        min = this._data[min] > this._data[this._right(index)] ? this._right(index) : min
       }
 
       if (this._data[min] > this._data[index]) break
@@ -74,7 +70,6 @@ class MinHeap {
   private _swap(i: number, j: number): void {
     ;[this._data[i], this._data[j]] = [this._data[j], this._data[i]]
   }
-
 }
 
 function sortArray(nums: number[]): number[] {
@@ -94,4 +89,4 @@ function sortArray(nums: number[]): number[] {
 }
 // @lc code=end
 
-export default sortArray
+export { sortArray }

@@ -19,4 +19,4 @@ function climbStairs(n: number): number {
 }
 // @lc code=end
 
-export default climbStairs
+export { climbStairs }

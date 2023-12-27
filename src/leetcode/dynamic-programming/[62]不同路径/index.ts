@@ -26,4 +26,4 @@ function uniquePaths(m: number, n: number): number {
 }
 // @lc code=end
 
-export default uniquePaths
+export { uniquePaths }

@@ -9,9 +9,7 @@ function longestCommonSubsequence(text1: string, text2: string): number {
   const t1len = text1.length
   const t2len = text2.length
 
-  const dp = new Array(t1len + 1)
-    .fill(0)
-    .map(() => new Array(t2len + 1).fill(0))
+  const dp = new Array(t1len + 1).fill(0).map(() => new Array(t2len + 1).fill(0))
 
   for (let i = 1; i <= t1len; i++) {
     for (let j = 1; j <= t2len; j++) {
@@ -26,4 +24,4 @@ function longestCommonSubsequence(text1: string, text2: string): number {
 }
 // @lc code=end
 
-export default longestCommonSubsequence
+export { longestCommonSubsequence }

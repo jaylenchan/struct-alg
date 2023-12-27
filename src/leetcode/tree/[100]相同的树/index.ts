@@ -8,9 +8,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default isSameTree
-
 function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {
   if (p == null && q == null) {
     return true
@@ -25,3 +22,5 @@ function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {
   }
 }
 // @lc code=end
+
+export { isSameTree }

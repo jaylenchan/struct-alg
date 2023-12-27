@@ -48,4 +48,4 @@ function detectCycle(head: ListNode | null): ListNode | null {
 }
 // @lc code=end
 
-export default detectCycle
+export { detectCycle }

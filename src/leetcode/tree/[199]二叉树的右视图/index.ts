@@ -6,8 +6,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default rightSideView
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -51,3 +49,5 @@ function rightSideView(root: TreeNode | null): number[] {
   return result
 }
 // @lc code=end
+
+export { rightSideView }

@@ -58,4 +58,4 @@ function partition(head: ListNode | null, x: number): ListNode | null {
 }
 // @lc code=end
 
-export default partition
+export { partition }

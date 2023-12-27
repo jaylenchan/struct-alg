@@ -8,14 +8,7 @@
 function searchMatrix(matrix: number[][], target: number): boolean {
   if (matrix.length == 0 || matrix[0].length == 0) return false
 
-  return _searchMatrix(
-    matrix,
-    target,
-    0,
-    0,
-    matrix.length - 1,
-    matrix[0].length - 1
-  )
+  return _searchMatrix(matrix, target, 0, 0, matrix.length - 1, matrix[0].length - 1)
 }
 
 function _searchMatrix(
@@ -39,12 +32,7 @@ function _searchMatrix(
   }
 }
 
-function _searchArr(
-  arr: number[],
-  target: number,
-  left: number,
-  right: number
-): boolean {
+function _searchArr(arr: number[], target: number, left: number, right: number): boolean {
   if (left >= right) return arr[right] == target
   const mid = left + Math.floor((right - left) >> 1)
 
@@ -57,13 +45,6 @@ function _searchArr(
   }
 }
 
-/**
- * 思路
- * 1. 根据题意，从左往右升序，从上往下升序，我们可以从最有顶点开始判断
- * 2. 每次拿target跟顶点做比较，如果比顶点小，直接排除最后1列，逻辑上继续进行新矩阵搜索
- * 3. 如果比顶点大，直接排除最上边1行，逻辑上继续进行新矩阵搜索
- * 4. 当我们搜索的矩阵如果退化成了一维的时候，我们改用二分搜索，搜索一维数组
- */
 // @lc code=end
 
-export default searchMatrix
+export { searchMatrix }

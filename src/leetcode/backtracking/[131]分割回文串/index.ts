@@ -57,10 +57,4 @@ function checkStr(s: string): boolean[][] {
 }
 // @lc code=end
 
-export default partition
-
-/**
- * 思路：动态规划检查回文串 + 回溯分隔回文串
- *
- * 动态规划遍历顺序：↑从下往上，→从左往右
- */
+export { partition }

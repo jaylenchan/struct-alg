@@ -28,4 +28,4 @@ function isAnagram(s: string, t: string): boolean {
 }
 // @lc code=end
 
-export default isAnagram
+export { isAnagram }

@@ -16,4 +16,4 @@ function rotate(nums: number[], k: number): void {
 }
 // @lc code=end
 
-export default rotate
+export { rotate }

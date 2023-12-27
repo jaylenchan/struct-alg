@@ -34,4 +34,4 @@ function wordBreak(s: string, wordDict: string[]): boolean {
 
 // @lc code=end
 
-export default wordBreak
+export { wordBreak }

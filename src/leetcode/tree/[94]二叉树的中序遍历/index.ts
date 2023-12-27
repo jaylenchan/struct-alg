@@ -8,9 +8,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default inorderTraversal
-
 function inorderTraversal(root: TreeNode | null): number[] {
   const result: number[] = []
 
@@ -27,3 +24,5 @@ function _inorderTraversal(root: TreeNode | null, result: number[]): void {
   _inorderTraversal(root.right, result)
 }
 // @lc code=end
+
+export { inorderTraversal }

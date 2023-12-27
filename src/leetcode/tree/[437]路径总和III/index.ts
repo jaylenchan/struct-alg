@@ -6,8 +6,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default pathSum
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -48,11 +46,7 @@ function pathSum(root: TreeNode | null, targetSum: number): number {
 
   return count
 
-  function findPathFrom(
-    node: TreeNode | null,
-    targetSum: number,
-    curSum: number
-  ): void {
+  function findPathFrom(node: TreeNode | null, targetSum: number, curSum: number): void {
     if (node == null) {
       return
     }
@@ -66,7 +60,6 @@ function pathSum(root: TreeNode | null, targetSum: number): number {
   }
 }
 
-/**
- * 思路： 广度优先遍历拿到每个节点 + 从每个节点出发寻找符合条件的个数
- */
 // @lc code=end
+
+export { pathSum }

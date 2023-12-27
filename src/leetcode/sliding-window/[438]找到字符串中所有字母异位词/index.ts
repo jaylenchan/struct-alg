@@ -83,4 +83,4 @@ function createWindowMap(t: string): Map<string, number> {
 }
 // @lc code=end
 
-export default findAnagrams
+export { findAnagrams }

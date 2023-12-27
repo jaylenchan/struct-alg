@@ -22,4 +22,4 @@ function intersection(nums1: number[], nums2: number[]): number[] {
 }
 // @lc code=end
 
-export default intersection
+export { intersection }

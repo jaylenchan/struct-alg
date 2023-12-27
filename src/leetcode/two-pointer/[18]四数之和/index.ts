@@ -3,7 +3,6 @@
  *
  * [18] 四数之和
  */
-export { fourSum }
 // @lc code=start
 
 function twoSum(nums: number[], begin: number, target: number): number[][] {
@@ -42,12 +41,7 @@ function twoSum(nums: number[], begin: number, target: number): number[][] {
   return ans2
 }
 
-function getSum(
-  nums: number[],
-  begin: number,
-  target: number,
-  level: number
-): number[][] {
+function getSum(nums: number[], begin: number, target: number, level: number): number[][] {
   if (level == 1) return twoSum(nums, begin, target)
 
   const ans: number[][] = []
@@ -71,13 +65,5 @@ function fourSum(nums: number[], target: number): number[][] {
   return getSum(nums, 0, target, 3)
 }
 // @lc code=end
-/**
- * #思路#
- * 1. 遍历数组，固定第1个数num[i],通解为[num[i], ...三数之和]
- * 2. 三数之和再转两数之和即可， 返回给四数之和用
- * 3. 两数之和直接算，返回给三数之和用
- * 4. 去重：所有数之和过程中都记得去重
- *
- * #通解#
- * 经过四数之和，我找到了n数之和的通解，写成了递归函数getSum。使用前对数组进行排序，调用getSum即可得到n数之和
- */
+
+export { fourSum }

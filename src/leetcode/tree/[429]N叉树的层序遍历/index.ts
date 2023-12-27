@@ -5,8 +5,6 @@
  */
 import type Node from '../Node'
 
-
-export default levelOrder
 // @lc code=start
 /**
  * Definition for node.
@@ -48,3 +46,5 @@ function levelOrder(root: Node | null): number[][] {
   return result
 }
 // @lc code=end
+
+export { levelOrder }

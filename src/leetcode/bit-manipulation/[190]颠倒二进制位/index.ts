@@ -21,4 +21,4 @@ function _reverseBits(bits: string[], left: number, right: number): void {
 }
 // @lc code=end
 
-export default reverseBits
+export { reverseBits }

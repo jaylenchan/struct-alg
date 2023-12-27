@@ -7,7 +7,6 @@
 // @lc code=start
 /** 图的边 */
 class Edge {
-
   /** 边的权重 */
   public weight: number
   public from: GNode
@@ -18,12 +17,10 @@ class Edge {
     this.from = from
     this.to = to
   }
-
 }
 
 /** 图的节点 */
 class GNode {
-
   /** 点的编号|值 */
   public value: number
   // 当前节点的入度
@@ -42,12 +39,10 @@ class GNode {
     this.nexts = []
     this.edges = []
   }
-
 }
 
 /** 图：点集 + 边集 */
 class Graph {
-
   /** 点集 */
   public nodes: Map<number, GNode>
   /** 边集 */
@@ -85,7 +80,6 @@ class Graph {
       this.edges.add(newEdge)
     }
   }
-
 }
 
 function topologicalSort(graph: Graph): number[] {
@@ -138,10 +132,6 @@ function canFinish(_numCourses: number, prerequisites: number[][]): boolean {
   return order.length == graph.nodes.size
 }
 
-/**
- * 思路：图的拓扑排序，排序返回的数组如果跟图的节点（课程数）不一致，说明肯定是有环的
- * 无环入度是会消减成0的才对
- */
 // @lc code=end
 
-export default canFinish
+export { canFinish }

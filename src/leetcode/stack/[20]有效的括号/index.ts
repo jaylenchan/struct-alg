@@ -41,4 +41,4 @@ function isValid(s: string): boolean {
 
 // @lc code=end
 
-export default isValid
+export { isValid }

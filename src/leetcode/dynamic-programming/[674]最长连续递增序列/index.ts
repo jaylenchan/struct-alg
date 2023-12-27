@@ -27,4 +27,4 @@ function findLengthOfLCIS(nums: number[]): number {
 }
 // @lc code=end
 
-export default findLengthOfLCIS
+export { findLengthOfLCIS }

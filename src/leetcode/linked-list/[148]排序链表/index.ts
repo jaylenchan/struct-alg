@@ -52,4 +52,4 @@ function sortList(head: ListNode | null): ListNode | null {
 }
 // @lc code=end
 
-export default sortList
+export { sortList }

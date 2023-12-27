@@ -25,4 +25,4 @@ function countBits(n: number): number[] {
 }
 // @lc code=end
 
-export default countBits
+export { countBits }

@@ -3,10 +3,8 @@
  *
  * [547] 省份数量
  */
-export { findCircleNum }
 // @lc code=start
 class UnionFind {
-
   public sets: number
   private _parent: number[]
   private _size: number[]
@@ -54,7 +52,6 @@ class UnionFind {
       this.sets--
     }
   }
-
 }
 
 function findCircleNum(isConnected: number[][]): number {
@@ -74,12 +71,6 @@ function findCircleNum(isConnected: number[][]): number {
   return uf.sets
 }
 
-/**
- * 思路：并查集建立
- * 因为是相互连通，所以只要(0,1)是1，那么（1,0）一定是1。我们发现，实际上只有isConnected.length那么多个城市
- * 矩阵的形式只是说明这些城市连通的情况，真正的城市只有列数（或者行数）那么多。
- * 我们认为，如果1个城市只跟它自己是连通的，就属于1个省份（因为一开始建立并查集就是默认1个城市跟自己连通，所以我们遍历可以直接绕过对角线这个位置，所以是j=i+1，刚好把所有对角线位置绕过去了）
- * 剩下的情况只需要遍历矩阵右上方三角形就行了，如果相互连通，我们就使用并查集union一下
- * 最后返回并查集的集合个数就是省份数
- */
 // @lc code=end
+
+export { findCircleNum }

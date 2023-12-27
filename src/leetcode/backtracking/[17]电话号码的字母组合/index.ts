@@ -10,18 +10,7 @@ function letterCombinations(digits: string): string[] {
     return []
   }
 
-  const lettersMap = [
-    '',
-    '',
-    'abc',
-    'def',
-    'ghi',
-    'jkl',
-    'mno',
-    'pqrs',
-    'tuv',
-    'wxyz',
-  ]
+  const lettersMap = ['', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz']
   const result: string[] = []
   const path: string[] = []
 
@@ -30,13 +19,7 @@ function letterCombinations(digits: string): string[] {
   return result
 }
 
-function backtracking(
-  digits: string,
-  index: number,
-  result: string[],
-  path: string[],
-  lettersMap: string[]
-): void {
+function backtracking(digits: string, index: number, result: string[], path: string[], lettersMap: string[]): void {
   if (index == digits.length) {
     result.push(path.join(''))
     return
@@ -54,4 +37,4 @@ function backtracking(
 }
 // @lc code=end
 
-export default letterCombinations
+export { letterCombinations }

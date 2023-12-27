@@ -15,7 +15,6 @@ function trailingZeroes(n: number): number {
   return count
 }
 
-// 思路：不断计算每次n除以5的个数，然后缩小n重复进行这个过程，直到没法继续为止
 // @lc code=end
 
-export default trailingZeroes
+export { trailingZeroes }

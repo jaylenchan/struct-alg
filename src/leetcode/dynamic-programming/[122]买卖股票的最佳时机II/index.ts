@@ -18,4 +18,4 @@ function maxProfit(prices: number[]): number {
 }
 // @lc code=end
 
-export default maxProfit
+export { maxProfit }

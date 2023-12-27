@@ -6,7 +6,6 @@
 
 // @lc code=start
 class NumArray {
-
   private _prefixSum: number[]
   constructor(nums: number[]) {
     this._prefixSum = this.createPrefixSum(nums)
@@ -29,7 +28,6 @@ class NumArray {
 
     return _prefixSum
   }
-
 }
 
 /**
@@ -39,4 +37,4 @@ class NumArray {
  */
 // @lc code=end
 
-export default NumArray
+export { NumArray }

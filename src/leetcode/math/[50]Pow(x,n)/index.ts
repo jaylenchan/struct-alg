@@ -22,4 +22,4 @@ function myPow(x: number, n: number): number {
 }
 // @lc code=end
 
-export default myPow
+export { myPow }

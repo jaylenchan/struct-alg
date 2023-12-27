@@ -14,7 +14,6 @@ class TreeNode {
  *
  * [230] 二叉搜索树中第K小的元素
  */
-export { kthSmallest }
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -53,3 +52,5 @@ function inOrderTree(root: TreeNode | null, queue: number[]): void {
   inOrderTree(root.right, queue)
 }
 // @lc code=end
+
+export { kthSmallest }

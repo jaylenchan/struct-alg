@@ -65,8 +65,4 @@ function _spiralOrder(
 
 // @lc code=end
 
-export default spiralOrder
-
-/**
- * 思路：考虑矩阵宏观代码调度，不要陷入局部坐标变换怎么跑的。
- */
+export { spiralOrder }

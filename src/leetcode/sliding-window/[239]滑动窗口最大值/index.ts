@@ -3,10 +3,8 @@
  *
  * [239] 滑动窗口最大值
  */
-export default maxSlidingWindow
 // @lc code=start
 class SlidingWindow {
-
   private _array: number[]
   private _left: number
   private _right: number
@@ -85,10 +83,7 @@ class SlidingWindow {
         return
       }
 
-      while (
-        _maxQueue.length > 0 &&
-        this._array[_maxQueue[_maxQueue.length - 1]] < this._array[index]
-      ) {
+      while (_maxQueue.length > 0 && this._array[_maxQueue[_maxQueue.length - 1]] < this._array[index]) {
         _maxQueue.pop()
       }
 
@@ -100,7 +95,6 @@ class SlidingWindow {
       }
     }
   }
-
 }
 
 function maxSlidingWindow(nums: number[], k: number): number[] {
@@ -129,3 +123,5 @@ function maxSlidingWindow(nums: number[], k: number): number[] {
   return ans
 }
 // @lc code=end
+
+export { maxSlidingWindow }

@@ -57,4 +57,4 @@ function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode
 }
 // @lc code=end
 
-export default mergeTwoLists
+export { mergeTwoLists }

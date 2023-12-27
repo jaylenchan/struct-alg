@@ -22,4 +22,4 @@ function isPowerOfThree(n: number): boolean {
 }
 // @lc code=end
 
-export default isPowerOfThree
+export { isPowerOfThree }

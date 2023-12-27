@@ -37,4 +37,4 @@ function backtracking(
 }
 // @lc code=end
 
-export default combinationSum
+export { combinationSum }

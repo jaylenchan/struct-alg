@@ -8,9 +8,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default isValidBST
-
 function isValidBST(root: TreeNode | null): boolean {
   const temp: number[] = []
 
@@ -36,3 +33,5 @@ function _inorderTraversal(root: TreeNode | null, temp: number[]): void {
   _inorderTraversal(root.right, temp)
 }
 // @lc code=end
+
+export { isValidBST }

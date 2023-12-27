@@ -6,7 +6,6 @@
 
 // @lc code=start
 class MaxHeap {
-
   private _size: number
   private _data: number[]
 
@@ -78,7 +77,6 @@ class MaxHeap {
   private _swap(i: number, j: number): void {
     ;[this._data[i], this._data[j]] = [this._data[j], this._data[i]]
   }
-
 }
 
 function kthSmallest(matrix: number[][], k: number): number {
@@ -105,10 +103,4 @@ function kthSmallest(matrix: number[][], k: number): number {
 
 // @lc code=end
 
-export default kthSmallest
-
-/**
- * 思路：循环整个矩阵 + 建立大根堆
- * 1. 遍历整个矩阵,每次遍历到一个数就加入建立堆
- * 2. 建立大根堆，最多建立k个元素，堆顶的元素就是要求的第k小元素
- */
+export { kthSmallest }

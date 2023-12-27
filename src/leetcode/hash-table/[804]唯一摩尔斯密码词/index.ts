@@ -25,4 +25,4 @@ function uniqueMorseRepresentations(words: string[]): number {
 }
 // @lc code=end
 
-export default uniqueMorseRepresentations
+export { uniqueMorseRepresentations }

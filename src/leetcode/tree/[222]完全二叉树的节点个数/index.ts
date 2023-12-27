@@ -8,9 +8,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default countNodes
-
 function countNodes(root: TreeNode | null): number {
   let result = 0
 
@@ -27,3 +24,5 @@ function countNodes(root: TreeNode | null): number {
   return result
 }
 // @lc code=end
+
+export { countNodes }

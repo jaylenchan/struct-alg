@@ -41,4 +41,4 @@ function getSum(n: number): number {
 }
 // @lc code=end
 
-export default isHappy
+export { isHappy }

@@ -41,4 +41,4 @@ function divide(dividend: number, divisor: number): number {
 
 // @lc code=end
 
-export default divide
+export { divide }

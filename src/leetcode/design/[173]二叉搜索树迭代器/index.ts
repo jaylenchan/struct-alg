@@ -5,7 +5,6 @@ import type TreeNode from 'tsalg/leetcode/tree/TreeNode'
  *
  * [173] 二叉搜索树迭代器
  */
-export { BSTIterator }
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -57,9 +56,4 @@ class BSTIterator {
  */
 // @lc code=end
 
-/**
- * #思路#
- * 1.二叉搜索树中序遍历一定是单调递增序列，放入queue中
- * 2. next直接取queue的对头
- * 3. hasNext直接判断队空否
- */
+export { BSTIterator }

@@ -6,8 +6,6 @@
 
 import TreeNode from '../TreeNode'
 
-
-export default sortedArrayToBST
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -30,11 +28,7 @@ function sortedArrayToBST(nums: number[]): TreeNode | null {
   return _buildBST(nums, left, right)
 }
 
-function _buildBST(
-  nums: number[],
-  left: number,
-  right: number
-): TreeNode | null {
+function _buildBST(nums: number[], left: number, right: number): TreeNode | null {
   if (left > right) return null
   const mid = left + Math.floor((right - left) >> 1)
 
@@ -46,3 +40,5 @@ function _buildBST(
   return root
 }
 // @lc code=end
+
+export { sortedArrayToBST }

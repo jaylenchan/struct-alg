@@ -15,12 +15,7 @@ function subsets(nums: number[]): number[][] {
   return result
 }
 
-function backtracking(
-  nums: number[],
-  path: number[],
-  result: number[][],
-  startIndex: number
-): void {
+function backtracking(nums: number[], path: number[], result: number[][], startIndex: number): void {
   if (startIndex > nums.length) {
     return
   } else {
@@ -35,4 +30,4 @@ function backtracking(
 }
 // @lc code=end
 
-export default subsets
+export { subsets }

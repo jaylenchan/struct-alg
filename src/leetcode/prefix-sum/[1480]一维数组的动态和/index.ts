@@ -22,4 +22,4 @@ function runningSum(nums: number[]): number[] {
 }
 // @lc code=end
 
-export default runningSum
+export { runningSum }

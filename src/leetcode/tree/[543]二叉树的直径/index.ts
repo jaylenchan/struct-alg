@@ -6,8 +6,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default diameterOfBinaryTree
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -42,11 +40,10 @@ function process(root: TreeNode | null): Info {
   const rightInfo = process(root.right)
 
   return {
-    maxDistance: Math.max(
-      Math.max(leftInfo.maxDistance, rightInfo.maxDistance),
-      leftInfo.height + rightInfo.height
-    ),
+    maxDistance: Math.max(Math.max(leftInfo.maxDistance, rightInfo.maxDistance), leftInfo.height + rightInfo.height),
     height: Math.max(leftInfo.height, rightInfo.height) + 1,
   }
 }
 // @lc code=end
+
+export { diameterOfBinaryTree }

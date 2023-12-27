@@ -20,4 +20,4 @@ function missingNumber(nums: number[]): number {
 }
 // @lc code=end
 
-export default missingNumber
+export { missingNumber }

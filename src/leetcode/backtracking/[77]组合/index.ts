@@ -14,13 +14,7 @@ function combine(n: number, k: number): number[][] {
   return result
 }
 
-function backtraking(
-  maxNum: number,
-  combineNum: number,
-  path: number[],
-  result: number[][],
-  startIndex: number
-): void {
+function backtraking(maxNum: number, combineNum: number, path: number[], result: number[][], startIndex: number): void {
   if (path.length == combineNum) {
     result.push([...path])
     return
@@ -34,4 +28,4 @@ function backtraking(
 }
 // @lc code=end
 
-export default combine
+export { combine }

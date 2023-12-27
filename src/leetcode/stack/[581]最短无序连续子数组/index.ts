@@ -37,4 +37,4 @@ function findUnsortedSubarray(nums: number[]): number {
 }
 // @lc code=end
 
-export default findUnsortedSubarray
+export { findUnsortedSubarray }

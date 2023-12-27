@@ -37,4 +37,4 @@ function longestPalindrome(s: string): string {
 }
 // @lc code=end
 
-export default longestPalindrome
+export { longestPalindrome }

@@ -30,4 +30,4 @@ function maxSubArray(nums: number[]): number {
 }
 // @lc code=end
 
-export default maxSubArray
+export { maxSubArray }

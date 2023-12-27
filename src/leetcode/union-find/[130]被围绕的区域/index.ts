@@ -6,17 +6,14 @@
 
 // @lc code=start
 class UNode<V> {
-
   public value: V
 
   constructor(value: V) {
     this.value = value
   }
-
 }
 
 class UnionFind<V> {
-
   public nodes: Map<V, UNode<V>>
   public parents: Map<UNode<V>, UNode<V>>
   public sizes: Map<UNode<V>, number>
@@ -76,7 +73,6 @@ class UnionFind<V> {
 
     return node
   }
-
 }
 /**
  Do not return anything, modify board in-place instead.
@@ -147,4 +143,4 @@ function solve(board: string[][]): void {
 }
 // @lc code=end
 
-export default solve
+export { solve }

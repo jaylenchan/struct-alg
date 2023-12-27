@@ -34,4 +34,4 @@ function topKFrequent(nums: number[], k: number): number[] {
 }
 // @lc code=end
 
-export default topKFrequent
+export { topKFrequent }

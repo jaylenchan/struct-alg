@@ -29,4 +29,4 @@ function firstUniqChar(s: string): number {
 }
 // @lc code=end
 
-export default firstUniqChar
+export { firstUniqChar }

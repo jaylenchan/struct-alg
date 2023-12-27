@@ -6,8 +6,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default invertTree
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -37,3 +35,5 @@ function invertTree(root: TreeNode | null): TreeNode | null {
 }
 
 // @lc code=end
+
+export { invertTree }

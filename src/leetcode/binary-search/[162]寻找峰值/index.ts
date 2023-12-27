@@ -24,4 +24,4 @@ function searchPeak(nums: number[], left: number, right: number): number {
 }
 // @lc code=end
 
-export default findPeakElement
+export { findPeakElement }

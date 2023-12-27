@@ -45,11 +45,4 @@ function next(s: string): string {
 
 // @lc code=end
 
-export default countAndSay
-
-/**
- * 思路：外观数列其实就是看每一次字符串有几个相同的数，记录的形式就是`次数+数字`
- * 1. 定义一个next函数，用来算出下一次的数字串，next的内容就是遍历给定字符串s，不断按照`次数+数字`的形式记录
- * 2. 通过count记录次数，当不同得时候就替换一下标定字符pivot
- * 3. 主函数直接通过数字遍历，直接从2开始遍历到n
- */
+export { countAndSay }

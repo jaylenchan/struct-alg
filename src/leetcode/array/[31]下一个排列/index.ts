@@ -6,7 +6,7 @@
 
 // @lc code=start
 /**
- Do not return anything, modify nums in-place instead.
+  Do not return anything, modify nums in-place instead.
  */
 function nextPermutation(nums: number[]): void {
   if (nums.length == 0 || nums.length == 1) return
@@ -53,12 +53,4 @@ function nextPermutation(nums: number[]): void {
 }
 // @lc code=end
 
-export default nextPermutation
-
-/**
- * 思路
- * 1. 确定小数 （办法：找第一对升序的数（small，j），小数就是nums[small]）
- * 2. 确定大数 （办法: 在[j, end]区间，从后往前找，找到第一个比nums[small]大的数nums[big] ）
- * 3. 交换小数和大数
- * 4. 重新排序[j,end]使得这个区间升序(选择排序)
- */
+export { nextPermutation }

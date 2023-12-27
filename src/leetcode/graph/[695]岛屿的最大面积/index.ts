@@ -24,17 +24,11 @@ function getArea(grid: number[][], i: number, j: number): number {
 
   if (grid[i][j] == 1) {
     grid[i][j] = 0
-    return (
-      1 +
-      getArea(grid, i - 1, j) +
-      getArea(grid, i + 1, j) +
-      getArea(grid, i, j - 1) +
-      getArea(grid, i, j + 1)
-    )
+    return 1 + getArea(grid, i - 1, j) + getArea(grid, i + 1, j) + getArea(grid, i, j - 1) + getArea(grid, i, j + 1)
   }
 
   return 0
 }
 // @lc code=end
 
-export default maxAreaOfIsland
+export { maxAreaOfIsland }

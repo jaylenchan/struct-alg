@@ -18,11 +18,7 @@ function numDecodings(s: string): number {
     }
 
     //判断截取两个是否符合
-    if (
-      i >= 2 &&
-      (s.charAt(i - 2) == '1' ||
-        (s.charAt(i - 2) == '2' && s.charAt(i - 1) <= '6'))
-    ) {
+    if (i >= 2 && (s.charAt(i - 2) == '1' || (s.charAt(i - 2) == '2' && s.charAt(i - 1) <= '6'))) {
       dp[i] += dp[i - 2]
     }
   }
@@ -31,4 +27,4 @@ function numDecodings(s: string): number {
 }
 // @lc code=end
 
-export default numDecodings
+export { numDecodings }

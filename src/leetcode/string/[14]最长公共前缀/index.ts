@@ -24,4 +24,4 @@ function longestCommonPrefix(strs: string[]): string {
 }
 // @lc code=end
 
-export default longestCommonPrefix
+export { longestCommonPrefix }

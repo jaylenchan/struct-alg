@@ -33,4 +33,4 @@ function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
 }
 // @lc code=end
 
-export default uniquePathsWithObstacles
+export { uniquePathsWithObstacles }

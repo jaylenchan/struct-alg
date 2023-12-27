@@ -50,4 +50,4 @@ function rotateRight(head: ListNode | null, k: number): ListNode | null {
 }
 // @lc code=end
 
-export default rotateRight
+export { rotateRight }

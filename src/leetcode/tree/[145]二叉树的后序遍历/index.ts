@@ -20,9 +20,6 @@
  */
 import type TreeNode from '../TreeNode'
 
-
-export default postorderTraversal
-
 function postorderTraversal(root: TreeNode | null): number[] {
   const result: number[] = []
 
@@ -39,3 +36,5 @@ function _postorderTraversal(root: TreeNode | null, result: number[]): void {
   result.push(root.val)
 }
 // @lc code=end
+
+export { postorderTraversal }

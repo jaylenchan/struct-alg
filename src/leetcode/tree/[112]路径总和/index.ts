@@ -6,8 +6,6 @@
 
 import type TreeNode from '../TreeNode'
 
-
-export default hasPathSum
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -31,10 +29,9 @@ function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
     if (root.left == null && root.right == null) return true
   }
 
-  return (
-    hasPathSum(root.left, targetSum - root.val) ||
-    hasPathSum(root.right, targetSum - root.val)
-  )
+  return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val)
 }
 
 // @lc code=end
+
+export { hasPathSum }

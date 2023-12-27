@@ -23,4 +23,4 @@ function _search(nums: number[], l: number, r: number, target: number): number {
 }
 // @lc code=end
 
-export default search
+export { search }
