@@ -6,6 +6,8 @@
       "VARIANT": "latest"
     }
   },
+  "workspaceFolder": "/home/bun/tsalg",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/bun/tsalg,type=bind,consistency=cached",
   "customizations": {
     "vscode": {
       "extensions": [
