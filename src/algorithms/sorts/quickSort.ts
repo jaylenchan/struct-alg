@@ -1,4 +1,4 @@
-import { swap } from 'tsalg/shared'
+import { swap } from 'tsalg/utils'
 
 export function quickSort(arr: number[]): void {
   sort(arr, 0, arr.length - 1)

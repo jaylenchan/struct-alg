@@ -1,4 +1,4 @@
-import { ASCIndex } from 'tsalg/shared'
+import { ASCIndex } from 'tsalg/utils'
 
 import type { ITrie } from './type'
 

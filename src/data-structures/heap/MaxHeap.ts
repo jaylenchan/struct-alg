@@ -1,4 +1,4 @@
-import { swap } from 'tsalg/shared'
+import { swap } from 'tsalg/utils'
 
 import type { IHeap } from './type'
 

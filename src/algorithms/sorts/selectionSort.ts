@@ -1,4 +1,4 @@
-import { swap } from 'tsalg/shared'
+import { swap } from 'tsalg/utils'
 
 export function selectionSort(arr: number[]): void {
   for (let i = 0; i < arr.length; i++) {

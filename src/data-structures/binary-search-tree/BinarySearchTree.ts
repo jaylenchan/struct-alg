@@ -1,9 +1,9 @@
-import { Comparable } from 'tsalg/shared'
+import { Comparable } from 'tsalg/utils'
 
 import TreeNode from './TreeNode'
 
 import type { IBinarySearchTree } from './type'
-import type { Comparator } from 'tsalg/shared'
+import type { Comparator } from 'tsalg/utils'
 
 export class BinarySearchTree<T> extends Comparable<T> implements IBinarySearchTree<T> {
   public root: TreeNode<T>
