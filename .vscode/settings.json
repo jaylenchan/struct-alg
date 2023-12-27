@@ -17,4 +17,9 @@
   ],
   "eslint.format.enable": true,
   "eslint.run": "onSave",
+  // ======================vscode文件（夹）相关设置===========================
+  "explorer.sortOrder": "type",
+  "explorer.fileNesting.enabled": true,
+  "explorer.sortOrderLexicographicOptions": "upper",
+  "outline.collapseItems": "alwaysExpand",
 }
