@@ -9,24 +9,25 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "MS-CEINTL.vscode-language-pack-zh-hans", // 中文汉化
-        "oven.bun-vscode", // VSCode Bun扩展
+        // ===========基础环境插件==============
+        "oven.bun-vscode", // bun
+        "LeetCode.vscode-leetcode", // leetcode
+        "christian-kohler.path-intellisense", // 文件路径智能提示
+        "christian-kohler.npm-intellisense", // npm包路径提示
+        "kakumei.ts-debug", // ts调试
+        "steoates.autoimport", // ts语法自动导入
+        "formulahendry.code-runner", // 右键运行代码
+        // ===========代码风格插件==============
         "dbaeumer.vscode-eslint", // 代码风格校验
         "esbenp.prettier-vscode", // 代码格式化
         "EditorConfig.EditorConfig", // 代码格式化
-        "Gruntfuggly.todo-tree", // todo list工具
-        "christian-kohler.path-intellisense", // 文件路径智能提示
-        "christian-kohler.npm-intellisense", // npmbao路径提示
-        "redhat.vscode-yaml", // yaml语法支持
+        // ===========编辑器美化插件==============
+        "MS-CEINTL.vscode-language-pack-zh-hans", // 中文汉化
         "naumovs.color-highlight", // 颜色高亮展示
-        "jeff-hykin.better-dockerfile-syntax", // dockerfile语法检查
-        "formulahendry.code-runner", // 右键运行代码
-        "kakumei.ts-debug", // ts调试
         "usernamehw.errorlens", // 行内代码错误提示
         "aaron-bond.better-comments", // 代码注释
-        "steoates.autoimport", // ts语法自动导入
-        "formulahendry.auto-rename-tag", // 自动重命名标签
-        "tomoki1207.pdf" // vscode打开pdf
+        // ===========其他插件==============
+        "Gruntfuggly.todo-tree" // todo list工具
       ]
     }
   }
