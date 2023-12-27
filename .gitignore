@@ -4,3 +4,4 @@ node_modules/
 stderr.log
 stdout.log
 docs
+.lcpr_data

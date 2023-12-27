@@ -14,7 +14,7 @@
       "extensions": [
         // ===========基础环境插件==============
         "oven.bun-vscode", // bun
-        "LeetCode.vscode-leetcode", // leetcode
+        "ccagml.vscode-leetcode-problem-rating", // leetcode
         "christian-kohler.path-intellisense", // 文件路径智能提示
         "christian-kohler.npm-intellisense", // npm包路径提示
         "kakumei.ts-debug", // ts调试
