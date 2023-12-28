@@ -1,18 +1,3 @@
-// ===========================数据结构==============================
-export * from 'tsalg/data-structures/linked-list' // 链表
-export * from 'tsalg/data-structures/stack' // 栈
-export * from 'tsalg/data-structures/queue' // 队列
-export * from 'tsalg/data-structures/binary-search-tree' // 二分搜索树
-export * from 'tsalg/data-structures/set' // 集合
-export * from 'tsalg/data-structures/map' // 映射
-export * from 'tsalg/data-structures/heap' // 堆
-export * from 'tsalg/data-structures/priority-queue' // 优先队列
-export * from 'tsalg/data-structures/trie' // 前缀树
-export * from 'tsalg/data-structures/union-find' // 并查集
-export * from 'tsalg/data-structures/graph' // 图
-export * from 'tsalg/data-structures/sliding-window' // 滑动窗口
-export * from 'tsalg/data-structures/segment-tree' // 线段树
-
 // ===========================算法==============================
 export * from 'tsalg/algorithms/sorts/selectionSort' // 选择排序
 export * from 'tsalg/algorithms/sorts/insertSort' // 插入排序
@@ -26,6 +11,21 @@ export * from 'tsalg/algorithms/string/manacher' // 马拉车算法
 export * from 'tsalg/algorithms/graph/breadthFirstSearch' // 广度优先搜索
 export * from 'tsalg/algorithms/graph/depthFirstSearch' // 深度优先搜索
 export * from 'tsalg/algorithms/graph/topologicalSort' // 拓扑排序
+
+// ===========================数据结构==============================
+export * as linkedListImpl from 'tsalg/data-structures/linked-list' // 链表实现
+export * as stackImpl from 'tsalg/data-structures/stack' // 栈实现
+export * as queueImpl from 'tsalg/data-structures/queue' // 队列实现
+export * as binarySearchTreeImpl from 'tsalg/data-structures/binary-search-tree' // 二分搜索树实现
+export * as setImpl from 'tsalg/data-structures/set' // 集合实现
+export * as mapImpl from 'tsalg/data-structures/map' // 映射实现
+export * as heapImpl from 'tsalg/data-structures/heap' // 堆实现
+export * as priorityQueueImpl from 'tsalg/data-structures/priority-queue' // 优先队列实现
+export * as trieImpl from 'tsalg/data-structures/trie' // 前缀树实现
+export * as unionFindImpl from 'tsalg/data-structures/union-find' // 并查集实现
+export * as graphImpl from 'tsalg/data-structures/graph' // 图实现
+export * as slidingWindowImpl from 'tsalg/data-structures/sliding-window' // 滑动窗口实现
+export * as segmentTreeImpl from 'tsalg/data-structures/segment-tree' // 线段树实现
 
 // ===========================Leetcode==============================
 export * as lcArray from 'tsalg/leetcode/array' // 数组leetcode题集
