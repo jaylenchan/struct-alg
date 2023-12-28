@@ -26,11 +26,12 @@
         "EditorConfig.EditorConfig", // 代码格式化
         // ===========编辑器美化插件==============
         "MS-CEINTL.vscode-language-pack-zh-hans", // 中文汉化
-        "naumovs.color-highlight", // 颜色高亮展示
         "usernamehw.errorlens", // 行内代码错误提示
         "aaron-bond.better-comments", // 代码注释
         // ===========其他插件==============
-        "Gruntfuggly.todo-tree" // todo list工具
+        "Gruntfuggly.todo-tree", // todo list工具
+        "yzhang.markdown-all-in-one", // markdown
+        "shd101wyy.markdown-preview-enhanced" // markdown 预览
       ]
     }
   }
