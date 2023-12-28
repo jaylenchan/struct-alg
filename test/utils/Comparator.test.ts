@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'bun:test'
 
-import { Comparable } from '../comparator'
+import { Comparable } from 'tsalg/utils/comparator'
 
 describe('Comparable', () => {
   it('should compare with default comparator function', () => {
