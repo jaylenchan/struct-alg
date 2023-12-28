@@ -18,18 +18,24 @@
 
 ### 配置 leetcode 环境
 
-分别需要到`设置`中找到`用户`和`远程{开发容器}`两个配置里头设置如下两个地方：
+复制如下到用户settings.json
 
-- 配置右键运行代码时使用 bun 替代使用 node：`/usr/local/bin/bun`
-- 配置项目的 leetcode 文件夹：`/root/tsalg/src/leetcode`
+```json
+"leetcode-problem-rating.defaultLanguage": "typescript",    
+```
 
-#### 用户配置
+复制如下到开发容器settings.json
 
-![img](images/用户配置.png)
-
-#### 容器配置
-
-![img](images/容器配置.png)
+```json
+  "leetcode-problem-rating.workspaceFolder": "/root/tsalg/src/leetcode",
+  "leetcode-problem-rating.nodePath": "/usr/local/bin/bun",
+  "leetcode-problem-rating.filePath": {
+    "default": {
+      "folder": "${tag}/[${id}]${cn_name}",
+      "filename": "index.${ext}",
+    }
+  }
+```
 
 ### 解决登录 Leetcode 的问题
 
