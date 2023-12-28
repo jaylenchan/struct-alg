@@ -2,14 +2,12 @@ import type { IStack } from './type'
 
 export class ArrayStack<T> implements IStack<T> {
   private _array: Array<T>
-  private _capacity: number
 
-  constructor(capacity: number) {
+  constructor() {
     this._array = []
-    this._capacity = capacity
   }
 
-  public getSize(): number {
+  public get size(): number {
     return this._array.length
   }
 
@@ -18,21 +16,30 @@ export class ArrayStack<T> implements IStack<T> {
   }
 
   public push(e: T): void {
-    if (this._array.length === this._capacity) {
-      throw new Error('stack is full!')
-    }
     this._array.push(e)
   }
 
-  public pop(): T {
+  public pop(): T | undefined {
     if (!this._array.length) {
-      throw new Error('stack is empty!')
+      return undefined
     }
     return this._array.pop()!
   }
 
-  public peek(): T {
+  public peek(): T | undefined {
     return this._array[this._array.length - 1]
+  }
+
+  public clear(): void {
+    this._array = []
+  }
+
+  public toArray(): Array<T> {
+    return this._array
+  }
+
+  public toString(): string {
+    return this._array.toString()
   }
 }
 

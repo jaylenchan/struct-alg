@@ -1,7 +1,7 @@
 export interface IStack<T> {
-  getSize(): number
+  size: number
   isEmpty(): boolean
   push(e: T): void
-  pop(): T
-  peek(): T
+  pop(): T | undefined
+  peek(): T | undefined
 }

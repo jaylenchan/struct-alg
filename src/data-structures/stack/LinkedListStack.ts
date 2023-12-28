@@ -9,7 +9,7 @@ export class LinkedListStack<E> implements IStack<E> {
     this._list = new LinkedList<E>()
   }
 
-  public getSize(): number {
+  public get size(): number {
     return this._list.getSize()
   }
 
