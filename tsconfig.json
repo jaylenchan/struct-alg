@@ -23,7 +23,8 @@
     "baseUrl": ".",
     "paths": {
       "tsalg/*": [
-        "./src/*"
+        "./src/*",
+        "./test/*"
       ]
     }
   },

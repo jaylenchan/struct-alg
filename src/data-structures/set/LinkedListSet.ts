@@ -1,4 +1,4 @@
-import { LinkedList } from 'tsalg/structures'
+import { LinkedList } from 'tsalg/data-structures/linked-list'
 
 import type { ISet } from './type'
 

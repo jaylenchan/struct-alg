@@ -1,4 +1,4 @@
-import { MaxHeap } from 'tsalg/structures'
+import { MaxHeap } from 'tsalg/data-structures/heap'
 
 import type { IQueue } from './type'
 
