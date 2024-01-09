@@ -3,9 +3,9 @@
     "lib": [
       "ESNext"
     ],
-    "module": "esnext",
+    "module": "nodenext",
     "target": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "nodenext",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
     "noEmit": true,
