@@ -21,7 +21,7 @@
 复制如下到用户settings.json
 
 ```json
-"leetcode-problem-rating.defaultLanguage": "typescript",    
+"leetcode-problem-rating.defaultLanguage": "typescript",
 ```
 
 复制如下到开发容器settings.json
@@ -44,3 +44,26 @@
 ```shell
 csrftoken="你的csrftoken"; LEETCODE_SESSION="你的LEETCODE_SESSION";
 ```
+## Git提交代码
+
+找到你放到github上的本地公钥所在文件（一般在.ssh文件夹对应的磁盘目录下），然后根据尝试在自己操作系统主机终端执行以下命令：
+`ssh-add $HOME/.ssh/github_rsa`。
+
+- macos：默认会运行本地的SSH代理，一般不会出错
+- windows：启动本地管理员PowerShell并运行以下命令
+  - `Set-Service ssh-agent -StartupType Automatic`
+  - `Start-Service ssh-agent`
+  - `Get-Service ssh-agent`
+- Linux: 在终端先运行启动本地的SSH代理`eval "$(ssh-agent -s)"`，然后在`~/.bash_profile`或者`~/.zprofile（对于使用Zsh shell）`文件加入下面代码，以便能够在登录时启动本地的SSH代理
+  ```shell
+  if [ -z "$SSH_AUTH_SOCK" ]; then
+   # Check for a currently running instance of the agent
+   RUNNING_AGENT="`ps -ax | grep 'ssh-agent -s' | grep -v grep | wc -l | tr -d '[:space:]'`"
+   if [ "$RUNNING_AGENT" = "0" ]; then
+        # Launch a new instance of the agent
+        ssh-agent -s &> $HOME/.ssh/ssh-agent
+   fi
+   eval `cat $HOME/.ssh/ssh-agent`
+  fi
+  ```
+接下来，就像你在本地提交代码一样使用git就好了。

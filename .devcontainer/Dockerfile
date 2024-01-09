@@ -6,6 +6,7 @@ RUN apt-get update \
   git \
   nano \
   vim-tiny \
+  ssh \
   && apt-get auto-remove -y \
   && apt-get clean -y \
   && chsh -s $(which bash) bun \
