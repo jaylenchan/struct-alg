@@ -167,7 +167,7 @@ describe('ArrayStack', () => {
     expect(stack.toString()).toEqual('')
 
     const stackString = new ArrayStack<string>()
-    
+
     stackString.push('el1')
     expect(stackString.toString()).toEqual('el1')
 
@@ -178,7 +178,10 @@ describe('ArrayStack', () => {
   it('returns toString objects', () => {
     class MyObj {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      constructor(public el1: any, public el2: any) {}
+      constructor(
+        public el1: any,
+        public el2: any,
+      ) {}
       public toString(): string {
         return `${this.el1.toString()}|${this.el2.toString()}`
       }

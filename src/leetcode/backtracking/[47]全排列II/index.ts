@@ -9,7 +9,7 @@ function generatePermutaion(
   selectedNum: number,
   selectedSet: Set<number>,
   path: number[],
-  result: number[][]
+  result: number[][],
 ): void {
   if (selectedNum == nums.length) {
     result.push([...path])

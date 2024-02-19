@@ -1,2 +1,2 @@
-export * from './type';
-export * from './UnionFind';
+export * from './type'
+export * from './UnionFind'

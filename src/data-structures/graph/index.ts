@@ -1,2 +1,2 @@
-export * from './Graph';
-export * from './MatrixGraph';
+export * from './Graph'
+export * from './MatrixGraph'

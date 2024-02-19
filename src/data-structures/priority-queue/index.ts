@@ -1,1 +1,1 @@
-export * from './PriorityQueue';
+export * from './PriorityQueue'

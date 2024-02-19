@@ -6,7 +6,7 @@
 
 // @lc code=start
 
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {
   if (p == null && q == null) {

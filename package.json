@@ -10,7 +10,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "simple-git-hooks",
-    "lintfix": "eslint ./src --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "docs": "typedoc"
   },
   "simple-git-hooks": {
@@ -25,16 +26,14 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.7.4",
     "bun-types": "latest",
     "eslint": "^8.44.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-import-resolver-typescript": "^3.5.5",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "lint-staged": "^13.1.0",
-    "prettier": "^2.8.4",
+    "prettier": "^3.0.0",
     "simple-git-hooks": "^2.8.1",
     "typedoc": "^0.25.2",
     "typescript": "^5.2.2"

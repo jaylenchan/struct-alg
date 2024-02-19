@@ -1,5 +1,4 @@
-class TreeNode {
-
+export class TreeNode {
   public val: number
   public left: TreeNode | null
   public right: TreeNode | null
@@ -8,7 +7,4 @@ class TreeNode {
     this.left = left === undefined ? null : left
     this.right = right === undefined ? null : right
   }
-
 }
-
-export default TreeNode

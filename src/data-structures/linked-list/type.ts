@@ -1,4 +1,4 @@
-export  interface ILinkedList<E> {
+export interface ILinkedList<E> {
   getSize(): number
   isEmpty(): boolean
   add(index: number, e: E): void

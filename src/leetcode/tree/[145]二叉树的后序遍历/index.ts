@@ -18,7 +18,7 @@
  *     }
  * }
  */
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 function postorderTraversal(root: TreeNode | null): number[] {
   const result: number[] = []

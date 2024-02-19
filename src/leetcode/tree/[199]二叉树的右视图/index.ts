@@ -4,7 +4,7 @@
  * [199] 二叉树的右视图
  */
 
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 // @lc code=start
 /**

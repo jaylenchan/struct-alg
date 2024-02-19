@@ -1,1 +1,1 @@
-export * from './MaxHeap';
+export * from './MaxHeap'

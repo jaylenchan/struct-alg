@@ -1,15 +1,12 @@
 export class Node<V> {
-
   public value: V
 
   constructor(value: V) {
     this.value = value
   }
-
 }
 
 export default class UnionFind {
-
   /**
    * 样本跟样本包装的节点之间的映射：一一对应的
    * 作用：通过样本找样本节点
@@ -103,7 +100,6 @@ export default class UnionFind {
 
     return cur
   }
-
 }
 
 /**

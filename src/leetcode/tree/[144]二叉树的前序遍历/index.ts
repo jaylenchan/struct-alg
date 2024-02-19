@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 function preorderTraversal(root: TreeNode | null): number[] {
   const result: number[] = []

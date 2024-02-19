@@ -4,7 +4,7 @@
  * [103] 二叉树的锯齿形层序遍历
  */
 
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 // @lc code=start
 /**

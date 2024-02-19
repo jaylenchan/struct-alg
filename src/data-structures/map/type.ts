@@ -1,4 +1,4 @@
-export  interface IMap<K, V> {
+export interface IMap<K, V> {
   // 添加元素
   add(k: K, v: V): void
   // 删除元素

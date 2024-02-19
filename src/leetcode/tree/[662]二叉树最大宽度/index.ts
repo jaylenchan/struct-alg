@@ -4,7 +4,7 @@
  * [662] 二叉树最大宽度
  */
 
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 // @lc code=start
 /**

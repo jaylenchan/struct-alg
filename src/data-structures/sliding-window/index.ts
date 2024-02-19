@@ -1,1 +1,1 @@
-export * from './SlidingWindow';
+export * from './SlidingWindow'

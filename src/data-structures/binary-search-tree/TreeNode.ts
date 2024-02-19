@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 class TreeNode<T> {
-
   public static None = new TreeNode<any>(null)
 
   public value: T
@@ -12,7 +11,6 @@ class TreeNode<T> {
     this.left = left ?? TreeNode.None
     this.right = right ?? TreeNode.None
   }
-
 }
 
 export default TreeNode

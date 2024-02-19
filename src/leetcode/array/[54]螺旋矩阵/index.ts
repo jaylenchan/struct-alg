@@ -25,7 +25,7 @@ function _spiralOrder(
   down: number,
   left: number,
   right: number,
-  result: number[]
+  result: number[],
 ): void {
   const firstRow = top
   const firstCol = left

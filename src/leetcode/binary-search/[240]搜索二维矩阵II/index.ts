@@ -17,7 +17,7 @@ function _searchMatrix(
   row1: number,
   col1: number,
   row2: number,
-  col2: number
+  col2: number,
 ): boolean {
   if (row1 == row2) {
     return _searchArr(matrix[row1], target, 0, matrix[0].length - 1)

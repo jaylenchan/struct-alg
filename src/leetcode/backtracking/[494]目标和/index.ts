@@ -8,12 +8,7 @@
 function findTargetSumWays(nums: number[], target: number): number {
   const options = [-1, 1]
   let ans = 0
-  function backtracking(
-    nums: number[],
-    target: number,
-    start: number,
-    temp: number
-  ): void {
+  function backtracking(nums: number[], target: number, start: number, temp: number): void {
     if (start == nums.length) {
       if (temp == target) ans++
       return

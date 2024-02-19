@@ -6,7 +6,10 @@
 
 // @lc code=start
 class Num {
-  constructor(public index: number, public val: number) {}
+  constructor(
+    public index: number,
+    public val: number,
+  ) {}
 }
 function twoSum(sums: number[], target: number): number[] {
   if (sums.length <= 1) return []

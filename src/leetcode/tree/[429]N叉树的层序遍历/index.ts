@@ -3,7 +3,7 @@
  *
  * [429] N 叉树的层序遍历
  */
-import type Node from '../Node'
+import type { Node } from '../models/Node'
 
 // @lc code=start
 /**

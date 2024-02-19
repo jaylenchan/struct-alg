@@ -187,7 +187,7 @@ export class LinkedListV2<V> {
     return JSON.stringify(
       this.toArray().map(node => {
         return node.toString()
-      })
+      }),
     )
   }
 }

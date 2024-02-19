@@ -4,7 +4,7 @@
  * [114] 二叉树展开为链表
  */
 
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 // @lc code=start
 /**

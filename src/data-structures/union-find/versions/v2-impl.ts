@@ -1,18 +1,18 @@
-import type { IUnionFind } from '../type';
+import type { IUnionFind } from '../type'
 // Quick Union
 export default class UnionFind implements IUnionFind<number> {
-  public parent: number[]; // parent[i]表示第i位置的元素指向了哪个位置的元素
+  public parent: number[] // parent[i]表示第i位置的元素指向了哪个位置的元素
 
   constructor(size: number) {
-    this.parent = new Array(size);
+    this.parent = new Array(size)
 
     for (let i = 0; i < this.parent.length; i++) {
-      this.parent[i] = i;
+      this.parent[i] = i
     }
   }
 
   public isConnected(p: number, q: number): boolean {
-    return this.find(p) == this.find(q);
+    return this.find(p) == this.find(q)
   }
 
   /**
@@ -26,12 +26,12 @@ export default class UnionFind implements IUnionFind<number> {
    *      导致逻辑结构上出现一棵大树合并到一棵小树上，极端情况可能出现合并成了一条单链表
    */
   public union(p: number, q: number): void {
-    if (this.isConnected(p, q)) return;
+    if (this.isConnected(p, q)) return
 
-    const rootP = this.find(p); // p所在集合的代表元素rootP
-    const rootQ = this.find(q); // q所在集合的代表元素rootQ
+    const rootP = this.find(p) // p所在集合的代表元素rootP
+    const rootQ = this.find(q) // q所在集合的代表元素rootQ
 
-    this.parent[rootP] = rootQ; // 让p所在集合的代表元素rootP的父亲指向q所在集合的代表元素rootQ
+    this.parent[rootP] = rootQ // 让p所在集合的代表元素rootP的父亲指向q所在集合的代表元素rootQ
   }
 
   /**
@@ -42,13 +42,13 @@ export default class UnionFind implements IUnionFind<number> {
    */
   public find(p: number): number {
     if (p < 0 || p > this.parent.length) {
-      throw new Error('p is out of bound.');
+      throw new Error('p is out of bound.')
     }
 
     while (p != this.parent[p]) {
-      p = this.parent[p];
+      p = this.parent[p]
     }
 
-    return p;
+    return p
   }
 }

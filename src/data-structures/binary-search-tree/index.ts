@@ -1,2 +1,2 @@
-export * from './type';
-export * from './BinarySearchTree';
+export * from './type'
+export * from './BinarySearchTree'

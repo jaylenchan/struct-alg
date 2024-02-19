@@ -4,7 +4,7 @@
  * [110] 平衡二叉树
  */
 
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 // @lc code=start
 /**

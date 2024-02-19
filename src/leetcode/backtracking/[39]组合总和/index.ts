@@ -21,7 +21,7 @@ function backtracking(
   sum: number,
   path: number[],
   result: number[][],
-  startIndex: number
+  startIndex: number,
 ): void {
   if (sum > target) return
   if (sum == target) {

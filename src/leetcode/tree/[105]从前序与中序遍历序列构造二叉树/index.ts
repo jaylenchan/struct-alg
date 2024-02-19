@@ -4,7 +4,7 @@
  * [105] 从前序与中序遍历序列构造二叉树
  */
 
-import TreeNode from '../TreeNode'
+import { TreeNode } from '../models/TreeNode'
 
 // @lc code=start
 /**
@@ -47,7 +47,7 @@ function _buildTree(
   inorder: number[],
   inLeft: number,
   inRight: number,
-  inorderMap: Map<number, number>
+  inorderMap: Map<number, number>,
 ): TreeNode | null {
   if (inLeft > inRight) return null
 
@@ -87,7 +87,7 @@ function _buildTree(
     inorder,
     leftChildInLeft,
     leftChildInRight,
-    inorderMap
+    inorderMap,
   )
 
   root.right = _buildTree(
@@ -97,7 +97,7 @@ function _buildTree(
     inorder,
     rightChildInLeft,
     rightChildInRight,
-    inorderMap
+    inorderMap,
   )
 
   return root

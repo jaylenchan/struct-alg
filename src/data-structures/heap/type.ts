@@ -1,4 +1,4 @@
-export  interface IHeap<E> {
+export interface IHeap<E> {
   /** 返回堆中的元素个数*/
   size(): number
   /** 返回堆是否为空 */

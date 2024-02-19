@@ -37,7 +37,7 @@ function exist(board: string[][], word: string): boolean {
     index: number,
     curWord: string,
     searchSet: Set<string>,
-    positions: number[][]
+    positions: number[][],
   ): void {
     if (searchSet.has(`${row}${col}`)) {
       return

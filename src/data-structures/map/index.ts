@@ -1,3 +1,3 @@
-export * from './type';
-export * from './BinarySearchTreeMap';
-export * from './LinkedListMap';
+export * from './type'
+export * from './BinarySearchTreeMap'
+export * from './LinkedListMap'

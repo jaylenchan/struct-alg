@@ -6,7 +6,7 @@
 
 // @lc code=start
 
-import type TreeNode from '../TreeNode'
+import type { TreeNode } from '../models/TreeNode'
 
 function isValidBST(root: TreeNode | null): boolean {
   const temp: number[] = []
