@@ -22,10 +22,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "tsalg/*": [
-        "./src/*",
-        "./test/*"
-      ]
+      "tsalg/*": ["./src/*"]
     }
   },
   "typedocOptions": {

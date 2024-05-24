@@ -1,4 +1,4 @@
-import { BinarySearchTree } from 'tsalg/data-structures/binary-search-tree'
+import { BinarySearchTree } from 'tsalg/data-structures/binary-search-tree/src'
 
 import type { ISet } from './type'
 

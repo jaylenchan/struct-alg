@@ -4,7 +4,7 @@
 
 ## 使用 Dev Container
 
-由于 Bun 在 windows 环境下支持度不太良好，为了解决这么一个问题，我在项目当中配置了一个基于 Bun 环境的 Dev Container。你只需要在你的电脑本机下载 Docker + VSCode Dev Container 插件，就可以使用这个项目的 Dev Container 进行代码开发和书写了。
+如果你想使用dev container来启动这个项目，你只需要在你的电脑本机下载 Docker + VSCode Dev Container 插件，就可以使用这个项目的 Dev Container 进行代码开发和书写了。
 
 ## 项目开发流程
 
@@ -44,6 +44,7 @@
 ```shell
 csrftoken="你的csrftoken"; LEETCODE_SESSION="你的LEETCODE_SESSION";
 ```
+
 ## Git提交代码
 
 找到你放到github上的本地公钥所在文件（一般在.ssh文件夹对应的磁盘目录下），然后根据尝试在自己操作系统主机终端执行以下命令：
@@ -55,6 +56,7 @@ csrftoken="你的csrftoken"; LEETCODE_SESSION="你的LEETCODE_SESSION";
   - `Start-Service ssh-agent`
   - `Get-Service ssh-agent`
 - Linux: 在终端先运行启动本地的SSH代理`eval "$(ssh-agent -s)"`，然后在`~/.bash_profile`或者`~/.zprofile（对于使用Zsh shell）`文件加入下面代码，以便能够在登录时启动本地的SSH代理
+
   ```shell
   if [ -z "$SSH_AUTH_SOCK" ]; then
    # Check for a currently running instance of the agent
@@ -66,4 +68,5 @@ csrftoken="你的csrftoken"; LEETCODE_SESSION="你的LEETCODE_SESSION";
    eval `cat $HOME/.ssh/ssh-agent`
   fi
   ```
+
 接下来，就像你在本地提交代码一样使用git就好了。

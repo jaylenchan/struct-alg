@@ -1,12 +1,12 @@
 // ===========================算法==============================
-export * from 'tsalg/algorithms/sorts/selectionSort' // 选择排序
-export * from 'tsalg/algorithms/sorts/insertSort' // 插入排序
-export * from 'tsalg/algorithms/sorts/mergeSort' // 归并排序
-export * from 'tsalg/algorithms/sorts/quickSort' // 快速排序
+export * from 'tsalg/algorithms/sorts/src/selectionSort' // 选择排序
+export * from 'tsalg/algorithms/sorts/src/insertSort' // 插入排序
+export * from 'tsalg/algorithms/sorts/src/mergeSort' // 归并排序
+export * from 'tsalg/algorithms/sorts/src/quickSort' // 快速排序
 
 export * from 'tsalg/algorithms/search/binarySerach' // 二分查找
 
-export * from 'tsalg/algorithms/string/manacher' // 马拉车算法
+export * from 'tsalg/algorithms/string/src/manacher' // 马拉车算法
 
 export * from 'tsalg/algorithms/graph/breadthFirstSearch' // 广度优先搜索
 export * from 'tsalg/algorithms/graph/depthFirstSearch' // 深度优先搜索
@@ -16,7 +16,7 @@ export * from 'tsalg/algorithms/graph/topologicalSort' // 拓扑排序
 export * as linkedListImpl from 'tsalg/data-structures/linked-list' // 链表实现
 export * as stackImpl from 'tsalg/data-structures/stack' // 栈实现
 export * as queueImpl from 'tsalg/data-structures/queue' // 队列实现
-export * as binarySearchTreeImpl from 'tsalg/data-structures/binary-search-tree' // 二分搜索树实现
+export * as binarySearchTreeImpl from 'tsalg/data-structures/binary-search-tree/src' // 二分搜索树实现
 export * as setImpl from 'tsalg/data-structures/set' // 集合实现
 export * as mapImpl from 'tsalg/data-structures/map' // 映射实现
 export * as heapImpl from 'tsalg/data-structures/heap' // 堆实现
