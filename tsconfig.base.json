@@ -22,6 +22,9 @@
       ],
       "@tsalg/shared/*": [
         "./packages/shared/src/*"
+      ],
+      "@tsalg/playground/*": [
+        "./playground/src/*"
       ]
     },
     "resolveJsonModule": true,

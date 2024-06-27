@@ -1,0 +1,35 @@
+{
+  "name": "@tsalg/playground",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npx nodemon ./src/index.ts"
+  },
+  "dependencies": {
+    "@tsalg/algorithms": "workspace:*",
+    "@tsalg/data-structures": "workspace:*",
+    "@tsalg/leetcode": "workspace:*",
+    "@tsalg/shared": "workspace:*"
+  },
+  "nodemonConfig": {
+    "exec": "node",
+    "script": "./src/index.ts",
+    "nodeArgs": [
+      "--loader",
+      "ts-node/esm.mjs",
+      "--es-module-specifier-resolution=node"
+    ],
+    "ignore": [
+      "**/__tests__/**",
+      "**/dist/**"
+    ],
+    "env": {
+      "TS_NODE_TRANSPILE_ONLY": true,
+      "TS_NODE_PROJECT": "./tsconfig.json",
+      "FORCE_COLOR": true,
+      "DEBUG_COLORS": true
+    },
+    "delay": 1000
+  }
+}

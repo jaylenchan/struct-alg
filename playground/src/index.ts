@@ -6,11 +6,15 @@ function main() {
   // eslint-disable-next-line no-console
   console.log("🚀 ~ BinarySearchTree:", BinarySearchTree)
 
+  const quickSortNums = [3, 2, 1, 5, 4, 6, 7, 8, 9, 0]
+  quickSort(quickSortNums)
   // eslint-disable-next-line no-console
-  console.log("🚀 ~ quickSort:", quickSort([3, 2, 1, 5, 4, 6, 7, 8, 9, 0]))
+  console.log("🚀 ~ quickSortNums:", quickSortNums)
 
+  const rotateNums = [1, 2, 3, 4, 5, 6, 7]
+  lc189.rotate(rotateNums, 3)
   // eslint-disable-next-line no-console
-  console.log("🚀 ~ lc189:", lc189.rotate([1, 2, 3, 4, 5, 6, 7], 3))
+  console.log("🚀 ~ lc189 rotateNums:", rotateNums)
 }
 
 main()
