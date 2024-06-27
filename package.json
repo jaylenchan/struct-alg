@@ -16,7 +16,7 @@
   "scripts": {
     "prepare": "husky",
     "lint": "npx eslint . --fix",
-    "docs": "typedoc"
+    "start:playground": "yarn workspace @tsalg/playground start"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.20.0",
