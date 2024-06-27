@@ -1,7 +1,14 @@
-export * as lc20 from './[20]有效的括号'
-export * as lc150 from './[150]逆波兰表达式求值'
-export * as lc227 from './[227]基本计算器II'
-export * as lc234 from './[234]回文链表'
-export * as lc394 from './[394]字符串解码'
-export * as lc581 from './[581]最短无序连续子数组'
-export * as lc739 from './[739]每日温度'
+// basic-calculator-ii
+export * as basic_calculator_ii from './basic-calculator-ii'
+// daily-temperatures
+export * as daily_temperatures from './daily-temperatures'
+// decode-string
+export * as decode_string from './decode-string'
+// evaluate-reverse-polish-notation
+export * as evaluate_reverse_polish_notation from './evaluate-reverse-polish-notation'
+// palindrome-linked-list
+export * as palindrome_linked_list from './palindrome-linked-list'
+// shortest-unsorted-continuous-subarray
+export * as shortest_unsorted_continuous_subarray from './shortest-unsorted-continuous-subarray'
+// valid-parentheses
+export * as valid_parentheses from './valid-parentheses'

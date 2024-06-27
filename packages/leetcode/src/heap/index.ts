@@ -1,5 +1,10 @@
-export * as lc23 from './[23]合并k个升序链表'
-export * as lc215 from './[215]数组中的第k个最大元素'
-export * as lc347 from './[347]前K个高频元素'
-export * as lc378 from './[378]有序矩阵中第K小的元素'
-export * as lc912 from './[912]排序数组'
+// kth-largest-element-in-an-array
+export * as kth_largest_element_in_an_array from './kth-largest-element-in-an-array'
+// kth-smallest-element-in-a-sorted-matrix
+export * as kth_smallest_element_in_a_sorted_matrix from './kth-smallest-element-in-a-sorted-matrix'
+// merge-k-sorted-lists
+export * as merge_k_sorted_lists from './merge-k-sorted-lists'
+// sort-an-array
+export * as sort_an_array from './sort-an-array'
+// top-k-frequent-elements
+export * as top_k_frequent_elements from './top-k-frequent-elements'

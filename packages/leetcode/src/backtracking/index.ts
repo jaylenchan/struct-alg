@@ -1,12 +1,24 @@
-export * as lc17 from './[17]电话号码的字母组合'
-export * as lc39 from './[39]组合总和'
-export * as lc40 from './[40]组合总和II'
-export * as lc46 from './[46]全排列'
-export * as lc47 from './[47]全排列II'
-export * as lc77 from './[77]组合'
-export * as lc78 from './[78]子集'
-export * as lc79 from './[79]单词搜索'
-export * as lc90 from './[90]子集II'
-export * as lc93 from './[93]复原Ip地址'
-export * as lc131 from './[131]分割回文串'
-export * as lc494 from './[494]目标和'
+// letter-combinations-of-a-phone-number
+export * as letter_combinations_of_a_phone_number from './letter-combinations-of-a-phone-number'
+// combination-sum
+export * as combination_sum from './combination-sum'
+// combination-sum-ii
+export * as combination_sum_ii from './combination-sum-ii'
+// permutations
+export * as permutations from './permutations'
+// permutations-ii
+export * as permutations_ii from './permutations-ii'
+// combinations
+export * as combinations from './combinations'
+// subsets
+export * as subsets from './subsets'
+// word-search
+export * as word_search from './word-search'
+// subsets-ii
+export * as subsets_ii from './subsets-ii'
+// restore-ip-addresses
+export * as restore_ip_addresses from './restore-ip-addresses'
+// palindrome-partitioning
+export * as palindrome_partitioning from './palindrome-partitioning'
+// target-sum
+export * as target_sum from './target-sum'

@@ -1,3 +1,6 @@
-export * as lc207 from './[207]课程表'
-export * as lc210 from './[210]课程表II'
-export * as lc695 from './[695]岛屿的最大面积'
+// course-schedule
+export * as course_schedule from './course-schedule'
+// course-schedule-ii
+export * as course_schedule_ii from './course-schedule-ii'
+// max-area-of-island
+export * as max_area_of_island from './max-area-of-island'

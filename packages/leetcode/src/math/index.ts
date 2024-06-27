@@ -1,4 +1,8 @@
-export * as lc50 from './[50]Pow(x,n)'
-export * as lc172 from './[172]阶乘后的零'
-export * as lc326 from './[326]3的幂'
-export * as lc412 from './[412]FizzBuzz'
+// pow-x-n
+export * as pow_x_n from './pow-x-n'
+// factorial-trailing-zeroes
+export * as factorial_trailing_zeroes from './factorial-trailing-zeroes'
+// power-of-three
+export * as power_of_three from './power-of-three'
+// fizz-buzz
+export * as fizz_buzz from './fizz-buzz'

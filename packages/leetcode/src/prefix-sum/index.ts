@@ -1,5 +1,10 @@
-export * as lc303 from './[303]区域和检索数组不可变'
-export * as lc304 from './[304]二维区域和检索矩阵不可变'
-export * as lc560 from './[560]和为K的子数组'
-export * as lc1480 from './[1480]一维数组的动态和'
-export * as lc1588 from './[1588]所有奇数长度子数组的和'
+// range-sum-query-immutable
+export * as range_sum_query_immutable from './range-sum-query-immutable'
+// range-sum-query-2-d-immutable
+export * as range_sum_query_2_d_immutable from './range-sum-query-2-d-immutable'
+// subarray-sum-equals-k
+export * as subarray_sum_equals_k from './subarray-sum-equals-k'
+// running-sum-of-1-d-array
+export * as running_sum_of_1_d_array from './running-sum-of-1-d-array'
+// sum-of-all-odd-length-subarrays
+export * as sum_of_all_odd_length_subarrays from './sum-of-all-odd-length-subarrays'

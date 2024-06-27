@@ -1,7 +1,14 @@
-export * as lc8 from './[8]字符串转换整数Atoi'
-export * as lc14 from './[14]最长公共前缀'
-export * as lc38 from './[38]外观数列'
-export * as lc151 from './[151]反转字符串中的单词'
-export * as lc171 from './[171]Excel表列序号'
-export * as lc179 from './[179]最大数'
-export * as lc191 from './[191]位1的个数'
+// count-and-say
+export * as count_and_say from './count-and-say'
+// excel-sheet-column-number
+export * as excel_sheet_column_number from './excel-sheet-column-number'
+// largest-number
+export * as largest_number from './largest-number'
+// longest-common-prefix
+export * as longest_common_prefix from './longest-common-prefix'
+// number-of-1-bits
+export * as number_of_1_bits from './number-of-1-bits'
+// reverse-words-in-a-string
+export * as reverse_words_in_a_string from './reverse-words-in-a-string'
+// string-to-integer-atoi
+export * as string_to_integer_atoi from './string-to-integer-atoi'

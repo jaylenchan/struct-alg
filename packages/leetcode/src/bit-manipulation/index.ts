@@ -1,4 +1,8 @@
-export * as lc29 from './[29]两数相除'
-export * as lc190 from './[190]颠倒二进制位'
-export * as lc260 from './[260]只出现一次的数字III'
-export * as lc371 from './[371]两整数之和'
+// divide-two-integers
+export * as divide_two_integers from './divide-two-integers'
+// reverse-bits
+export * as reverse_bits from './reverse-bits'
+// single-number-iii
+export * as single_number_iii from './single-number-iii'
+// sum-of-two-integers
+export * as sum_of_two_integers from './sum-of-two-integers'

@@ -1,4 +1,8 @@
-export * as lc128 from './[128]最长连续序列'
-export * as lc130 from './[130]被围绕的区域'
-export * as lc200 from './[200]岛屿数量'
-export * as lc547 from './[547]省份数量'
+// longest-consecutive-sequence
+export * as longest_consecutive_sequence from './longest-consecutive-sequence'
+// number-of-islands
+export * as number_of_islands from './number-of-islands'
+// number-of-provinces
+export * as number_of_provinces from './number-of-provinces'
+// surrounded-regions
+export * as surrounded_regions from './surrounded-regions'

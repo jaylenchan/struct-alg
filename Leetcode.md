@@ -8,11 +8,11 @@
 
   ```json
   "leetcode-problem-rating.defaultLanguage": "typescript",
-  "leetcode-problem-rating.workspaceFolder": "/root/tsalg/src/leetcode",
+  "leetcode-problem-rating.workspaceFolder": "${tsalg项目所在目录}/tsalg/packages/leetcode/src",
   "leetcode-problem-rating.nodePath": "/usr/local/bin/bun",
   "leetcode-problem-rating.filePath": {
     "default": {
-      "folder": "${tag}/[${id}]${cn_name}",
+      "folder": "${tag}/${kebab-case-name}",
       "filename": "index.${ext}",
     }
   }

@@ -1,5 +1,10 @@
-export * as lc3 from './[3]无重复字符的最长子串'
-export * as lc76 from './[76]最小覆盖子串'
-export * as lc209 from './[209]长度最小的子数组'
-export * as lc239 from './[239]滑动窗口最大值'
-export * as lc438 from './[438]找到字符串中所有字母异位词'
+// find-all-anagrams-in-a-string
+export * as find_all_anagrams_in_a_string from './find-all-anagrams-in-a-string'
+// longest-substring-without-repeating-characters
+export * as longest_substring_without_repeating_characters from './longest-substring-without-repeating-characters'
+// minimum-size-subarray-sum
+export * as minimum_size_subarray_sum from './minimum-size-subarray-sum'
+// minimum-window-substring
+export * as minimum_window_substring from './minimum-window-substring'
+// sliding-window-maximum
+export * as sliding_window_maximum from './sliding-window-maximum'
