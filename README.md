@@ -1,6 +1,7 @@
 # TSALG
 
 基于 Typescript 实现常见算法、数据结构以及 Leetcode 经典题目
+![img](./images/typescript.jpg)
 
 ## 项目流程
 

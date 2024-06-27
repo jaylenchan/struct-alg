@@ -3,15 +3,16 @@ import { quickSort } from '@tsalg/algorithms/sorts'
 import { lc189 } from '@tsalg/leetcode/array'
 
 function main() {
+  const bst = new BinarySearchTree<number>()
   // eslint-disable-next-line no-console
-  console.log("🚀 ~ BinarySearchTree:", BinarySearchTree)
+  console.log("🚀 ~ BinarySearchTree:", bst)
 
-  const quickSortNums = [3, 2, 1, 5, 4, 6, 7, 8, 9, 0]
+  const quickSortNums = [11, 32, 23, 41, 75, 60, 71]
   quickSort(quickSortNums)
   // eslint-disable-next-line no-console
   console.log("🚀 ~ quickSortNums:", quickSortNums)
 
-  const rotateNums = [1, 2, 3, 4, 5, 6, 7]
+  const rotateNums = [11, 32, 23, 41, 75, 60, 71]
   lc189.rotate(rotateNums, 3)
   // eslint-disable-next-line no-console
   console.log("🚀 ~ lc189 rotateNums:", rotateNums)
