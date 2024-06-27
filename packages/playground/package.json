@@ -1,0 +1,12 @@
+{
+  "name": "@tsalg/playground",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tsalg/algorithms": "workspace:*",
+    "@tsalg/data-structures": "workspace:*",
+    "@tsalg/leetcode": "workspace:*",
+    "@tsalg/shared": "workspace:*"
+  }
+}

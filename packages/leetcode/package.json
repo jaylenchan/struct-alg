@@ -1,0 +1,27 @@
+{
+  "name": "@tsalg/leetcode",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    "./array": "./src/array/index.ts",
+    "./backtracking": "./src/backtracking/index.ts",
+    "./binary-search": "./src/binary-search/index.ts",
+    "./bit-manipulation": "./src/bit-manipulation/index.ts",
+    "./design": "./src/design/index.ts",
+    "./dynamic-programming": "./src/dynamic-programming/index.ts",
+    "./graph": "./src/graph/index.ts",
+    "./greedy": "./src/greedy/index.ts",
+    "./hash-table": "./src/hash-table/index.ts",
+    "./heap": "./src/heap/index.ts",
+    "./linked-list": "./src/linked-list/index.ts",
+    "./math": "./src/math/index.ts",
+    "./prefix-sum": "./src/prefix-sum/index.ts",
+    "./sliding-window": "./src/sliding-window/index.ts",
+    "./stack": "./src/stack/index.ts",
+    "./string": "./src/string/index.ts",
+    "./tree": "./src/tree/index.ts",
+    "./two-pointers": "./src/two-pointers/index.ts",
+    "./union-find": "./src/union-find/index.ts"
+  }
+}

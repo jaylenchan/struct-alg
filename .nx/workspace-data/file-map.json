@@ -1,0 +1,2021 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.2",
+  "deps": {
+    "@antfu/eslint-config": "^2.20.0",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "nx": "^19.3.2",
+    "typedoc": "^0.25.2",
+    "typescript": "^5.5.2"
+  },
+  "pathMappings": {
+    "@tsalg/algorithms/*": [
+      "./packages/algorithms/src/*"
+    ],
+    "@tsalg/data-structures/*": [
+      "./packages/data-structures/src/*"
+    ],
+    "@tsalg/leetcode/*": [
+      "./packages/leetcode/src/*"
+    ],
+    "@tsalg/shared/*": [
+      "./packages/shared/src/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "4062751418285522250"
+      },
+      {
+        "file": "images/容器配置.png",
+        "hash": "17423013800764837325"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5303541849679531074"
+      },
+      {
+        "file": ".devcontainer/devcontainer.json",
+        "hash": "3514030365327837755"
+      },
+      {
+        "file": ".devcontainer/Dockerfile",
+        "hash": "4065235445988136337"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "6833681698394985240"
+      },
+      {
+        "file": "package.json",
+        "hash": "13937649550975573633"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "9456090744805597335"
+      },
+      {
+        "file": "README.md",
+        "hash": "10470636760725166712"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2981106115191191453"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "5910192514367126290"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "7707933050310664901"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "2101973227835674421"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9765431571681062460"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "8906304965158091741"
+      },
+      {
+        "file": ".husky/commit-msg",
+        "hash": "2432500089501872249"
+      },
+      {
+        "file": ".yarn/releases/yarn-4.2.2.cjs",
+        "hash": "13505783443694816522"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9547670701713696046"
+      },
+      {
+        "file": "images/用户配置.png",
+        "hash": "10037337446153044778"
+      }
+    ],
+    "projectFileMap": {
+      "@tsalg/leetcode": [
+        {
+          "file": "packages/leetcode/README.md",
+          "hash": "3391612086624878884"
+        },
+        {
+          "file": "packages/leetcode/package.json",
+          "hash": "15945953756514846582"
+        },
+        {
+          "file": "packages/leetcode/src/array/[189]轮转数组/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/array/[189]轮转数组/index.ts",
+          "hash": "5280861657647165878"
+        },
+        {
+          "file": "packages/leetcode/src/array/[221]最大正方形/README.md",
+          "hash": "5068291576459208677"
+        },
+        {
+          "file": "packages/leetcode/src/array/[221]最大正方形/index.ts",
+          "hash": "332800499797096178"
+        },
+        {
+          "file": "packages/leetcode/src/array/[289]生命游戏/README.md",
+          "hash": "5487674325660499698"
+        },
+        {
+          "file": "packages/leetcode/src/array/[289]生命游戏/index.ts",
+          "hash": "15420563318330922835"
+        },
+        {
+          "file": "packages/leetcode/src/array/[31]下一个排列/README.md",
+          "hash": "16834943433632008449"
+        },
+        {
+          "file": "packages/leetcode/src/array/[31]下一个排列/index.ts",
+          "hash": "2582497067491597100"
+        },
+        {
+          "file": "packages/leetcode/src/array/[48]旋转图像/README.md",
+          "hash": "1352377881807577526"
+        },
+        {
+          "file": "packages/leetcode/src/array/[48]旋转图像/index.ts",
+          "hash": "13980090243188391618"
+        },
+        {
+          "file": "packages/leetcode/src/array/[54]螺旋矩阵/README.md",
+          "hash": "7708268999905667013"
+        },
+        {
+          "file": "packages/leetcode/src/array/[54]螺旋矩阵/index.ts",
+          "hash": "7231017246885157755"
+        },
+        {
+          "file": "packages/leetcode/src/array/[73]矩阵置零/README.md",
+          "hash": "12040666650505203795"
+        },
+        {
+          "file": "packages/leetcode/src/array/[73]矩阵置零/index.ts",
+          "hash": "1805303017231004153"
+        },
+        {
+          "file": "packages/leetcode/src/array/[912]排序数组/README.md",
+          "hash": "5757984106767493944"
+        },
+        {
+          "file": "packages/leetcode/src/array/[912]排序数组/index.ts",
+          "hash": "6633791863215586388"
+        },
+        {
+          "file": "packages/leetcode/src/array/index.ts",
+          "hash": "14660943952213584826"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/README.md",
+          "hash": "8958892265594312959"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[131]分割回文串/README.md",
+          "hash": "44131474044021104"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[131]分割回文串/index.ts",
+          "hash": "10012487230135871903"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[17]电话号码的字母组合/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[17]电话号码的字母组合/index.ts",
+          "hash": "12823006330103038606"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[39]组合总和/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[39]组合总和/index.ts",
+          "hash": "14358078999753249295"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[40]组合总和II/README.md",
+          "hash": "13206270394055661516"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[40]组合总和II/index.ts",
+          "hash": "2759415511968569212"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[46]全排列/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[46]全排列/index.ts",
+          "hash": "3598787538980427791"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[47]全排列II/README.md",
+          "hash": "2829851179353082259"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[47]全排列II/index.ts",
+          "hash": "11397339396464922217"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[494]目标和/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[494]目标和/index.ts",
+          "hash": "13005161216917000952"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[77]组合/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[77]组合/index.ts",
+          "hash": "6451199391460707205"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[78]子集/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[78]子集/index.ts",
+          "hash": "14712615424413598689"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[79]单词搜索/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[79]单词搜索/index.ts",
+          "hash": "9836960092487511981"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[90]子集II/README.md",
+          "hash": "8986609251918524349"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[90]子集II/index.ts",
+          "hash": "15898749693087834269"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[93]复原Ip地址/README.md",
+          "hash": "8646123293117434459"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/[93]复原Ip地址/index.ts",
+          "hash": "11757027752967718700"
+        },
+        {
+          "file": "packages/leetcode/src/backtracking/index.ts",
+          "hash": "12796630084449617444"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[162]寻找峰值/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[162]寻找峰值/index.ts",
+          "hash": "5991420610941015904"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[240]搜索二维矩阵II/README.md",
+          "hash": "12637489832443220886"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[240]搜索二维矩阵II/index.ts",
+          "hash": "14188687893311290820"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[33]搜索旋转排序数组/README.md",
+          "hash": "11580339328702757682"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[33]搜索旋转排序数组/index.ts",
+          "hash": "12647769250422025206"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[34]在排序数组中查找元素的第一个和最后一个位置/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[34]在排序数组中查找元素的第一个和最后一个位置/index.ts",
+          "hash": "12203767801350795008"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[69]X的平方根/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[69]X的平方根/index.ts",
+          "hash": "5691516514034368730"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[704]二分查找/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/[704]二分查找/index.ts",
+          "hash": "14560706190107099477"
+        },
+        {
+          "file": "packages/leetcode/src/binary-search/index.ts",
+          "hash": "13431057005806883766"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/README.md",
+          "hash": "17424374061645547698"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/[190]颠倒二进制位/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/[190]颠倒二进制位/index.ts",
+          "hash": "5370944465048947370"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/[260]只出现一次的数字III/README.md",
+          "hash": "12508604533832373217"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/[260]只出现一次的数字III/index.ts",
+          "hash": "15913213375559115440"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/[29]两数相除/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/[29]两数相除/index.ts",
+          "hash": "13943736704190100094"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/[371]两整数之和/README.md",
+          "hash": "16919334015218589047"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/[371]两整数之和/index.ts",
+          "hash": "15011601082548581354"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/index.ts",
+          "hash": "14940655156175426690"
+        },
+        {
+          "file": "packages/leetcode/src/bit-manipulation/异或运算.png",
+          "hash": "12206577839061842942"
+        },
+        {
+          "file": "packages/leetcode/src/design/[146]LRU缓存/README.md",
+          "hash": "17758786273434723952"
+        },
+        {
+          "file": "packages/leetcode/src/design/[146]LRU缓存/index.ts",
+          "hash": "14512597622715589473"
+        },
+        {
+          "file": "packages/leetcode/src/design/[173]二叉搜索树迭代器/README.md",
+          "hash": "16951117521266625690"
+        },
+        {
+          "file": "packages/leetcode/src/design/[173]二叉搜索树迭代器/index.ts",
+          "hash": "17991715909969012649"
+        },
+        {
+          "file": "packages/leetcode/src/design/[208]实现Trie前缀树/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/design/[208]实现Trie前缀树/index.ts",
+          "hash": "1335525317376428132"
+        },
+        {
+          "file": "packages/leetcode/src/design/[211]添加与搜索单词数据结构设计/README.md",
+          "hash": "1852948705026503277"
+        },
+        {
+          "file": "packages/leetcode/src/design/[211]添加与搜索单词数据结构设计/index.ts",
+          "hash": "14033039967643083016"
+        },
+        {
+          "file": "packages/leetcode/src/design/[297]二叉树的序列化与反序列化/README.md",
+          "hash": "4150560072682434646"
+        },
+        {
+          "file": "packages/leetcode/src/design/[297]二叉树的序列化与反序列化/index.ts",
+          "hash": "10399959665507959760"
+        },
+        {
+          "file": "packages/leetcode/src/design/[341]扁平化嵌套列表迭代器/README.md",
+          "hash": "15198065853196071060"
+        },
+        {
+          "file": "packages/leetcode/src/design/[341]扁平化嵌套列表迭代器/index.ts",
+          "hash": "1290902826423897825"
+        },
+        {
+          "file": "packages/leetcode/src/design/[380]O1时间插入、删除和获取随机元素/README.md",
+          "hash": "3873728723648086299"
+        },
+        {
+          "file": "packages/leetcode/src/design/[380]O1时间插入、删除和获取随机元素/index.ts",
+          "hash": "7911957855168102910"
+        },
+        {
+          "file": "packages/leetcode/src/design/[384]打乱数组/README.md",
+          "hash": "1501330118905036639"
+        },
+        {
+          "file": "packages/leetcode/src/design/[384]打乱数组/index.ts",
+          "hash": "610101404380064794"
+        },
+        {
+          "file": "packages/leetcode/src/design/[622]设计循环队列/README.md",
+          "hash": "1248553961843976182"
+        },
+        {
+          "file": "packages/leetcode/src/design/[622]设计循环队列/index.ts",
+          "hash": "2993283680456534358"
+        },
+        {
+          "file": "packages/leetcode/src/design/[703]数据流中的第K大元素/README.md",
+          "hash": "8462858895667790954"
+        },
+        {
+          "file": "packages/leetcode/src/design/[703]数据流中的第K大元素/index.ts",
+          "hash": "14324138426261122100"
+        },
+        {
+          "file": "packages/leetcode/src/design/[707]设计链表/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/design/[707]设计链表/index.ts",
+          "hash": "13386372321020647458"
+        },
+        {
+          "file": "packages/leetcode/src/design/index.ts",
+          "hash": "5295759179681266725"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[1143]最长公共子序列/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[1143]最长公共子序列/index.ts",
+          "hash": "7333512800203437191"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[118]杨辉三角/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[118]杨辉三角/index.ts",
+          "hash": "12055889252578143188"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[121]买卖股票的最佳时机/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[121]买卖股票的最佳时机/index.ts",
+          "hash": "2182131027514005000"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[122]买卖股票的最佳时机II/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[122]买卖股票的最佳时机II/index.ts",
+          "hash": "1570378833431961962"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[139]单词拆分/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[139]单词拆分/index.ts",
+          "hash": "5278308137831327389"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[300]最长递增子序列/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[300]最长递增子序列/index.ts",
+          "hash": "13720959285014302066"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[322]零钱兑换/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[322]零钱兑换/index.ts",
+          "hash": "5854451979342343879"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[338]比特位计数/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[338]比特位计数/index.ts",
+          "hash": "13061371443599081938"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[416]分割等和子集/README.md",
+          "hash": "6786289592545232280"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[416]分割等和子集/index.ts",
+          "hash": "16423670888808510740"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[53]最大子数组和/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[53]最大子数组和/index.ts",
+          "hash": "200520589212653219"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[55]跳跃游戏/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[55]跳跃游戏/index.ts",
+          "hash": "12981291363070685451"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[5]最长回文子串/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[5]最长回文子串/index.ts",
+          "hash": "271838272926713536"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[62]不同路径/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[62]不同路径/index.ts",
+          "hash": "3959126812457567637"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[63]不同路径Ii/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[63]不同路径Ii/index.ts",
+          "hash": "9228842994236442274"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[647]回文子串/README.md",
+          "hash": "11061230671631713896"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[647]回文子串/index.ts",
+          "hash": "13271567273510655799"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[64]最小路径和/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[64]最小路径和/index.ts",
+          "hash": "12294474490352062161"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[674]最长连续递增序列/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[674]最长连续递增序列/index.ts",
+          "hash": "2413499405401168626"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[70]爬楼梯/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[70]爬楼梯/index.ts",
+          "hash": "9622393961004598223"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[91]解码方法/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[91]解码方法/index.ts",
+          "hash": "13843252562349422079"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[96]不同的二叉搜索树/README.md",
+          "hash": "11760467965538242537"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/[96]不同的二叉搜索树/index.ts",
+          "hash": "5205639681198342257"
+        },
+        {
+          "file": "packages/leetcode/src/dynamic-programming/index.ts",
+          "hash": "1433815299714125875"
+        },
+        {
+          "file": "packages/leetcode/src/graph/[207]课程表/README.md",
+          "hash": "10441495032147579611"
+        },
+        {
+          "file": "packages/leetcode/src/graph/[207]课程表/index.ts",
+          "hash": "439007550289676168"
+        },
+        {
+          "file": "packages/leetcode/src/graph/[210]课程表II/README.md",
+          "hash": "14394501671279856693"
+        },
+        {
+          "file": "packages/leetcode/src/graph/[210]课程表II/index.ts",
+          "hash": "9852444888586220062"
+        },
+        {
+          "file": "packages/leetcode/src/graph/[695]岛屿的最大面积/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/graph/[695]岛屿的最大面积/index.ts",
+          "hash": "12489391313773316199"
+        },
+        {
+          "file": "packages/leetcode/src/graph/index.ts",
+          "hash": "9837742887831468201"
+        },
+        {
+          "file": "packages/leetcode/src/greedy/[252]会议室/README.md",
+          "hash": "6852968336590147789"
+        },
+        {
+          "file": "packages/leetcode/src/greedy/[252]会议室/index.ts",
+          "hash": "4434020497003073428"
+        },
+        {
+          "file": "packages/leetcode/src/greedy/index.ts",
+          "hash": "14150012781574903330"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[13]罗马数字转整数/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[13]罗马数字转整数/index.ts",
+          "hash": "7641815314709834829"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[202]快乐数/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[202]快乐数/index.ts",
+          "hash": "1918202702419096394"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[242]有效的字母异位词/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[242]有效的字母异位词/index.ts",
+          "hash": "12818114959645781452"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[268]丢失的数字/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[268]丢失的数字/index.ts",
+          "hash": "14122391908717563380"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[347]前K个高频元素/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[347]前K个高频元素/index.ts",
+          "hash": "14724641236351880331"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[349]两个数组的交集/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[349]两个数组的交集/index.ts",
+          "hash": "6092890083614344017"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[36]有效的数独/README.md",
+          "hash": "15893840542070948745"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[36]有效的数独/index.ts",
+          "hash": "11212581727967593392"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[387]字符串中的第一个唯一字符/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[387]字符串中的第一个唯一字符/index.ts",
+          "hash": "15902122215944632032"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[3]无重复字符的最长子串/README.md",
+          "hash": "5356886987670524674"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[3]无重复字符的最长子串/index.ts",
+          "hash": "1659273390546527269"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[454]四数相加II/README.md",
+          "hash": "8409101301045947006"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[454]四数相加II/index.ts",
+          "hash": "14664850646691014719"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[49]字母异位词分组/README.md",
+          "hash": "2915854654179555405"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[49]字母异位词分组/index.ts",
+          "hash": "4739224320476117059"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[804]唯一摩尔斯密码词/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/[804]唯一摩尔斯密码词/index.ts",
+          "hash": "14108217650012161155"
+        },
+        {
+          "file": "packages/leetcode/src/hash-table/index.ts",
+          "hash": "408963843907392074"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[215]数组中的第k个最大元素/README.md",
+          "hash": "5487344270339991634"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[215]数组中的第k个最大元素/index.ts",
+          "hash": "6723745092816739212"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[23]合并k个升序链表/README.md",
+          "hash": "2519097358549734347"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[23]合并k个升序链表/index.ts",
+          "hash": "5629512631670977180"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[347]前K个高频元素/README.md",
+          "hash": "1752420481387029145"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[347]前K个高频元素/index.ts",
+          "hash": "14188408911869227147"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[378]有序矩阵中第K小的元素/README.md",
+          "hash": "15981400693403033610"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[378]有序矩阵中第K小的元素/index.ts",
+          "hash": "9709455836952960560"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[912]排序数组/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/heap/[912]排序数组/index.ts",
+          "hash": "17187634142628715390"
+        },
+        {
+          "file": "packages/leetcode/src/heap/index.ts",
+          "hash": "574513595455275019"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[138]复制带随机指针的链表/README.md",
+          "hash": "16317321233985095552"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[138]复制带随机指针的链表/index.ts",
+          "hash": "12977481239795600840"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[141]环形链表/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[141]环形链表/index.ts",
+          "hash": "9156069853236522576"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[142]环形链表II/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[142]环形链表II/index.ts",
+          "hash": "2395291371345232017"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[143]重排链表/README.md",
+          "hash": "1566955172816931919"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[143]重排链表/index.ts",
+          "hash": "15129998707503075847"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[148]排序链表/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[148]排序链表/index.ts",
+          "hash": "3044852269850094875"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[206]反转链表/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[206]反转链表/index.ts",
+          "hash": "7677423235982251787"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[21]合并两个有序链表/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[21]合并两个有序链表/index.ts",
+          "hash": "16208765190204055380"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[237]删除链表中的节点/README.md",
+          "hash": "5234299613487342018"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[237]删除链表中的节点/index.ts",
+          "hash": "8965234849660961623"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[24]两两交换链表中的节点/README.md",
+          "hash": "12582433637658006073"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[24]两两交换链表中的节点/index.ts",
+          "hash": "844140574114509273"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[25]K个一组翻转链表/README.md",
+          "hash": "10704648692291486696"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[25]K个一组翻转链表/index.ts",
+          "hash": "15714178142432455722"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[328]奇偶链表/README.md",
+          "hash": "12061151656312639628"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[328]奇偶链表/index.ts",
+          "hash": "4945710352478100513"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[61]旋转链表/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[61]旋转链表/index.ts",
+          "hash": "15697047185743113478"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[82]删除排序链表中的重复元素II/README.md",
+          "hash": "11352509361495581788"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[82]删除排序链表中的重复元素II/index.ts",
+          "hash": "6515731466673507332"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[83]删除排序链表中的重复元素/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[83]删除排序链表中的重复元素/index.ts",
+          "hash": "14431863539130024849"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[86]分隔链表/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[86]分隔链表/index.ts",
+          "hash": "8045882927066955249"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[876]链表的中间结点/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[876]链表的中间结点/index.ts",
+          "hash": "6886682495141495888"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[92]反转链表II/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/[92]反转链表II/index.ts",
+          "hash": "13740633847082883974"
+        },
+        {
+          "file": "packages/leetcode/src/linked-list/index.ts",
+          "hash": "15176112088954787376"
+        },
+        {
+          "file": "packages/leetcode/src/math/[172]阶乘后的零/README.md",
+          "hash": "18088594526767540530"
+        },
+        {
+          "file": "packages/leetcode/src/math/[172]阶乘后的零/index.ts",
+          "hash": "4817141605047477478"
+        },
+        {
+          "file": "packages/leetcode/src/math/[326]3的幂/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/math/[326]3的幂/index.ts",
+          "hash": "7064296694574199662"
+        },
+        {
+          "file": "packages/leetcode/src/math/[412]FizzBuzz/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/math/[412]FizzBuzz/index.ts",
+          "hash": "1578457043016488471"
+        },
+        {
+          "file": "packages/leetcode/src/math/[50]Pow(x,n)/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/math/[50]Pow(x,n)/index.ts",
+          "hash": "176698542334925496"
+        },
+        {
+          "file": "packages/leetcode/src/math/index.ts",
+          "hash": "17255703664787354221"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/README.md",
+          "hash": "17272744459594994369"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[1480]一维数组的动态和/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[1480]一维数组的动态和/index.ts",
+          "hash": "6715133942195643550"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[1588]所有奇数长度子数组的和/README.md",
+          "hash": "9022479087514185286"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[1588]所有奇数长度子数组的和/index.ts",
+          "hash": "1871016776770176479"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[303]区域和检索数组不可变/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[303]区域和检索数组不可变/index.ts",
+          "hash": "16725544232863900014"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[304]二维区域和检索矩阵不可变/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[304]二维区域和检索矩阵不可变/index.ts",
+          "hash": "16057360344555884451"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[304]二维区域和检索矩阵不可变/matrix-prefix-sum.drawio",
+          "hash": "5122615408118501308"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[560]和为K的子数组/README.md",
+          "hash": "514365597547974160"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/[560]和为K的子数组/index.ts",
+          "hash": "2711952241850656322"
+        },
+        {
+          "file": "packages/leetcode/src/prefix-sum/index.ts",
+          "hash": "3288989208552968880"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[209]长度最小的子数组/README.md",
+          "hash": "14729906126084998618"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[209]长度最小的子数组/index.ts",
+          "hash": "7466584855339320766"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[239]滑动窗口最大值/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[239]滑动窗口最大值/index.ts",
+          "hash": "12612420124555611655"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[3]无重复字符的最长子串/README.md",
+          "hash": "9226041850672570089"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[3]无重复字符的最长子串/index.ts",
+          "hash": "11850044608185549951"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[438]找到字符串中所有字母异位词/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[438]找到字符串中所有字母异位词/index.ts",
+          "hash": "4073603852448173929"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[76]最小覆盖子串/README.md",
+          "hash": "17209794789684883223"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/[76]最小覆盖子串/index.ts",
+          "hash": "38564696984090415"
+        },
+        {
+          "file": "packages/leetcode/src/sliding-window/index.ts",
+          "hash": "16574085528820839556"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[150]逆波兰表达式求值/README.md",
+          "hash": "1366263816346411642"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[150]逆波兰表达式求值/index.ts",
+          "hash": "16972615785553578647"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[20]有效的括号/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[20]有效的括号/index.ts",
+          "hash": "14356337193335845724"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[227]基本计算器II/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[227]基本计算器II/index.ts",
+          "hash": "13109727577787486976"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[234]回文链表/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[234]回文链表/index.ts",
+          "hash": "6083134220101064026"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[394]字符串解码/README.md",
+          "hash": "9480409097779492876"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[394]字符串解码/index.ts",
+          "hash": "16483380676974267625"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[581]最短无序连续子数组/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[581]最短无序连续子数组/index.ts",
+          "hash": "17841596523242849295"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[739]每日温度/README.md",
+          "hash": "10786157593790304259"
+        },
+        {
+          "file": "packages/leetcode/src/stack/[739]每日温度/index.ts",
+          "hash": "17015849758963729749"
+        },
+        {
+          "file": "packages/leetcode/src/stack/index.ts",
+          "hash": "4879657923821642524"
+        },
+        {
+          "file": "packages/leetcode/src/string/[14]最长公共前缀/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/string/[14]最长公共前缀/index.ts",
+          "hash": "7871935067384541884"
+        },
+        {
+          "file": "packages/leetcode/src/string/[151]反转字符串中的单词/README.md",
+          "hash": "2437138788674534626"
+        },
+        {
+          "file": "packages/leetcode/src/string/[151]反转字符串中的单词/index.ts",
+          "hash": "8527713001397922571"
+        },
+        {
+          "file": "packages/leetcode/src/string/[171]Excel表列序号/README.md",
+          "hash": "4085660534464066015"
+        },
+        {
+          "file": "packages/leetcode/src/string/[171]Excel表列序号/index.ts",
+          "hash": "7244843284532273896"
+        },
+        {
+          "file": "packages/leetcode/src/string/[179]最大数/README.md",
+          "hash": "10777984714446466874"
+        },
+        {
+          "file": "packages/leetcode/src/string/[179]最大数/index.ts",
+          "hash": "6587395953654156718"
+        },
+        {
+          "file": "packages/leetcode/src/string/[191]位1的个数/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/string/[191]位1的个数/index.ts",
+          "hash": "14154034921821929038"
+        },
+        {
+          "file": "packages/leetcode/src/string/[38]外观数列/README.md",
+          "hash": "17717942643138873713"
+        },
+        {
+          "file": "packages/leetcode/src/string/[38]外观数列/index.ts",
+          "hash": "9390348095914007612"
+        },
+        {
+          "file": "packages/leetcode/src/string/[8]字符串转换整数Atoi/README.md",
+          "hash": "1527824142871947186"
+        },
+        {
+          "file": "packages/leetcode/src/string/[8]字符串转换整数Atoi/index.ts",
+          "hash": "5447047472630234439"
+        },
+        {
+          "file": "packages/leetcode/src/string/index.ts",
+          "hash": "13840963338768868510"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[100]相同的树/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[100]相同的树/index.ts",
+          "hash": "11627067230142025409"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[101]对称二叉树/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[101]对称二叉树/index.ts",
+          "hash": "6808614630307067171"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[103]二叉树的锯齿形层序遍历/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[103]二叉树的锯齿形层序遍历/index.ts",
+          "hash": "2761639439366289359"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[105]从前序与中序遍历序列构造二叉树/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[105]从前序与中序遍历序列构造二叉树/index.ts",
+          "hash": "7089650672722324434"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[108]将有序数组转换为二叉搜索树/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[108]将有序数组转换为二叉搜索树/index.ts",
+          "hash": "12905988454065097818"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[110]平衡二叉树/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[110]平衡二叉树/index.ts",
+          "hash": "3885274408704766814"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[112]路径总和/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[112]路径总和/index.ts",
+          "hash": "18372808120981582054"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[114]二叉树展开为链表/README.md",
+          "hash": "714677728397600531"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[114]二叉树展开为链表/index.ts",
+          "hash": "11890788746687939776"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[129]求根节点到叶节点数字之和/README.md",
+          "hash": "10432392855448335737"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[129]求根节点到叶节点数字之和/index.ts",
+          "hash": "4474817650620543023"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[144]二叉树的前序遍历/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[144]二叉树的前序遍历/index.ts",
+          "hash": "12203514622992235826"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[145]二叉树的后序遍历/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[145]二叉树的后序遍历/index.ts",
+          "hash": "6007913878655625256"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[199]二叉树的右视图/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[199]二叉树的右视图/index.ts",
+          "hash": "13885471168372401353"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[222]完全二叉树的节点个数/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[222]完全二叉树的节点个数/index.ts",
+          "hash": "8651984158425735428"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[226]翻转二叉树/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[226]翻转二叉树/index.ts",
+          "hash": "8972586796449290635"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[230]二叉搜索树中第k小的元素/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[230]二叉搜索树中第k小的元素/index.ts",
+          "hash": "90205029916298601"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[429]N叉树的层序遍历/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[429]N叉树的层序遍历/index.ts",
+          "hash": "12308492405352303450"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[437]路径总和III/README.md",
+          "hash": "10550406705094896393"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[437]路径总和III/index.ts",
+          "hash": "16897103729943556640"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[543]二叉树的直径/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[543]二叉树的直径/index.ts",
+          "hash": "12247906598615978776"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[662]二叉树最大宽度/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[662]二叉树最大宽度/index.ts",
+          "hash": "2813558903280092490"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[94]二叉树的中序遍历/README.md",
+          "hash": "4942193002305885938"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[94]二叉树的中序遍历/index.ts",
+          "hash": "5483738607617150352"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[98]验证二叉搜索树/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/tree/[98]验证二叉搜索树/index.ts",
+          "hash": "2375870175021143775"
+        },
+        {
+          "file": "packages/leetcode/src/tree/index.ts",
+          "hash": "14870234567650305059"
+        },
+        {
+          "file": "packages/leetcode/src/tree/models/Node.ts",
+          "hash": "16281342787859978755"
+        },
+        {
+          "file": "packages/leetcode/src/tree/models/TreeNode.ts",
+          "hash": "3385463803329358665"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/README.md",
+          "hash": "15835303284712076131"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[15]三数之和/README.md",
+          "hash": "18072860532227743707"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[15]三数之和/index.ts",
+          "hash": "9782655582282844695"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[165]比较版本号/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[165]比较版本号/index.ts",
+          "hash": "13630203515980314589"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[16]最接近的三数之和/README.md",
+          "hash": "17086749969607573410"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[16]最接近的三数之和/index.ts",
+          "hash": "5963056621789469852"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[18]四数之和/README.md",
+          "hash": "6679547670428087728"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[18]四数之和/index.ts",
+          "hash": "13778492256041829486"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[1]两数之和/README.md",
+          "hash": "16451752501432821045"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[1]两数之和/index.ts",
+          "hash": "6418858741480082711"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[287]寻找重复数/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[287]寻找重复数/index.ts",
+          "hash": "9416897566047344394"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[415]字符串相加/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[415]字符串相加/index.ts",
+          "hash": "1713889552064306752"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[643]子数组最大平均数I/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[643]子数组最大平均数I/index.ts",
+          "hash": "14509304635431585346"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[75]颜色分类/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[75]颜色分类/index.ts",
+          "hash": "9897649038414595712"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[88]合并两个有序数组/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/[88]合并两个有序数组/index.ts",
+          "hash": "2699035879456530141"
+        },
+        {
+          "file": "packages/leetcode/src/two-pointer/index.ts",
+          "hash": "2440234665081861522"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/[128]最长连续序列/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/[128]最长连续序列/index.ts",
+          "hash": "10769318239404475715"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/[130]被围绕的区域/README.md",
+          "hash": "8862336392287052702"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/[130]被围绕的区域/index.ts",
+          "hash": "11950195765173683295"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/[200]岛屿数量/README.md",
+          "hash": "3044310128420042553"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/[200]岛屿数量/index.ts",
+          "hash": "16620888082663347227"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/[547]省份数量/README.md",
+          "hash": "16234536765084304919"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/[547]省份数量/index.ts",
+          "hash": "17027055724049837861"
+        },
+        {
+          "file": "packages/leetcode/src/union-find/index.ts",
+          "hash": "10609311298412115477"
+        },
+        {
+          "file": "packages/leetcode/tsconfig.json",
+          "hash": "79092416986968703"
+        }
+      ],
+      "@tsalg/algorithms": [
+        {
+          "file": "packages/algorithms/README.md",
+          "hash": "4221063807653550854"
+        },
+        {
+          "file": "packages/algorithms/package.json",
+          "hash": "1060824502812188000",
+          "deps": [
+            "@tsalg/data-structures"
+          ]
+        },
+        {
+          "file": "packages/algorithms/src/graph/README.md",
+          "hash": "16601550053613224717"
+        },
+        {
+          "file": "packages/algorithms/src/graph/impl/breadthFirstSearch.ts",
+          "hash": "1168571581264853518"
+        },
+        {
+          "file": "packages/algorithms/src/graph/impl/depthFirstSearch.ts",
+          "hash": "10333988805038662356"
+        },
+        {
+          "file": "packages/algorithms/src/graph/impl/index.ts",
+          "hash": "7430808197509780116"
+        },
+        {
+          "file": "packages/algorithms/src/graph/impl/topologicalSort.ts",
+          "hash": "10433115313696610638"
+        },
+        {
+          "file": "packages/algorithms/src/search/README.md",
+          "hash": "16983103127150101041"
+        },
+        {
+          "file": "packages/algorithms/src/search/impl/binarySerach.ts",
+          "hash": "2259486593823690148"
+        },
+        {
+          "file": "packages/algorithms/src/search/impl/index.ts",
+          "hash": "9642503916204516146"
+        },
+        {
+          "file": "packages/algorithms/src/search/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/algorithms/src/sorts/README.md",
+          "hash": "4374465200643377753"
+        },
+        {
+          "file": "packages/algorithms/src/sorts/impl/index.ts",
+          "hash": "14394131683099250808"
+        },
+        {
+          "file": "packages/algorithms/src/sorts/impl/insertSort.ts",
+          "hash": "8388328656239011343"
+        },
+        {
+          "file": "packages/algorithms/src/sorts/impl/mergeSort.ts",
+          "hash": "6001972971742045616"
+        },
+        {
+          "file": "packages/algorithms/src/sorts/impl/quickSort.ts",
+          "hash": "2496252979535404814"
+        },
+        {
+          "file": "packages/algorithms/src/sorts/impl/selectionSort.ts",
+          "hash": "6864772535732838771"
+        },
+        {
+          "file": "packages/algorithms/src/sorts/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/algorithms/src/string/README.md",
+          "hash": "5152248375487752766"
+        },
+        {
+          "file": "packages/algorithms/src/string/impl/index.ts",
+          "hash": "12205119729012217149"
+        },
+        {
+          "file": "packages/algorithms/src/string/impl/manacher.ts",
+          "hash": "1202641304368531070"
+        },
+        {
+          "file": "packages/algorithms/src/string/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/algorithms/tsconfig.json",
+          "hash": "79092416986968703"
+        }
+      ],
+      "@tsalg/shared": [
+        {
+          "file": "packages/shared/README.md",
+          "hash": "787680824888305016"
+        },
+        {
+          "file": "packages/shared/package.json",
+          "hash": "1130560966350145988"
+        },
+        {
+          "file": "packages/shared/src/arrayValidator.ts",
+          "hash": "5604777613391369061"
+        },
+        {
+          "file": "packages/shared/src/comparator.ts",
+          "hash": "12426422803866183292"
+        },
+        {
+          "file": "packages/shared/src/index.ts",
+          "hash": "14204083295404719796"
+        },
+        {
+          "file": "packages/shared/src/type.ts",
+          "hash": "16029838308485691663"
+        },
+        {
+          "file": "packages/shared/src/util.ts",
+          "hash": "3575642547308805019"
+        },
+        {
+          "file": "packages/shared/tsconfig.json",
+          "hash": "79092416986968703"
+        }
+      ],
+      "@tsalg/data-structures": [
+        {
+          "file": "packages/data-structures/README.md",
+          "hash": "3842820418661875229"
+        },
+        {
+          "file": "packages/data-structures/package.json",
+          "hash": "9262399075455947817"
+        },
+        {
+          "file": "packages/data-structures/src/binary-search-tree/README.md",
+          "hash": "8539581167640126096"
+        },
+        {
+          "file": "packages/data-structures/src/binary-search-tree/impl/BinarySearchTree.ts",
+          "hash": "1058847543853370559"
+        },
+        {
+          "file": "packages/data-structures/src/binary-search-tree/impl/TreeNode.ts",
+          "hash": "7593620834752504425"
+        },
+        {
+          "file": "packages/data-structures/src/binary-search-tree/impl/index.ts",
+          "hash": "18156665628064660071"
+        },
+        {
+          "file": "packages/data-structures/src/binary-search-tree/impl/type.ts",
+          "hash": "9882900420639591809"
+        },
+        {
+          "file": "packages/data-structures/src/binary-search-tree/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/graph/README.md",
+          "hash": "5365237740276553916"
+        },
+        {
+          "file": "packages/data-structures/src/graph/impl/Graph.ts",
+          "hash": "10948651458594902631"
+        },
+        {
+          "file": "packages/data-structures/src/graph/impl/MatrixGraph.ts",
+          "hash": "13611246843361129462"
+        },
+        {
+          "file": "packages/data-structures/src/graph/impl/index.ts",
+          "hash": "16962892432681245391"
+        },
+        {
+          "file": "packages/data-structures/src/graph/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/heap/README.md",
+          "hash": "7836614253433216844"
+        },
+        {
+          "file": "packages/data-structures/src/heap/impl/MaxHeap.ts",
+          "hash": "10886857326838474430"
+        },
+        {
+          "file": "packages/data-structures/src/heap/impl/index.ts",
+          "hash": "1153268497229984645"
+        },
+        {
+          "file": "packages/data-structures/src/heap/impl/type.ts",
+          "hash": "5840257549480309830"
+        },
+        {
+          "file": "packages/data-structures/src/heap/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/linked-list/README.md",
+          "hash": "1323756196129978311"
+        },
+        {
+          "file": "packages/data-structures/src/linked-list/impl/LinkedList-impl2.ts",
+          "hash": "9701656524892302818"
+        },
+        {
+          "file": "packages/data-structures/src/linked-list/impl/LinkedList.ts",
+          "hash": "9003830753600312750"
+        },
+        {
+          "file": "packages/data-structures/src/linked-list/impl/LinkedListNode.ts",
+          "hash": "2518816893883801854"
+        },
+        {
+          "file": "packages/data-structures/src/linked-list/impl/index.ts",
+          "hash": "2993556341751212522"
+        },
+        {
+          "file": "packages/data-structures/src/linked-list/impl/type.ts",
+          "hash": "15529641259550743924"
+        },
+        {
+          "file": "packages/data-structures/src/linked-list/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/map/README.md",
+          "hash": "366699632241684383"
+        },
+        {
+          "file": "packages/data-structures/src/map/impl/BinarySearchTreeMap.ts",
+          "hash": "13423267272836764274"
+        },
+        {
+          "file": "packages/data-structures/src/map/impl/LinkedListMap.ts",
+          "hash": "18189026063788366561"
+        },
+        {
+          "file": "packages/data-structures/src/map/impl/index.ts",
+          "hash": "12326998508583092341"
+        },
+        {
+          "file": "packages/data-structures/src/map/impl/type.ts",
+          "hash": "1872671317723170918"
+        },
+        {
+          "file": "packages/data-structures/src/map/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/priority-queue/README.md",
+          "hash": "9564141736511658258"
+        },
+        {
+          "file": "packages/data-structures/src/priority-queue/impl/PriorityQueue.ts",
+          "hash": "10957679243814937205"
+        },
+        {
+          "file": "packages/data-structures/src/priority-queue/impl/index.ts",
+          "hash": "4530672827507757625"
+        },
+        {
+          "file": "packages/data-structures/src/priority-queue/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/queue/README.md",
+          "hash": "11698149261252376636"
+        },
+        {
+          "file": "packages/data-structures/src/queue/impl/ArrayQueue.ts",
+          "hash": "14572768919059117421"
+        },
+        {
+          "file": "packages/data-structures/src/queue/impl/LinkedListQueue.ts",
+          "hash": "8464982415443781813"
+        },
+        {
+          "file": "packages/data-structures/src/queue/impl/LoopQueue.ts",
+          "hash": "1684199972934503089"
+        },
+        {
+          "file": "packages/data-structures/src/queue/impl/PriorityQueue.ts",
+          "hash": "9810928915337359495"
+        },
+        {
+          "file": "packages/data-structures/src/queue/impl/index.ts",
+          "hash": "13277806524168761707"
+        },
+        {
+          "file": "packages/data-structures/src/queue/impl/type.ts",
+          "hash": "6947944096169897730"
+        },
+        {
+          "file": "packages/data-structures/src/queue/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/segment-tree/README.md",
+          "hash": "7726928585326513374"
+        },
+        {
+          "file": "packages/data-structures/src/segment-tree/impl/SegmentTree.ts",
+          "hash": "16047406010208423880"
+        },
+        {
+          "file": "packages/data-structures/src/segment-tree/impl/index.ts",
+          "hash": "2836555256396253312"
+        },
+        {
+          "file": "packages/data-structures/src/segment-tree/impl/type.ts",
+          "hash": "17753513372804405148"
+        },
+        {
+          "file": "packages/data-structures/src/segment-tree/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/set/README.md",
+          "hash": "1252259883470336893"
+        },
+        {
+          "file": "packages/data-structures/src/set/impl/BinarySearchTreeSet.ts",
+          "hash": "8413773249360445485"
+        },
+        {
+          "file": "packages/data-structures/src/set/impl/LinkedListSet.ts",
+          "hash": "10191094539127212346"
+        },
+        {
+          "file": "packages/data-structures/src/set/impl/index.ts",
+          "hash": "2398564100783865976"
+        },
+        {
+          "file": "packages/data-structures/src/set/impl/type.ts",
+          "hash": "2335499398363400002"
+        },
+        {
+          "file": "packages/data-structures/src/set/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/sliding-window/README.md",
+          "hash": "13399948588785439572"
+        },
+        {
+          "file": "packages/data-structures/src/sliding-window/impl/SlidingWindow.ts",
+          "hash": "10215863763990813252"
+        },
+        {
+          "file": "packages/data-structures/src/sliding-window/impl/index.ts",
+          "hash": "16708090997158346502"
+        },
+        {
+          "file": "packages/data-structures/src/sliding-window/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/stack/README.md",
+          "hash": "112225836803485573"
+        },
+        {
+          "file": "packages/data-structures/src/stack/impl/ArrayStack.ts",
+          "hash": "6144324262925971434"
+        },
+        {
+          "file": "packages/data-structures/src/stack/impl/LinkedListStack.ts",
+          "hash": "6268124931208164582"
+        },
+        {
+          "file": "packages/data-structures/src/stack/impl/index.ts",
+          "hash": "12601592187686364638"
+        },
+        {
+          "file": "packages/data-structures/src/stack/impl/type.ts",
+          "hash": "9243592666987987280"
+        },
+        {
+          "file": "packages/data-structures/src/stack/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/trie/README.md",
+          "hash": "9382126764918475376"
+        },
+        {
+          "file": "packages/data-structures/src/trie/impl/Trie-impl2.ts",
+          "hash": "208860718324367431"
+        },
+        {
+          "file": "packages/data-structures/src/trie/impl/Trie.ts",
+          "hash": "9278080619029155598"
+        },
+        {
+          "file": "packages/data-structures/src/trie/impl/index.ts",
+          "hash": "416136641290778088"
+        },
+        {
+          "file": "packages/data-structures/src/trie/impl/type.ts",
+          "hash": "8989024506929297338"
+        },
+        {
+          "file": "packages/data-structures/src/trie/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/README.md",
+          "hash": "18351594486004208388"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/UnionFind.ts",
+          "hash": "16709422041177644477"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/index.ts",
+          "hash": "758105459445271914"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/type.ts",
+          "hash": "4894513667938648629"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/versions/v1-impl.ts",
+          "hash": "5154208520345837799"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/versions/v2-impl.ts",
+          "hash": "2323240747874827625"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/versions/v3-impl.ts",
+          "hash": "3508079125649544117"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/versions/v4-impl.ts",
+          "hash": "13940931814938011792"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/versions/v5-impl.ts",
+          "hash": "15250842274181719955"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/versions/v6-impl.ts",
+          "hash": "1642922002258697441"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/versions/v7-impl.ts",
+          "hash": "7152494541796870337"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/impl/versions/v8-impl.ts",
+          "hash": "5323030108498100000"
+        },
+        {
+          "file": "packages/data-structures/src/union-find/test/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/data-structures/tsconfig.json",
+          "hash": "79092416986968703"
+        }
+      ],
+      "@tsalg/playground": [
+        {
+          "file": "packages/playground/package.json",
+          "hash": "10595067825224166552",
+          "deps": [
+            "@tsalg/algorithms",
+            "@tsalg/data-structures",
+            "@tsalg/leetcode",
+            "@tsalg/shared"
+          ]
+        },
+        {
+          "file": "packages/playground/src/index.ts",
+          "hash": "1122696027864262791"
+        },
+        {
+          "file": "packages/playground/tsconfig.json",
+          "hash": "79092416986968703"
+        }
+      ]
+    }
+  }
+}

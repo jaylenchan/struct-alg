@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@tsalg/algorithms/*": [
+        "./packages/algorithms/src/*"
+      ],
+      "@tsalg/data-structures/*": [
+        "./packages/data-structures/src/*"
+      ],
+      "@tsalg/leetcode/*": [
+        "./packages/leetcode/src/*"
+      ],
+      "@tsalg/shared/*": [
+        "./packages/shared/src/*"
+      ]
+    },
+    "resolveJsonModule": true,
+    "allowArbitraryExtensions": true,
+    "allowJs": false,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "declaration": true,
+    "importHelpers": true,
+    "noEmit": true,
+    "noEmitOnError": true, // ===开发编译检测时不产生编译产物===
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tmp",
+    ".nx"
+  ],
+  "compileOnSave": false
+}

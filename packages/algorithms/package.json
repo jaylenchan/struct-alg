@@ -1,0 +1,15 @@
+{
+  "name": "@tsalg/algorithms",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    "./graph": "./src/graph/impl/index.ts",
+    "./search": "./src/search/impl/index.ts",
+    "./sorts": "./src/sorts/impl/index.ts",
+    "./string": "./src/string/impl/index.ts"
+  },
+  "dependencies": {
+    "@tsalg/data-structures": "workspace:*"
+  }
+}
