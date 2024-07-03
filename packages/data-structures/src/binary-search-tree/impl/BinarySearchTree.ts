@@ -76,7 +76,7 @@ export class BinarySearchTree<T> extends Comparable<T> implements IBinarySearchT
     return tranverse
   }
 
-  public toString(): string {
+  public override toString(): string {
     return this.traverseInorder().toString()
   }
 

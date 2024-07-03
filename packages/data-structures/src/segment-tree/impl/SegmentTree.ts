@@ -7,8 +7,8 @@ export class SegmentTree<E> implements ISegmentTree<E> {
   private _merger: (leftChild: E, rightChild: E) => any
 
   constructor(arr: E[], _merger: (leftChild: E, rightChild: E) => any) {
-    this._tree = Array.from({ length: 4 * arr.length }).fill(null as E)
-    this._data = Array.from({ length: arr.length }).fill(null as E)
+    this._tree = Array.from({ length: 4 * arr.length }).fill(null as E) as E[]
+    this._data = Array.from({ length: arr.length }).fill(null as E) as E[]
     this._merger = _merger
 
     for (let i = 0; i < arr.length; i++) {

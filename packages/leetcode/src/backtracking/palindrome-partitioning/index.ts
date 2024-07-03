@@ -39,7 +39,7 @@ function backtracking(s: string, dp: boolean[][], start: number, path: string[],
 
 function checkStr(s: string): boolean[][] {
   // dp[i][j]表示从 s[i:j]是不是回文串
-  const dp: boolean[][] = Array.from({ length: s.length }).fill(false).map(() => Array.from({ length: s.length }).fill(false))
+  const dp: boolean[][] = Array.from({ length: s.length }).fill(false).map(() => Array.from({ length: s.length }).fill(false)) as boolean[][]
 
   // dp[i][j] = dp[i+1][j-1] && s[i] === s[j];
   // 从i+1 推i，从j-1推j，因此要从下往上，从左往右遍历
