@@ -46,3 +46,5 @@ function twoSum(nums: number[], target: number): number[] {
 // @lcpr case=end
 
  */
+
+export { twoSum }
