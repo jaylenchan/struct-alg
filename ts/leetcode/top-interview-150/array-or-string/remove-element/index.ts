@@ -35,4 +35,4 @@ function removeElement(nums: number[], val: number): number {
 
  */
 
-export { removeElement }
+export const remove_element = { removeElement }

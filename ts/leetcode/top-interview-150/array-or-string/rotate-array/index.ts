@@ -55,4 +55,4 @@ function rotate(nums: number[], k: number): void {
 
  */
 
-export { rotate }
+export const rotate_array = { rotate }

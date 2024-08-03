@@ -103,4 +103,4 @@ class RandomizedSet {
  */
 // @lc code=end
 
-export { RandomizedSet }
+export const insert_delete_get_random_o_1 = { RandomizedSet }

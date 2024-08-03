@@ -59,4 +59,4 @@ function productExceptSelf(nums: number[]): number[] {
 // @lcpr case=end
 
  */
-export { productExceptSelf }
+export const product_of_array_except_self = { productExceptSelf }

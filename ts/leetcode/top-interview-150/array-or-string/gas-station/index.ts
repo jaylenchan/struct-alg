@@ -70,3 +70,5 @@ function canCompleteCircuit(gas: number[], cost: number[]): number {
 // @lcpr case=end
 
  */
+
+export const gas_station = { canCompleteCircuit }

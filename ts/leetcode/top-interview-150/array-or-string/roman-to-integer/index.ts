@@ -137,4 +137,4 @@ function romanToInt(s: string): number {
 // @lcpr case=end
 
  */
-export { romanToInt }
+export const roman_to_integer = { romanToInt }

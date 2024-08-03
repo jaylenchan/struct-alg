@@ -47,4 +47,4 @@ function twoSum(nums: number[], target: number): number[] {
 
  */
 
-export { twoSum }
+export const two_sum = { twoSum }

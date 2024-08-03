@@ -52,4 +52,4 @@ function majorityElement(nums: number[]): number {
 
  */
 
-export { majorityElement }
+export const majority_element = { majorityElement }

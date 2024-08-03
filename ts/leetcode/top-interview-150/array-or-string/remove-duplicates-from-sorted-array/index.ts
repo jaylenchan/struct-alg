@@ -42,4 +42,4 @@ function removeDuplicates(nums: number[]): number {
 
  */
 
-export { removeDuplicates }
+export const remove_duplicates_from_sorted_array = { removeDuplicates }

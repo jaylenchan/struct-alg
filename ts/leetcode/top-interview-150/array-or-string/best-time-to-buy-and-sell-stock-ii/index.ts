@@ -36,3 +36,5 @@ function maxProfit(prices: number[]): number {
 // @lcpr case=end
 
  */
+
+export const best_time_to_buy_and_sell_stock_ii = { maxProfit }
