@@ -62,4 +62,4 @@ function isValid(s: string, start: number, end: number): boolean {
 // @lcpr case=end
 
  */
-export { restoreIpAddresses }
+export const restore_ip_addresses = { restoreIpAddresses }

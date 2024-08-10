@@ -56,4 +56,4 @@ function backtracking(
 // @lcpr case=end
 
  */
-export { combinationSum }
+export const combination_sum = { combinationSum }

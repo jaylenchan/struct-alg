@@ -74,4 +74,4 @@ function _searchEnd(nums: number[], left: number, right: number, target: number,
 // @lcpr case=end
 
  */
-export { searchRange }
+export const find_first_and_last_position_of_element_in_sorted_array = { searchRange }

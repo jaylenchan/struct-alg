@@ -51,4 +51,4 @@ function combinationSum2(candidates: number[], target: number): number[][] {
 // @lcpr case=end
 
  */
-export { combinationSum2 }
+export const combination_sum_ii = { combinationSum2 }

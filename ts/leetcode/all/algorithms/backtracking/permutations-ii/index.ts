@@ -59,4 +59,4 @@ function permuteUnique(nums: number[]): number[][] {
 // @lcpr case=end
 
  */
-export { permuteUnique }
+export const permutations_ii = { permuteUnique }

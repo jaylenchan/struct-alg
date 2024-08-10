@@ -42,4 +42,4 @@ function backtraking(maxNum: number, combineNum: number, path: number[], result:
 // @lcpr case=end
 
  */
-export { combine }
+export const combinations = { combine }

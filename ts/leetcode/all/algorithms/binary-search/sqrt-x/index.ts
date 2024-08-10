@@ -48,4 +48,4 @@ function _mysqrt(x: number, left: number, right: number): number {
 // @lcpr case=end
 
  */
-export { mySqrt }
+export const sqrt_x = { mySqrt }

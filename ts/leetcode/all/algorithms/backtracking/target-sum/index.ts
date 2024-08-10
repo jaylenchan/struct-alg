@@ -39,4 +39,4 @@ function findTargetSumWays(nums: number[], target: number): number {
 // @lcpr case=end
 
  */
-export { findTargetSumWays }
+export const target_sum = { findTargetSumWays }

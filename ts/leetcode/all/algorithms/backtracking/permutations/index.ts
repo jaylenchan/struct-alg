@@ -48,4 +48,4 @@ function backtracking(nums: number[], path: number[], result: number[][]): void 
 // @lcpr case=end
 
  */
-export { permute }
+export const permutations = { permute }

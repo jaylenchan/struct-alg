@@ -106,4 +106,4 @@ function inArea(board: string[][], row: number, col: number): boolean {
 // @lcpr case=end
 
  */
-export { exist }
+export const word_search = { exist }

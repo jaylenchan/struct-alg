@@ -40,4 +40,4 @@ function searchPeak(nums: number[], left: number, right: number): number {
 // @lcpr case=end
 
  */
-export { findPeakElement }
+export const find_peak_element = { findPeakElement }

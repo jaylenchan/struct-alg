@@ -73,4 +73,4 @@ function checkStr(s: string): boolean[][] {
 // @lcpr case=end
 
  */
-export { partition }
+export const palindrome_partitioning = { partition }

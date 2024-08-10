@@ -66,4 +66,4 @@ function _searchArr(arr: number[], target: number, left: number, right: number):
 // @lcpr case=end
 
  */
-export { searchMatrix }
+export const search_a_2_d_matrix_ii = { searchMatrix }

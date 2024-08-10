@@ -45,4 +45,4 @@ function backtracking(nums: number[], path: number[], result: number[][], startI
 // @lcpr case=end
 
  */
-export { subsets }
+export const subsets_ = { subsets }

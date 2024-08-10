@@ -40,4 +40,4 @@ function _search(nums: number[], l: number, r: number, target: number): number {
 // @lcpr case=end
 
  */
-export { search }
+export const binary_search = { search }

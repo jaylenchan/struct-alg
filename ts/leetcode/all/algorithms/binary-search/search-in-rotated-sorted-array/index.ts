@@ -58,4 +58,4 @@ function _search(nums: number[], left: number, right: number, target: number): n
 // @lcpr case=end
 
  */
-export { search }
+export const search_in_rotated_sorted_array = { search }

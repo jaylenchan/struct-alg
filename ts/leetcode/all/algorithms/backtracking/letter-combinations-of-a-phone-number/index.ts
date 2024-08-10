@@ -55,4 +55,4 @@ function backtracking(digits: string, index: number, result: string[], path: str
 // @lcpr case=end
 
  */
-export { letterCombinations }
+export const letter_combinations_of_a_phone_number = { letterCombinations }
