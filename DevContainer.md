@@ -13,7 +13,7 @@
 - 复制如下到开发容器settings.json
 
   ```json
-    "leetcode-problem-rating.workspaceFolder": "/root/tsalg/src/leetcode",
+    "leetcode-problem-rating.workspaceFolder": "/root/struct-alg/src/leetcode",
     "leetcode-problem-rating.nodePath": "/usr/local/bin/bun",
     "leetcode-problem-rating.filePath": {
       "default": {

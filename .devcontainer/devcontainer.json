@@ -6,8 +6,8 @@
       "VARIANT": "latest"
     }
   },
-  "workspaceFolder": "/root/tsalg",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/root/tsalg,type=bind,consistency=cached",
+  "workspaceFolder": "/root/struct-alg",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/root/struct-alg,type=bind,consistency=cached",
   "remoteUser": "root",
   "customizations": {
     "vscode": {

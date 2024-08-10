@@ -8,7 +8,7 @@
 
   ```json
   "leetcode-problem-rating.defaultLanguage": "typescript",
-  "leetcode-problem-rating.workspaceFolder": "${tsalg项目所在目录}/tsalg/packages/leetcode/src",
+  "leetcode-problem-rating.workspaceFolder": "${struct-alg项目所在目录}/struct-alg/leetcode",
   "leetcode-problem-rating.nodePath": "/usr/local/bin/bun",
   "leetcode-problem-rating.filePath": {
     "default": {

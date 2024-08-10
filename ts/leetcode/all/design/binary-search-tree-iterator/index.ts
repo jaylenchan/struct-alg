@@ -4,7 +4,7 @@
  *
  * [173] 二叉搜索树迭代器
  */
-import type { TreeNode } from '@tsalg/leetcode/tree/models'
+import type { TreeNode } from 'ts/leetcode/all/tree/models'
 
 // @lcpr-template-start
 

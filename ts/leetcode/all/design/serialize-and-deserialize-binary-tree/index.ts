@@ -5,7 +5,7 @@
  * [297] 二叉树的序列化与反序列化
  */
 
-import { TreeNode } from '@tsalg/leetcode/tree/models'
+import { TreeNode } from 'ts/leetcode/all/tree/models'
 
 // @lcpr-template-start
 

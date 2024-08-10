@@ -1,7 +1,6 @@
-# TSALG
+# struct-alg
 
-基于 Typescript 实现常见算法、数据结构以及 Leetcode 经典题目
-![img](./images/typescript.jpg)
+实现常见算法、数据结构以及 Leetcode 经典题目
 
 整个项目用来练习算法数据结构，从`造轮子 -> 测轮子 -> 用轮子`的流程进行：
 
