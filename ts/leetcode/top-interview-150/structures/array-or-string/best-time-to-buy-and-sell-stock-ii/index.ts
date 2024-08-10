@@ -38,3 +38,14 @@ function maxProfit(prices: number[]): number {
  */
 
 export const best_time_to_buy_and_sell_stock_ii = { maxProfit }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [122] 买卖股票的最佳时机 II
+     */
+    best_time_to_buy_and_sell_stock_ii: {
+      maxProfit: (prices: number[]) => number
+    }
+  }
+}

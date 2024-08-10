@@ -56,3 +56,14 @@ function rotate(nums: number[], k: number): void {
  */
 
 export const rotate_array = { rotate }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [189] 轮转数组
+     */
+    rotate_array: {
+      rotate: (nums: number[], k: number) => void
+    }
+  }
+}

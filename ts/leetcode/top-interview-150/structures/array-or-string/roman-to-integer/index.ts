@@ -138,3 +138,14 @@ function romanToInt(s: string): number {
 
  */
 export const roman_to_integer = { romanToInt }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [13] 罗马数字转整数
+     */
+    roman_to_integer: {
+      romanToInt: (s: string) => number
+    }
+  }
+}

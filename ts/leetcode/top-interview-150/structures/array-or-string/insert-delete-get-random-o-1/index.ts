@@ -104,3 +104,14 @@ class RandomizedSet {
 // @lc code=end
 
 export const insert_delete_get_random_o_1 = { RandomizedSet }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [380] O(1) 时间插入、删除和获取随机元素
+     */
+    insert_delete_get_random_o_1: {
+      RandomizedSet: typeof RandomizedSet
+    }
+  }
+}

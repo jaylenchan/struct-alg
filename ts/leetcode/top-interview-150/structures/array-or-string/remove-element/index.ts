@@ -36,3 +36,14 @@ function removeElement(nums: number[], val: number): number {
  */
 
 export const remove_element = { removeElement }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [27] 移除元素
+     */
+    remove_element: {
+      removeElement: (nums: number[], val: number) => number
+    }
+  }
+}

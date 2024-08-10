@@ -56,3 +56,14 @@ function strStr(haystack: string, needle: string): number {
  */
 
 export const find_the_index_of_the_first_occurrence_in_a_string = { strStr }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [28] 找出字符串中第一个匹配项的下标
+     */
+    find_the_index_of_the_first_occurrence_in_a_string: {
+      strStr: (haystack: string, needle: string) => number
+    }
+  }
+}

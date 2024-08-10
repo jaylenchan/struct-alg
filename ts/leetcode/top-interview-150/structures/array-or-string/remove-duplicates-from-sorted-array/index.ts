@@ -43,3 +43,14 @@ function removeDuplicates(nums: number[]): number {
  */
 
 export const remove_duplicates_from_sorted_array = { removeDuplicates }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [26] 删除有序数组中的重复项
+     */
+    remove_duplicates_from_sorted_array: {
+      removeDuplicates: (nums: number[]) => number
+    }
+  }
+}

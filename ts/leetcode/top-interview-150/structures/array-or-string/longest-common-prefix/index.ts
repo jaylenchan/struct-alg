@@ -53,3 +53,14 @@ function longestCommonPrefix(strs: string[]): string {
  */
 
 export const longest_common_prefix = { longestCommonPrefix }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [14] 最长公共前缀
+     */
+    longest_common_prefix: {
+      longestCommonPrefix: (strs: string[]) => string
+    }
+  }
+}

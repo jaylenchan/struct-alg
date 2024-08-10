@@ -72,3 +72,14 @@ function canCompleteCircuit(gas: number[], cost: number[]): number {
  */
 
 export const gas_station = { canCompleteCircuit }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [134] 加油站
+     */
+    gas_station: {
+      canCompleteCircuit: (gas: number[], cost: number[]) => number
+    }
+  }
+}

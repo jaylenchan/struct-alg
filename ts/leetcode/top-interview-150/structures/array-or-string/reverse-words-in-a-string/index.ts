@@ -70,3 +70,14 @@ function reverseWords(s: string): string {
  */
 
 export const reverse_words_in_a_string = { reverseWords }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [151] 反转字符串中的单词
+     */
+    reverse_words_in_a_string: {
+      reverseWords: (s: string) => string
+    }
+  }
+}

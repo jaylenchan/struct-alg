@@ -53,3 +53,14 @@ function majorityElement(nums: number[]): number {
  */
 
 export const majority_element = { majorityElement }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [169] 多数元素
+     */
+    majority_element: {
+      majorityElement: (nums: number[]) => number
+    }
+  }
+}

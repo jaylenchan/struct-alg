@@ -45,3 +45,14 @@ function lengthOfLastWord(s: string): number {
  */
 
 export const length_of_last_word = { lengthOfLastWord }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [58] 最后一个单词的长度
+     */
+    length_of_last_word: {
+      lengthOfLastWord: (s: string) => number
+    }
+  }
+}

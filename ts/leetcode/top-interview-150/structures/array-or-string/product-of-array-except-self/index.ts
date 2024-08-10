@@ -60,3 +60,14 @@ function productExceptSelf(nums: number[]): number[] {
 
  */
 export const product_of_array_except_self = { productExceptSelf }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [238] 除自身以外数组的乘积
+     */
+    product_of_array_except_self: {
+      productExceptSelf: (nums: number[]) => number[]
+    }
+  }
+}

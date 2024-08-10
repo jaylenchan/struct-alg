@@ -66,3 +66,14 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
  */
 
 export const merge_sorted_array = { merge }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [88] 合并两个有序数组
+     */
+    merge_sorted_array: {
+      merge: (nums1: number[], m: number, nums2: number[], n: number) => void
+    }
+  }
+}
