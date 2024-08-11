@@ -4,6 +4,7 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
 
 (async () => {
   const top_interview_150 = await createInstance(TopInterview150, [
+    "ts/leetcode/top-interview-150/algorithms/binary-tree-bfs",
     "ts/leetcode/top-interview-150/structures/array-or-string",
     "ts/leetcode/top-interview-150/structures/binary-search-tree",
     "ts/leetcode/top-interview-150/structures/hashmap",
