@@ -61,3 +61,14 @@ function containsNearbyDuplicate(nums: number[], k: number): boolean {
  */
 
 export const contains_duplicate_ii = { containsNearbyDuplicate }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [219] 存在重复元素 II
+     */
+    contains_duplicate_ii: {
+      containsNearbyDuplicate: (nums: number[], k: number) => boolean
+    }
+  }
+}

@@ -92,3 +92,14 @@ function minSubArrayLen(target: number, nums: number[]): number {
  */
 
 export const minimum_size_subarray_sum = { minSubArrayLen }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [209] 长度最小的子数组
+     */
+    minimum_size_subarray_sum: {
+      minSubArrayLen: (target: number, nums: number[]) => number
+    }
+  }
+}

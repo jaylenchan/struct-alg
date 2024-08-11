@@ -65,3 +65,14 @@ function preprocess(s: string): string {
  */
 
 export const valid_palindrome = { isPalindrome }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [125] 验证回文串
+     */
+    valid_palindrome: {
+      isPalindrome: (s: string) => boolean
+    }
+  }
+}

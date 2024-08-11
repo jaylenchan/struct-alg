@@ -62,3 +62,14 @@ function isAnagram(s: string, t: string): boolean {
  */
 
 export const valid_anagram = { isAnagram }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [242] 有效的字母异位词
+     */
+    valid_anagram: {
+      isAnagram: (s: string, t: string) => boolean
+    }
+  }
+}

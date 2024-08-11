@@ -48,3 +48,14 @@ function twoSum(numbers: number[], target: number): number[] {
  */
 
 export const two_sum_ii_input_array_is_sorted = { twoSum }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [167] 两数之和 II - 输入有序数组
+     */
+    two_sum_ii_input_array_is_sorted: {
+      twoSum: (numbers: number[], target: number) => number[]
+    }
+  }
+}

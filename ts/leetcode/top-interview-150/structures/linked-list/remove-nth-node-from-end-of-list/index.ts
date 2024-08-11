@@ -86,3 +86,14 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
  */
 
 export const remove_nth_node_from_end_of_list = { removeNthFromEnd }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [19] 删除链表的倒数第 N 个结点
+     */
+    remove_nth_node_from_end_of_list: {
+      removeNthFromEnd: (head: ListNode | null, n: number) => ListNode | null
+    }
+  }
+}

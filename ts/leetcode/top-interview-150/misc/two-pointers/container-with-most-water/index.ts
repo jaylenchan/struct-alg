@@ -63,3 +63,14 @@ function maxArea(height: number[]): number {
  */
 
 export const container_with_most_water = { maxArea };
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [11] 盛最多水的容器
+     */
+    container_with_most_water: {
+      maxArea: (height: number[]) => number
+    }
+  }
+}

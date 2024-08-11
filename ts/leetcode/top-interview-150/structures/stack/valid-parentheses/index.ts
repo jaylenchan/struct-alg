@@ -64,3 +64,14 @@ function isValid(s: string): boolean {
  */
 
 export const valid_parentheses = { isValid }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [20] 有效的括号
+     */
+    valid_parentheses: {
+      isValid: (s: string) => boolean
+    }
+  }
+}

@@ -64,3 +64,14 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
  */
 
 export const ransom_note = { canConstruct }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [383] 赎金信
+     */
+    ransom_note: {
+      canConstruct: (ransomNote: string, magazine: string) => boolean
+    }
+  }
+}

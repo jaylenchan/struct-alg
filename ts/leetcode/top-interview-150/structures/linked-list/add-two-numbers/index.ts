@@ -77,3 +77,14 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
  */
 
 export const add_two_numbers = { addTwoNumbers }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [2] 两数相加
+     */
+    add_two_numbers: {
+      addTwoNumbers: (l1: ListNode | null, l2: ListNode | null) => ListNode | null
+    }
+  }
+}

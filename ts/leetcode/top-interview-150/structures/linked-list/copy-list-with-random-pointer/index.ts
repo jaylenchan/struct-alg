@@ -97,3 +97,14 @@ function copyRandomList(head: _Node | null): _Node | null {
  */
 
 export const copy_list_with_random_pointer = { copyRandomList }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [138] 随机链表的复制
+     */
+    copy_list_with_random_pointer: {
+      copyRandomList: (head: _Node | null) => _Node | null
+    }
+  }
+}

@@ -79,3 +79,14 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
  */
 
 export const remove_duplicates_from_sorted_list_ii = { deleteDuplicates }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [82] 删除排序链表中的重复元素 II
+     */
+    remove_duplicates_from_sorted_list_ii: {
+      deleteDuplicates: (head: ListNode | null) => ListNode | null
+    }
+  }
+}

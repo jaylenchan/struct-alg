@@ -48,3 +48,14 @@ function twoSum(nums: number[], target: number): number[] {
  */
 
 export const two_sum = { twoSum }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [1] 两数之和
+     */
+    two_sum: {
+      twoSum: (nums: number[], target: number) => number[]
+    }
+  }
+}

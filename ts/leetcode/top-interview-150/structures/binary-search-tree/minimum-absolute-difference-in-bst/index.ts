@@ -78,3 +78,14 @@ function inorder(root: TreeNode | null, nums: number[]): void {
  */
 
 export const minimum_absolute_difference_in_bst = { getMinimumDifference };
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [530] 二叉搜索树的最小绝对差
+     */
+    minimum_absolute_difference_in_bst: {
+      getMinimumDifference: (root: TreeNode | null) => number
+    }
+  }
+}

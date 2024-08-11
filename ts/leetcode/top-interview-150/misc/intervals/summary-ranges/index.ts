@@ -59,3 +59,14 @@ function isClose(n: number, m: number): boolean {
  */
 
 export const summary_ranges = { summaryRanges }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [228] 汇总区间
+     */
+    summary_ranges: {
+      summaryRanges: (nums: number[]) => string[]
+    }
+  }
+}

@@ -57,3 +57,14 @@ function isSubsequence(s: string, t: string): boolean {
  */
 
 export const is_subsequence = { isSubsequence }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [392] 判断子序列
+     */
+    is_subsequence: {
+      isSubsequence: (s: string, t: string) => boolean
+    }
+  }
+}

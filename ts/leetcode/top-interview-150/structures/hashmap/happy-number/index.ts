@@ -62,3 +62,14 @@ function next(n: number): number {
  */
 
 export const happy_number = { isHappy }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [202] 快乐数
+     */
+    happy_number: {
+      isHappy: (n: number) => boolean
+    }
+  }
+}

@@ -1,2 +1,1 @@
-export class TopInterview150 {
-}
+export class TopInterview150 { }

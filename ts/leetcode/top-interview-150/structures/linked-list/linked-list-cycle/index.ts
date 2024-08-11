@@ -65,3 +65,14 @@ function hasCycle(head: ListNode | null): boolean {
  */
 
 export const linked_list_cycle = { hasCycle }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [141] 环形链表
+     */
+    linked_list_cycle: {
+      hasCycle: (head: ListNode | null) => boolean
+    }
+  }
+}

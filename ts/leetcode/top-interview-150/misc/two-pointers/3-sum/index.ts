@@ -85,4 +85,15 @@ function threeSum(nums: number[]): number[][] {
 
  */
 
-export const three_sum = { threeSum }
+export const _3_sum = { threeSum }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [15] 三数之和
+     */
+    _3_sum: {
+      threeSum: (nums: number[]) => number[][]
+    }
+  }
+}

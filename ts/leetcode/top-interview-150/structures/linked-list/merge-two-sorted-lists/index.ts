@@ -86,3 +86,14 @@ function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode
  */
 
 export const merge_two_sorted_lists = { mergeTwoLists }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [21] 合并两个有序链表
+     */
+    merge_two_sorted_lists: {
+      mergeTwoLists: (list1: ListNode | null, list2: ListNode | null) => ListNode | null
+    }
+  }
+}

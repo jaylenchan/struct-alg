@@ -47,3 +47,14 @@ function lengthOfLongestSubstring(s: string): number {
  */
 
 export const longest_substring_without_repeating_characters = { lengthOfLongestSubstring }
+
+declare module "ts/leetcode/top-interview-150" {
+  interface TopInterview150 {
+    /**
+     * [3] 无重复字符的最长子串
+     */
+    longest_substring_without_repeating_characters: {
+      lengthOfLongestSubstring: (s: string) => number
+    }
+  }
+}

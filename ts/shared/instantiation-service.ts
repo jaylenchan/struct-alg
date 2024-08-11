@@ -11,7 +11,12 @@ export async function createInstance<Ctor extends new (...args: any[]) => any>(c
     })
 
     return files.map(async (file) => {
-      const moduleName = file.replace(/-/g, '_')
+      let moduleName = file.replace(/-/g, '_')
+
+      // 如果开头是数字，加上下划线
+      if (/^\d/.test(moduleName)) {
+        moduleName = `_${moduleName}`
+      }
 
       const module = await import(path.resolve(baseDir, file, 'index.ts'))
       ctor.prototype[moduleName] = module[moduleName];
