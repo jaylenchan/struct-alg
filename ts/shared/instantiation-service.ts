@@ -23,6 +23,5 @@ export async function createInstance<Ctor extends new (...args: any[]) => any>(c
     })
   }))
 
-  // eslint-disable-next-line new-cap
-  return new ctor()
+  return Reflect.construct(ctor, []);
 }
