@@ -9,7 +9,7 @@
   "scripts": {
     "prepare": "husky",
     "lint": "eslint . --fix",
-    "start": "nodemon"
+    "start": "nodemon --quiet"
   },
   "dependencies": {
     "globby": "11.0.4"
