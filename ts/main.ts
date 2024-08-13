@@ -51,6 +51,7 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
   top_interview_150.same_tree.isSameTree(buildTreeFromArray([1, 2, 3]), buildTreeFromArray([1, 2, 3]));
   top_interview_150.symmetric_tree.isSymmetric(buildTreeFromArray([1, 2, 2, 3, 4, 4, 3]));
   top_interview_150.sum_root_to_leaf_numbers.sumNumbers(buildTreeFromArray([1, 2, 3]));
+  top_interview_150.path_sum.hasPathSum(buildTreeFromArray([5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1]), 22);
 
   // ===ts/leetcode/top-interview-150/structures/binary-search-tree===
   top_interview_150.minimum_absolute_difference_in_bst.getMinimumDifference(buildTreeFromArray([4, 2, 6, 1, 3]));
