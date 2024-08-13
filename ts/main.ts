@@ -38,11 +38,13 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
   top_interview_150.remove_duplicates_from_sorted_array_ii.removeDuplicates([1, 1, 1, 2, 2, 3]);
 
   // ===ts/leetcode/top-interview-150/structures/binary-tree===
+  top_interview_150.construct_binary_tree_from_inorder_and_postorder_traversal.buildTree([9, 3, 15, 20, 7], [9, 15, 7, 20, 3]);
   top_interview_150.construct_binary_tree_from_preorder_and_inorder_traversal.buildTree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7]);
   top_interview_150.invert_binary_tree.invertTree(buildTreeFromArray([4, 2, 7, 1, 3, 6, 9]));
   top_interview_150.maximum_depth_of_binary_tree.maxDepth(buildTreeFromArray([3, 9, 20, null, null, 15, 7]));
   top_interview_150.same_tree.isSameTree(buildTreeFromArray([1, 2, 3]), buildTreeFromArray([1, 2, 3]));
   top_interview_150.symmetric_tree.isSymmetric(buildTreeFromArray([1, 2, 2, 3, 4, 4, 3]));
+  top_interview_150.sum_root_to_leaf_numbers.sumNumbers(buildTreeFromArray([1, 2, 3]));
 
   // ===ts/leetcode/top-interview-150/structures/binary-search-tree===
   top_interview_150.minimum_absolute_difference_in_bst.getMinimumDifference(buildTreeFromArray([4, 2, 6, 1, 3]));
