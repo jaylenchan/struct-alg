@@ -22,6 +22,7 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
   top_interview_150.binary_tree_level_order_traversal.levelOrder(buildTreeFromArray([3, 9, 20, null, null, 15, 7]));
   top_interview_150.binary_tree_right_side_view.rightSideView(buildTreeFromArray([1, 2, 3, null, 5, null, 4]));
   top_interview_150.binary_tree_zigzag_level_order_traversal.zigzagLevelOrder(buildTreeFromArray([3, 9, 20, null, null, 15, 7]));
+  top_interview_150.count_complete_tree_nodes.countNodes(buildTreeFromArray([1, 2, 3, 4, 5, 6]));
 
   // ===ts/leetcode/top-interview-150/structures/array-or-string===
   top_interview_150.best_time_to_buy_and_sell_stock.maxProfit([7, 1, 5, 3, 6, 4]);
