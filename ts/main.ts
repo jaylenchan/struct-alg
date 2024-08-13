@@ -65,6 +65,7 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
   top_interview_150.remove_duplicates_from_sorted_list_ii.deleteDuplicates(buildListFromArray([1, 2, 3, 3, 4, 4, 5]));
   top_interview_150.remove_nth_node_from_end_of_list.removeNthFromEnd(buildListFromArray([1, 2, 3, 4, 5]), 2);
   Reflect.construct(top_interview_150.lru_cache.LRUCache, [2])
+  top_interview_150.partition_list.partition(buildListFromArray([1, 4, 3, 2, 5, 2]), 3);
 
   // ===ts/leetcode/top-interview-150/structures/stack===
   top_interview_150.valid_parentheses.isValid("()");
