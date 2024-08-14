@@ -58,6 +58,7 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
 
   // ===ts/leetcode/top-interview-150/structures/binary-search-tree===
   top_interview_150.minimum_absolute_difference_in_bst.getMinimumDifference(buildTreeFromArray([4, 2, 6, 1, 3]));
+  top_interview_150.kth_smallest_element_in_a_bst.kthSmallest(buildTreeFromArray([3, 1, 4, null, 2]), 1);
 
   // ===ts/leetcode/top-interview-150/structures/hashmap===
   top_interview_150.contains_duplicate_ii.containsNearbyDuplicate([1, 2, 3, 1], 3);
