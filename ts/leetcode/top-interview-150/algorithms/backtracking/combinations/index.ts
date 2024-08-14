@@ -35,6 +35,7 @@ function backtrack(ans: number[][], res: number[], count: number, start: number,
   // 比如1开始，则分支只能从2-3-4取
   // 比如2开始，则分支只能从3-4取
   // 比如3开始，则分支只能从4取
+  // 从4开始，则分支结束，因为下一个start就是5，相当于backtrack走了个寂寞
   for (let i = start; i <= n; i++) {
     backtrack(ans, res.concat([i]), count + 1, i + 1, n, k)
   }
