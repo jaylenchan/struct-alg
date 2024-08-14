@@ -28,6 +28,7 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
   // ===ts/leetcode/top-interview-150/algorithms/backtracking===
   top_interview_150.letter_combinations_of_a_phone_number.letterCombinations("23");
   top_interview_150.permutations.permute([1, 2, 3]);
+  top_interview_150.generate_parentheses.generateParenthesis(3);
 
   // ===ts/leetcode/top-interview-150/structures/array-or-string===
   top_interview_150.best_time_to_buy_and_sell_stock.maxProfit([7, 1, 5, 3, 6, 4]);
