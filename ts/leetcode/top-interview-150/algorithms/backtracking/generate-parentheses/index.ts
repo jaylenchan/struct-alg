@@ -27,10 +27,6 @@ function backtrack(ans: string[], str: string, left: number, right: number, n: n
   const brackets = "()"
 
   for (let i = 0; i < brackets.length; i++) {
-    if (left < right) {
-      break;
-    }
-
     if (brackets[i] === "(") {
       if (left === n) {
         continue;
@@ -39,6 +35,9 @@ function backtrack(ans: string[], str: string, left: number, right: number, n: n
     }
 
     if (brackets[i] === ')') {
+      if (left < right + 1) {
+        continue;
+      }
       backtrack(ans, str + brackets[i], left, right + 1, n);
     }
   }
