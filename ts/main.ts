@@ -13,6 +13,7 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
     "ts/leetcode/top-interview-150/structures/hashmap",
     "ts/leetcode/top-interview-150/structures/linked-list",
     "ts/leetcode/top-interview-150/structures/stack",
+    "ts/leetcode/top-interview-150/structures/heap",
     "ts/leetcode/top-interview-150/misc/intervals",
     "ts/leetcode/top-interview-150/misc/sliding-window",
     "ts/leetcode/top-interview-150/misc/two-pointers",
@@ -79,6 +80,9 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
 
   // ===ts/leetcode/top-interview-150/structures/stack===
   top_interview_150.valid_parentheses.isValid("()");
+
+  // ===ts/leetcode/top-interview-150/structures/heap===
+  top_interview_150.kth_largest_element_in_an_array.findKthLargest([3, 2, 1, 5, 6, 4], 2)
 
   // ===ts/leetcode/top-interview-150/misc/intervals===
   top_interview_150.summary_ranges.summaryRanges([0, 1, 2, 4, 5, 7]);
