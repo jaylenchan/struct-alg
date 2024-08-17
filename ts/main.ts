@@ -93,6 +93,7 @@ import { TopInterview150 } from 'ts/leetcode/top-interview-150';
   // ===ts/leetcode/top-interview-150/misc/intervals===
   top_interview_150.summary_ranges.summaryRanges([0, 1, 2, 4, 5, 7]);
   top_interview_150.merge_intervals.merge([[1, 3], [2, 6], [8, 10], [15, 18]]);
+  top_interview_150.insert_interval.insert([[1, 3], [6, 9]], [2, 5]);
 
   // ===ts/leetcode/top-interview-150/misc/two-pointers===
   top_interview_150._3_sum.threeSum([-1, 0, 1, 2, -1, -4]);
