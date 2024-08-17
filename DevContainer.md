@@ -1,4 +1,4 @@
-## 使用 Dev Container
+# 使用 Dev Container启动项目
 
 如果你想使用dev container来启动这个项目，你只需要在你的电脑本机下载 Docker + VSCode Dev Container 插件，就可以使用这个项目的 Dev Container 进行代码开发和书写了。
 
@@ -13,7 +13,7 @@
 - 复制如下到开发容器settings.json
 
   ```json
-    "leetcode-problem-rating.workspaceFolder": "/root/struct-alg/src/leetcode",
+    "leetcode-problem-rating.workspaceFolder": "/root/struct-alg/ts/leetcode",
     "leetcode-problem-rating.nodePath": "/usr/local/bin/bun",
     "leetcode-problem-rating.filePath": {
       "default": {

@@ -1,4 +1,4 @@
-## 使用 Leetcode 插件
+# 使用 Vscode Leetcode 插件
 
 本地vscode当中搜索leetcode插件`ccagml.vscode-leetcode-problem-rating`并安装
 
@@ -8,7 +8,7 @@
 
   ```json
   "leetcode-problem-rating.defaultLanguage": "typescript",
-  "leetcode-problem-rating.workspaceFolder": "${struct-alg项目所在目录}/struct-alg/leetcode",
+  "leetcode-problem-rating.workspaceFolder": "${struct-alg项目所在目录}/struct-alg/ts/leetcode",
   "leetcode-problem-rating.nodePath": "/usr/local/bin/bun",
   "leetcode-problem-rating.filePath": {
     "default": {
