@@ -18,6 +18,7 @@ export default antfu(
       'ts/consistent-type-imbports': 'off',
       "unicorn/no-new-array": "off",
       "unused-imports/no-unused-vars": "off",
+      "style/no-tabs": "off"
     },
   },
 )
