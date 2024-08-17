@@ -1,7 +1,7 @@
 import { createInstance } from 'ts/shared/instantiation-service';
+import { TopInterview150 } from 'ts/leetcode/top-interview-150';
 import { buildTreeFromArray } from 'ts/shared/tree';
 import { buildListFromArray, buildRandomListFromArray } from 'ts/shared/list'
-import { TopInterview150 } from 'ts/leetcode/top-interview-150';
 
 (async () => {
   const top_interview_150 = await createInstance(TopInterview150, [

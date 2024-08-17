@@ -9,7 +9,9 @@
   "scripts": {
     "prepare": "husky",
     "lint": "eslint . --fix",
-    "start": "nodemon --quiet"
+    "start:leetcode-75": "nodemon ts/leetcode-75.main.ts --quiet",
+    "start:top-100-liked": "nodemon ts/top-100-liked.main.ts --quiet",
+    "start:top-interview-150": "nodemon ts/top-interview-150.main.ts --quiet"
   },
   "dependencies": {
     "globby": "11.0.4"
@@ -40,7 +42,7 @@
     ]
   },
   "nodemonConfig": {
-    "exec": "ts-node -r tsconfig-paths/register ./ts/main.ts",
+    "exec": "ts-node -r tsconfig-paths/register",
     "ignore": [
       "**/__tests__/**",
       "**/dist/**"

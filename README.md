@@ -2,11 +2,25 @@
 
 实现常见算法、数据结构以及 Leetcode 经典题
 
-## 项目启动
+## Leetcode题单playground启动
 
-```shell
-bun start
-```
+- Leetcode75
+
+  ```shell
+  bun start:start:leetcode-75
+  ```
+
+- Leetcode热题100
+
+  ```shell
+  bun start:top-100-liked
+  ```
+
+- 面试经典150题
+
+  ```shell
+  bun start:top-interview-150
+  ```
 
 ## 相关指南
 
